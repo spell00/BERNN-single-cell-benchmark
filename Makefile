@@ -8,4 +8,5 @@ check:
 figures:
 	python scripts/plot_fig1_full.py
 	python scripts/plot_figures.py --figure all
+	python scripts/plot_fast8_without_pcr.py
 	python scripts/plot_gtex_umap.py
