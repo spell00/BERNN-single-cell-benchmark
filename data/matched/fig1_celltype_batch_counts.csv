@@ -1,0 +1,2567 @@
+dataset,batch,cell_type,count
+dkd,control_1,endothelial cell,163
+dkd,control_1,epithelial cell of proximal tubule,741
+dkd,control_1,fibroblast,16
+dkd,control_1,kidney distal convoluted tubule epithelial cell,969
+dkd,control_1,kidney loop of Henle thick ascending limb epithelial cell,801
+dkd,control_1,kidney loop of Henle thin ascending limb epithelial cell,106
+dkd,control_1,leukocyte,2
+dkd,control_1,mesangial cell,44
+dkd,control_1,parietal epithelial cell,187
+dkd,control_1,podocyte,92
+dkd,control_1,renal alpha-intercalated cell,172
+dkd,control_1,renal beta-intercalated cell,121
+dkd,control_1,renal principal cell,191
+dkd,control_2,endothelial cell,81
+dkd,control_2,epithelial cell of proximal tubule,1049
+dkd,control_2,fibroblast,1
+dkd,control_2,kidney distal convoluted tubule epithelial cell,573
+dkd,control_2,kidney loop of Henle thick ascending limb epithelial cell,349
+dkd,control_2,kidney loop of Henle thin ascending limb epithelial cell,15
+dkd,control_2,leukocyte,4
+dkd,control_2,mesangial cell,21
+dkd,control_2,parietal epithelial cell,50
+dkd,control_2,podocyte,22
+dkd,control_2,renal alpha-intercalated cell,102
+dkd,control_2,renal beta-intercalated cell,16
+dkd,control_2,renal principal cell,269
+dkd,control_3,endothelial cell,259
+dkd,control_3,epithelial cell of proximal tubule,1559
+dkd,control_3,fibroblast,74
+dkd,control_3,kidney distal convoluted tubule epithelial cell,1277
+dkd,control_3,kidney loop of Henle thick ascending limb epithelial cell,571
+dkd,control_3,kidney loop of Henle thin ascending limb epithelial cell,37
+dkd,control_3,leukocyte,14
+dkd,control_3,mesangial cell,71
+dkd,control_3,parietal epithelial cell,116
+dkd,control_3,podocyte,185
+dkd,control_3,renal alpha-intercalated cell,530
+dkd,control_3,renal beta-intercalated cell,88
+dkd,control_3,renal principal cell,497
+dkd,diabetic_1,endothelial cell,164
+dkd,diabetic_1,epithelial cell of proximal tubule,767
+dkd,diabetic_1,fibroblast,17
+dkd,diabetic_1,kidney distal convoluted tubule epithelial cell,776
+dkd,diabetic_1,kidney loop of Henle thick ascending limb epithelial cell,91
+dkd,diabetic_1,kidney loop of Henle thin ascending limb epithelial cell,89
+dkd,diabetic_1,leukocyte,29
+dkd,diabetic_1,mesangial cell,40
+dkd,diabetic_1,parietal epithelial cell,142
+dkd,diabetic_1,podocyte,98
+dkd,diabetic_1,renal alpha-intercalated cell,231
+dkd,diabetic_1,renal beta-intercalated cell,162
+dkd,diabetic_1,renal principal cell,390
+dkd,diabetic_2,endothelial cell,140
+dkd,diabetic_2,epithelial cell of proximal tubule,527
+dkd,diabetic_2,fibroblast,81
+dkd,diabetic_2,kidney distal convoluted tubule epithelial cell,478
+dkd,diabetic_2,kidney loop of Henle thick ascending limb epithelial cell,311
+dkd,diabetic_2,kidney loop of Henle thin ascending limb epithelial cell,74
+dkd,diabetic_2,leukocyte,102
+dkd,diabetic_2,mesangial cell,38
+dkd,diabetic_2,parietal epithelial cell,100
+dkd,diabetic_2,podocyte,52
+dkd,diabetic_2,renal alpha-intercalated cell,118
+dkd,diabetic_2,renal beta-intercalated cell,67
+dkd,diabetic_2,renal principal cell,380
+dkd,diabetic_3,endothelial cell,142
+dkd,diabetic_3,epithelial cell of proximal tubule,406
+dkd,diabetic_3,fibroblast,18
+dkd,diabetic_3,kidney distal convoluted tubule epithelial cell,397
+dkd,diabetic_3,kidney loop of Henle thick ascending limb epithelial cell,1020
+dkd,diabetic_3,kidney loop of Henle thin ascending limb epithelial cell,26
+dkd,diabetic_3,leukocyte,6
+dkd,diabetic_3,mesangial cell,20
+dkd,diabetic_3,parietal epithelial cell,106
+dkd,diabetic_3,podocyte,91
+dkd,diabetic_3,renal alpha-intercalated cell,66
+dkd,diabetic_3,renal beta-intercalated cell,11
+dkd,diabetic_3,renal principal cell,278
+dkd,diabetic_4,endothelial cell,68
+dkd,diabetic_4,epithelial cell of proximal tubule,810
+dkd,diabetic_4,fibroblast,8
+dkd,diabetic_4,kidney distal convoluted tubule epithelial cell,568
+dkd,diabetic_4,kidney loop of Henle thick ascending limb epithelial cell,620
+dkd,diabetic_4,kidney loop of Henle thin ascending limb epithelial cell,87
+dkd,diabetic_4,leukocyte,7
+dkd,diabetic_4,mesangial cell,15
+dkd,diabetic_4,parietal epithelial cell,36
+dkd,diabetic_4,podocyte,68
+dkd,diabetic_4,renal alpha-intercalated cell,99
+dkd,diabetic_4,renal beta-intercalated cell,40
+dkd,diabetic_4,renal principal cell,148
+dkd,diabetic_5,endothelial cell,21
+dkd,diabetic_5,epithelial cell of proximal tubule,150
+dkd,diabetic_5,fibroblast,4
+dkd,diabetic_5,kidney distal convoluted tubule epithelial cell,151
+dkd,diabetic_5,kidney loop of Henle thick ascending limb epithelial cell,275
+dkd,diabetic_5,kidney loop of Henle thin ascending limb epithelial cell,79
+dkd,diabetic_5,leukocyte,12
+dkd,diabetic_5,mesangial cell,4
+dkd,diabetic_5,parietal epithelial cell,23
+dkd,diabetic_5,podocyte,81
+dkd,diabetic_5,renal alpha-intercalated cell,24
+dkd,diabetic_5,renal beta-intercalated cell,14
+dkd,diabetic_5,renal principal cell,46
+dkd,healthy_4,endothelial cell,125
+dkd,healthy_4,epithelial cell of proximal tubule,772
+dkd,healthy_4,fibroblast,28
+dkd,healthy_4,kidney distal convoluted tubule epithelial cell,429
+dkd,healthy_4,kidney loop of Henle thick ascending limb epithelial cell,1878
+dkd,healthy_4,kidney loop of Henle thin ascending limb epithelial cell,64
+dkd,healthy_4,leukocyte,2
+dkd,healthy_4,mesangial cell,33
+dkd,healthy_4,parietal epithelial cell,65
+dkd,healthy_4,podocyte,70
+dkd,healthy_4,renal alpha-intercalated cell,73
+dkd,healthy_4,renal beta-intercalated cell,19
+dkd,healthy_4,renal principal cell,149
+dkd,healthy_5,endothelial cell,144
+dkd,healthy_5,epithelial cell of proximal tubule,1117
+dkd,healthy_5,fibroblast,66
+dkd,healthy_5,kidney distal convoluted tubule epithelial cell,1234
+dkd,healthy_5,kidney loop of Henle thick ascending limb epithelial cell,382
+dkd,healthy_5,kidney loop of Henle thin ascending limb epithelial cell,28
+dkd,healthy_5,leukocyte,18
+dkd,healthy_5,mesangial cell,44
+dkd,healthy_5,parietal epithelial cell,119
+dkd,healthy_5,podocyte,80
+dkd,healthy_5,renal alpha-intercalated cell,207
+dkd,healthy_5,renal beta-intercalated cell,58
+dkd,healthy_5,renal principal cell,322
+dkd,healthy_6,endothelial cell,395
+dkd,healthy_6,epithelial cell of proximal tubule,3580
+dkd,healthy_6,fibroblast,25
+dkd,healthy_6,kidney distal convoluted tubule epithelial cell,1617
+dkd,healthy_6,kidney loop of Henle thick ascending limb epithelial cell,1451
+dkd,healthy_6,kidney loop of Henle thin ascending limb epithelial cell,74
+dkd,healthy_6,leukocyte,14
+dkd,healthy_6,mesangial cell,55
+dkd,healthy_6,parietal epithelial cell,159
+dkd,healthy_6,podocyte,230
+dkd,healthy_6,renal alpha-intercalated cell,407
+dkd,healthy_6,renal beta-intercalated cell,74
+dkd,healthy_6,renal principal cell,625
+gtex_v9,GTEX-1CAMR,basal cell of epidermis,4
+gtex_v9,GTEX-1CAMR,endothelial cell of vascular tree,1
+gtex_v9,GTEX-1CAMR,epidermal cell,1
+gtex_v9,GTEX-1CAMR,epithelial cell of sweat gland,32
+gtex_v9,GTEX-1CAMR,sebaceous gland cell,2
+gtex_v9,GTEX-1CAMS,endothelial cell of lymphatic vessel,2
+gtex_v9,GTEX-1CAMS,endothelial cell of vascular tree,40
+gtex_v9,GTEX-1CAMS,fibroblast of breast,5
+gtex_v9,GTEX-1CAMS,luminal epithelial cell of mammary gland,2183
+gtex_v9,GTEX-1CAMS,macrophage,18
+gtex_v9,GTEX-1CAMS,myoepithelial cell of mammary gland,38
+gtex_v9,GTEX-1CAMS,subcutaneous fat cell,38
+gtex_v9,GTEX-1HSMQ,B cell,31
+gtex_v9,GTEX-1HSMQ,Schwann cell,220
+gtex_v9,GTEX-1HSMQ,T cell,387
+gtex_v9,GTEX-1HSMQ,alveolar macrophage,2900
+gtex_v9,GTEX-1HSMQ,basal cell of epidermis,1793
+gtex_v9,GTEX-1HSMQ,basal epithelial cell of prostatic duct,1886
+gtex_v9,GTEX-1HSMQ,bronchial epithelial cell,199
+gtex_v9,GTEX-1HSMQ,contractile cell,751
+gtex_v9,GTEX-1HSMQ,dendritic cell,155
+gtex_v9,GTEX-1HSMQ,elicited macrophage,6
+gtex_v9,GTEX-1HSMQ,endothelial cell of lymphatic vessel,1069
+gtex_v9,GTEX-1HSMQ,endothelial cell of vascular tree,4896
+gtex_v9,GTEX-1HSMQ,enteric smooth muscle cell,2511
+gtex_v9,GTEX-1HSMQ,epidermal Langerhans cell,48
+gtex_v9,GTEX-1HSMQ,epidermal cell,378
+gtex_v9,GTEX-1HSMQ,epithelial cell of alveolus of lung,8708
+gtex_v9,GTEX-1HSMQ,epithelial cell of prostate,2108
+gtex_v9,GTEX-1HSMQ,epithelial cell of sweat gland,205
+gtex_v9,GTEX-1HSMQ,fast muscle cell,1196
+gtex_v9,GTEX-1HSMQ,fat cell,166
+gtex_v9,GTEX-1HSMQ,fibroblast,5575
+gtex_v9,GTEX-1HSMQ,interstitial cell of Cajal,28
+gtex_v9,GTEX-1HSMQ,keratinocyte,261
+gtex_v9,GTEX-1HSMQ,luminal cell of prostate epithelium,3184
+gtex_v9,GTEX-1HSMQ,macrophage,1114
+gtex_v9,GTEX-1HSMQ,mast cell,421
+gtex_v9,GTEX-1HSMQ,mature NK T cell,27
+gtex_v9,GTEX-1HSMQ,melanocyte of skin,162
+gtex_v9,GTEX-1HSMQ,neuroendocrine cell,14
+gtex_v9,GTEX-1HSMQ,neuron,7
+gtex_v9,GTEX-1HSMQ,neutrophil,71
+gtex_v9,GTEX-1HSMQ,professional antigen presenting cell,201
+gtex_v9,GTEX-1HSMQ,respiratory basal cell,308
+gtex_v9,GTEX-1HSMQ,sebaceous gland cell,227
+gtex_v9,GTEX-1HSMQ,skeletal muscle fiber,7232
+gtex_v9,GTEX-1HSMQ,skeletal muscle fibroblast,1027
+gtex_v9,GTEX-1HSMQ,skeletal muscle satellite cell,268
+gtex_v9,GTEX-1HSMQ,skin fibroblast,1170
+gtex_v9,GTEX-1HSMQ,slow muscle cell,342
+gtex_v9,GTEX-1HSMQ,smooth muscle cell,2536
+gtex_v9,GTEX-1HSMQ,smooth muscle cell of prostate,714
+gtex_v9,GTEX-1HSMQ,subcutaneous fat cell,59
+gtex_v9,GTEX-1I1GU,B cell,1
+gtex_v9,GTEX-1I1GU,Schwann cell,44
+gtex_v9,GTEX-1I1GU,T cell,313
+gtex_v9,GTEX-1I1GU,basal epithelial cell of prostatic duct,4129
+gtex_v9,GTEX-1I1GU,contractile cell,59
+gtex_v9,GTEX-1I1GU,endothelial cell of lymphatic vessel,110
+gtex_v9,GTEX-1I1GU,endothelial cell of vascular tree,761
+gtex_v9,GTEX-1I1GU,epithelial cell of prostate,803
+gtex_v9,GTEX-1I1GU,luminal cell of prostate epithelium,5187
+gtex_v9,GTEX-1I1GU,macrophage,347
+gtex_v9,GTEX-1I1GU,mast cell,4
+gtex_v9,GTEX-1I1GU,mature NK T cell,13
+gtex_v9,GTEX-1I1GU,neuroendocrine cell,59
+gtex_v9,GTEX-1I1GU,neutrophil,66
+gtex_v9,GTEX-1I1GU,skin fibroblast,249
+gtex_v9,GTEX-1I1GU,smooth muscle cell of prostate,782
+gtex_v9,GTEX-1ICG6,B cell,6
+gtex_v9,GTEX-1ICG6,Schwann cell,387
+gtex_v9,GTEX-1ICG6,T cell,94
+gtex_v9,GTEX-1ICG6,cardiac endothelial cell,173
+gtex_v9,GTEX-1ICG6,cardiac muscle cell,3976
+gtex_v9,GTEX-1ICG6,contractile cell,1243
+gtex_v9,GTEX-1ICG6,dendritic cell,102
+gtex_v9,GTEX-1ICG6,endothelial cell of lymphatic vessel,300
+gtex_v9,GTEX-1ICG6,endothelial cell of vascular tree,3434
+gtex_v9,GTEX-1ICG6,enteric smooth muscle cell,2771
+gtex_v9,GTEX-1ICG6,fibroblast,5955
+gtex_v9,GTEX-1ICG6,fibroblast of cardiac tissue,27
+gtex_v9,GTEX-1ICG6,interstitial cell of Cajal,63
+gtex_v9,GTEX-1ICG6,macrophage,1175
+gtex_v9,GTEX-1ICG6,mast cell,139
+gtex_v9,GTEX-1ICG6,mature NK T cell,15
+gtex_v9,GTEX-1ICG6,neuron,14
+gtex_v9,GTEX-1ICG6,professional antigen presenting cell,270
+gtex_v9,GTEX-1ICG6,smooth muscle cell,785
+gtex_v9,GTEX-1ICG6,subcutaneous fat cell,28
+gtex_v9,GTEX-1MCC2,contractile cell,4
+gtex_v9,GTEX-1MCC2,endothelial cell of lymphatic vessel,13
+gtex_v9,GTEX-1MCC2,endothelial cell of vascular tree,87
+gtex_v9,GTEX-1MCC2,luminal epithelial cell of mammary gland,1280
+gtex_v9,GTEX-1MCC2,macrophage,11
+gtex_v9,GTEX-1MCC2,myoepithelial cell of mammary gland,61
+gtex_v9,GTEX-1R9PN,contractile cell,126
+gtex_v9,GTEX-1R9PN,endothelial cell of lymphatic vessel,93
+gtex_v9,GTEX-1R9PN,endothelial cell of vascular tree,624
+gtex_v9,GTEX-1R9PN,fibroblast of breast,757
+gtex_v9,GTEX-1R9PN,luminal epithelial cell of mammary gland,2083
+gtex_v9,GTEX-1R9PN,macrophage,289
+gtex_v9,GTEX-1R9PN,myoepithelial cell of mammary gland,300
+gtex_v9,GTEX-1R9PN,subcutaneous fat cell,1718
+gtex_v9,GTEX-12BJ1,B cell,10
+gtex_v9,GTEX-12BJ1,Schwann cell,10
+gtex_v9,GTEX-12BJ1,T cell,226
+gtex_v9,GTEX-12BJ1,basal epithelial cell of prostatic duct,1141
+gtex_v9,GTEX-12BJ1,contractile cell,72
+gtex_v9,GTEX-12BJ1,endothelial cell of lymphatic vessel,80
+gtex_v9,GTEX-12BJ1,endothelial cell of vascular tree,510
+gtex_v9,GTEX-12BJ1,epithelial cell of prostate,1640
+gtex_v9,GTEX-12BJ1,luminal cell of prostate epithelium,1651
+gtex_v9,GTEX-12BJ1,macrophage,293
+gtex_v9,GTEX-12BJ1,mast cell,7
+gtex_v9,GTEX-12BJ1,mature NK T cell,8
+gtex_v9,GTEX-12BJ1,neuroendocrine cell,6
+gtex_v9,GTEX-12BJ1,neutrophil,44
+gtex_v9,GTEX-12BJ1,skin fibroblast,195
+gtex_v9,GTEX-12BJ1,smooth muscle cell of prostate,392
+gtex_v9,GTEX-13N11,B cell,63
+gtex_v9,GTEX-13N11,Schwann cell,84
+gtex_v9,GTEX-13N11,T cell,503
+gtex_v9,GTEX-13N11,alveolar macrophage,1598
+gtex_v9,GTEX-13N11,bronchial epithelial cell,308
+gtex_v9,GTEX-13N11,cardiac endothelial cell,49
+gtex_v9,GTEX-13N11,cardiac muscle cell,3117
+gtex_v9,GTEX-13N11,contractile cell,940
+gtex_v9,GTEX-13N11,endothelial cell of lymphatic vessel,455
+gtex_v9,GTEX-13N11,endothelial cell of vascular tree,2869
+gtex_v9,GTEX-13N11,epithelial cell of alveolus of lung,8696
+gtex_v9,GTEX-13N11,fibroblast,4234
+gtex_v9,GTEX-13N11,fibroblast of cardiac tissue,21
+gtex_v9,GTEX-13N11,macrophage,1974
+gtex_v9,GTEX-13N11,mast cell,62
+gtex_v9,GTEX-13N11,mature NK T cell,202
+gtex_v9,GTEX-13N11,professional antigen presenting cell,455
+gtex_v9,GTEX-13N11,respiratory basal cell,308
+gtex_v9,GTEX-13N11,smooth muscle cell,45
+gtex_v9,GTEX-13N11,subcutaneous fat cell,111
+gtex_v9,GTEX-15CHR,B cell,4
+gtex_v9,GTEX-15CHR,T cell,116
+gtex_v9,GTEX-15CHR,alveolar macrophage,731
+gtex_v9,GTEX-15CHR,basal epithelial cell of prostatic duct,139
+gtex_v9,GTEX-15CHR,bronchial epithelial cell,186
+gtex_v9,GTEX-15CHR,contractile cell,13
+gtex_v9,GTEX-15CHR,elicited macrophage,74
+gtex_v9,GTEX-15CHR,endothelial cell of lymphatic vessel,65
+gtex_v9,GTEX-15CHR,endothelial cell of vascular tree,646
+gtex_v9,GTEX-15CHR,epithelial cell of alveolus of lung,4901
+gtex_v9,GTEX-15CHR,epithelial cell of prostate,36
+gtex_v9,GTEX-15CHR,fibroblast,291
+gtex_v9,GTEX-15CHR,luminal cell of prostate epithelium,1082
+gtex_v9,GTEX-15CHR,macrophage,200
+gtex_v9,GTEX-15CHR,mast cell,9
+gtex_v9,GTEX-15CHR,mature NK T cell,40
+gtex_v9,GTEX-15CHR,neutrophil,1
+gtex_v9,GTEX-15CHR,respiratory basal cell,446
+gtex_v9,GTEX-15CHR,skin fibroblast,24
+gtex_v9,GTEX-15CHR,smooth muscle cell of prostate,118
+gtex_v9,GTEX-15EOM,basal cell of epidermis,18
+gtex_v9,GTEX-15EOM,contractile cell,7
+gtex_v9,GTEX-15EOM,endothelial cell of vascular tree,14
+gtex_v9,GTEX-15EOM,epidermal cell,67
+gtex_v9,GTEX-15EOM,epithelial cell of sweat gland,64
+gtex_v9,GTEX-15EOM,melanocyte of skin,104
+gtex_v9,GTEX-15EOM,professional antigen presenting cell,2
+gtex_v9,GTEX-15EOM,sebaceous gland cell,4
+gtex_v9,GTEX-15EOM,skin fibroblast,6
+gtex_v9,GTEX-15EOM,subcutaneous fat cell,40
+gtex_v9,GTEX-15RIE,B cell,4
+gtex_v9,GTEX-15RIE,Schwann cell,100
+gtex_v9,GTEX-15RIE,T cell,180
+gtex_v9,GTEX-15RIE,cardiac endothelial cell,43
+gtex_v9,GTEX-15RIE,cardiac muscle cell,2526
+gtex_v9,GTEX-15RIE,contractile cell,795
+gtex_v9,GTEX-15RIE,dendritic cell,7
+gtex_v9,GTEX-15RIE,endothelial cell of lymphatic vessel,170
+gtex_v9,GTEX-15RIE,endothelial cell of vascular tree,2282
+gtex_v9,GTEX-15RIE,fast muscle cell,206
+gtex_v9,GTEX-15RIE,fibroblast,2527
+gtex_v9,GTEX-15RIE,fibroblast of cardiac tissue,249
+gtex_v9,GTEX-15RIE,macrophage,1132
+gtex_v9,GTEX-15RIE,mast cell,29
+gtex_v9,GTEX-15RIE,mature NK T cell,164
+gtex_v9,GTEX-15RIE,neutrophil,24
+gtex_v9,GTEX-15RIE,professional antigen presenting cell,2367
+gtex_v9,GTEX-15RIE,skeletal muscle fiber,4265
+gtex_v9,GTEX-15RIE,skeletal muscle fibroblast,2033
+gtex_v9,GTEX-15RIE,skeletal muscle satellite cell,158
+gtex_v9,GTEX-15RIE,slow muscle cell,97
+gtex_v9,GTEX-15RIE,smooth muscle cell,138
+gtex_v9,GTEX-15RIE,subcutaneous fat cell,69
+gtex_v9,GTEX-15SB6,B cell,7
+gtex_v9,GTEX-15SB6,Schwann cell,27
+gtex_v9,GTEX-15SB6,T cell,878
+gtex_v9,GTEX-15SB6,basal cell,813
+gtex_v9,GTEX-15SB6,basal epithelial cell of tracheobronchial tree,2574
+gtex_v9,GTEX-15SB6,contractile cell,238
+gtex_v9,GTEX-15SB6,dendritic cell,82
+gtex_v9,GTEX-15SB6,endothelial cell of lymphatic vessel,426
+gtex_v9,GTEX-15SB6,endothelial cell of vascular tree,1147
+gtex_v9,GTEX-15SB6,fibroblast,1026
+gtex_v9,GTEX-15SB6,glandular epithelial cell,124
+gtex_v9,GTEX-15SB6,macrophage,534
+gtex_v9,GTEX-15SB6,mast cell,19
+gtex_v9,GTEX-15SB6,mature NK T cell,16
+gtex_v9,GTEX-15SB6,myeloid dendritic cell,118
+gtex_v9,GTEX-15SB6,myoepithelial cell of mammary gland,306
+gtex_v9,GTEX-15SB6,neuroendocrine cell,2
+gtex_v9,GTEX-15SB6,squamous epithelial cell,55
+gtex_v9,GTEX-16BQI,B cell,149
+gtex_v9,GTEX-16BQI,Schwann cell,24
+gtex_v9,GTEX-16BQI,T cell,734
+gtex_v9,GTEX-16BQI,basal cell,1147
+gtex_v9,GTEX-16BQI,basal epithelial cell of tracheobronchial tree,3701
+gtex_v9,GTEX-16BQI,contractile cell,145
+gtex_v9,GTEX-16BQI,dendritic cell,126
+gtex_v9,GTEX-16BQI,endothelial cell of lymphatic vessel,834
+gtex_v9,GTEX-16BQI,endothelial cell of vascular tree,1189
+gtex_v9,GTEX-16BQI,fibroblast,920
+gtex_v9,GTEX-16BQI,glandular epithelial cell,335
+gtex_v9,GTEX-16BQI,macrophage,301
+gtex_v9,GTEX-16BQI,mast cell,20
+gtex_v9,GTEX-16BQI,mature NK T cell,13
+gtex_v9,GTEX-16BQI,myeloid dendritic cell,5
+gtex_v9,GTEX-16BQI,myoepithelial cell of mammary gland,299
+gtex_v9,GTEX-16BQI,neuroendocrine cell,7
+gtex_v9,GTEX-16BQI,squamous epithelial cell,1559
+gtex_v9,GTEX-144GM,B cell,9
+gtex_v9,GTEX-144GM,Schwann cell,500
+gtex_v9,GTEX-144GM,T cell,100
+gtex_v9,GTEX-144GM,contractile cell,337
+gtex_v9,GTEX-144GM,dendritic cell,288
+gtex_v9,GTEX-144GM,endothelial cell of lymphatic vessel,470
+gtex_v9,GTEX-144GM,endothelial cell of vascular tree,1117
+gtex_v9,GTEX-144GM,enteric smooth muscle cell,3877
+gtex_v9,GTEX-144GM,fat cell,2
+gtex_v9,GTEX-144GM,fibroblast,2471
+gtex_v9,GTEX-144GM,interstitial cell of Cajal,134
+gtex_v9,GTEX-144GM,macrophage,302
+gtex_v9,GTEX-144GM,mast cell,183
+gtex_v9,GTEX-144GM,mature NK T cell,25
+gtex_v9,GTEX-144GM,neuron,4
+gtex_v9,GTEX-144GM,professional antigen presenting cell,5
+gtex_v9,GTEX-144GM,smooth muscle cell,1090
+gtex_v9,GTEX-145ME,B cell,1
+gtex_v9,GTEX-145ME,Schwann cell,26
+gtex_v9,GTEX-145ME,T cell,32
+gtex_v9,GTEX-145ME,basal cell,439
+gtex_v9,GTEX-145ME,basal epithelial cell of tracheobronchial tree,1870
+gtex_v9,GTEX-145ME,contractile cell,348
+gtex_v9,GTEX-145ME,dendritic cell,59
+gtex_v9,GTEX-145ME,endothelial cell of lymphatic vessel,417
+gtex_v9,GTEX-145ME,endothelial cell of vascular tree,1266
+gtex_v9,GTEX-145ME,fast muscle cell,179
+gtex_v9,GTEX-145ME,fibroblast,902
+gtex_v9,GTEX-145ME,macrophage,314
+gtex_v9,GTEX-145ME,mature NK T cell,13
+gtex_v9,GTEX-145ME,myeloid dendritic cell,3
+gtex_v9,GTEX-145ME,myoepithelial cell of mammary gland,368
+gtex_v9,GTEX-145ME,neuroendocrine cell,3
+gtex_v9,GTEX-145ME,neutrophil,21
+gtex_v9,GTEX-145ME,professional antigen presenting cell,70
+gtex_v9,GTEX-145ME,skeletal muscle fiber,7994
+gtex_v9,GTEX-145ME,skeletal muscle fibroblast,2853
+gtex_v9,GTEX-145ME,skeletal muscle satellite cell,35
+gtex_v9,GTEX-145ME,slow muscle cell,207
+gtex_v9,GTEX-145ME,squamous epithelial cell,1156
+gtex_v9,GTEX-145ME,subcutaneous fat cell,89
+hypomap,SRR6854065,astrocyte,1
+hypomap,SRR6854065,endothelial cell,2
+hypomap,SRR6854065,ependymal cell,1
+hypomap,SRR6854065,fibroblast,1
+hypomap,SRR6854065,microglial cell,2
+hypomap,SRR6854065,mural cell,2
+hypomap,SRR6854065,neuron,1432
+hypomap,SRR6854065,oligodendrocyte,160
+hypomap,SRR6854065,oligodendrocyte precursor cell,3
+hypomap,SRR6854065,tanycyte,1
+hypomap,SRR6854066,microglial cell,2
+hypomap,SRR6854066,neuron,435
+hypomap,SRR6854066,oligodendrocyte,75
+hypomap,SRR6854077,astrocyte,13
+hypomap,SRR6854077,endothelial cell,4
+hypomap,SRR6854077,ependymal cell,3
+hypomap,SRR6854077,fibroblast,4
+hypomap,SRR6854077,hypendymal cell,8
+hypomap,SRR6854077,microglial cell,10
+hypomap,SRR6854077,mural cell,3
+hypomap,SRR6854077,neuron,1919
+hypomap,SRR6854077,oligodendrocyte,705
+hypomap,SRR6854077,oligodendrocyte precursor cell,8
+hypomap,SRR6854077,tanycyte,2
+hypomap,SRR6854080,astrocyte,12
+hypomap,SRR6854080,endothelial cell,3
+hypomap,SRR6854080,ependymal cell,1
+hypomap,SRR6854080,fibroblast,4
+hypomap,SRR6854080,hypendymal cell,2
+hypomap,SRR6854080,microglial cell,3
+hypomap,SRR6854080,mural cell,4
+hypomap,SRR6854080,neuron,1726
+hypomap,SRR6854080,oligodendrocyte,425
+hypomap,SRR6854080,oligodendrocyte precursor cell,3
+hypomap,SRR6854090,astrocyte,5
+hypomap,SRR6854090,endothelial cell,1
+hypomap,SRR6854090,ependymal cell,2
+hypomap,SRR6854090,fibroblast,1
+hypomap,SRR6854090,microglial cell,3
+hypomap,SRR6854090,mural cell,3
+hypomap,SRR6854090,neuron,931
+hypomap,SRR6854090,oligodendrocyte,209
+hypomap,SRR6854090,oligodendrocyte precursor cell,3
+hypomap,SRR6854090,pituitary gland cell,1
+hypomap,SRR6854090,tanycyte,20
+hypomap,SRR6854135,astrocyte,98
+hypomap,SRR6854135,endothelial cell,77
+hypomap,SRR6854135,ependymal cell,4
+hypomap,SRR6854135,fibroblast,2
+hypomap,SRR6854135,microglial cell,47
+hypomap,SRR6854135,mural cell,1
+hypomap,SRR6854135,neuron,1529
+hypomap,SRR6854135,oligodendrocyte,596
+hypomap,SRR6854135,oligodendrocyte precursor cell,11
+hypomap,SRR6854135,tanycyte,1
+hypomap,SRR6854136,astrocyte,119
+hypomap,SRR6854136,endothelial cell,117
+hypomap,SRR6854136,ependymal cell,6
+hypomap,SRR6854136,fibroblast,3
+hypomap,SRR6854136,microglial cell,55
+hypomap,SRR6854136,mural cell,1
+hypomap,SRR6854136,neuron,1842
+hypomap,SRR6854136,oligodendrocyte,711
+hypomap,SRR6854136,oligodendrocyte precursor cell,33
+hypomap,SRR6854136,pituitary gland cell,1
+hypomap,SRR6854136,tanycyte,2
+hypomap,SRR6854141,astrocyte,332
+hypomap,SRR6854141,endothelial cell,113
+hypomap,SRR6854141,fibroblast,4
+hypomap,SRR6854141,microglial cell,110
+hypomap,SRR6854141,mural cell,3
+hypomap,SRR6854141,neuron,1272
+hypomap,SRR6854141,oligodendrocyte,500
+hypomap,SRR6854141,oligodendrocyte precursor cell,95
+hypomap,SRR6854141,tanycyte,1
+hypomap,SRR6854142,astrocyte,453
+hypomap,SRR6854142,endothelial cell,166
+hypomap,SRR6854142,ependymal cell,4
+hypomap,SRR6854142,fibroblast,6
+hypomap,SRR6854142,hypendymal cell,1
+hypomap,SRR6854142,microglial cell,171
+hypomap,SRR6854142,mural cell,1
+hypomap,SRR6854142,neuron,2299
+hypomap,SRR6854142,oligodendrocyte,846
+hypomap,SRR6854142,oligodendrocyte precursor cell,113
+hypomap,SRR6854142,tanycyte,1
+hypomap,SRR6854157,astrocyte,22
+hypomap,SRR6854157,endothelial cell,2
+hypomap,SRR6854157,ependymal cell,4
+hypomap,SRR6854157,fibroblast,1
+hypomap,SRR6854157,microglial cell,3
+hypomap,SRR6854157,mural cell,3
+hypomap,SRR6854157,neuron,992
+hypomap,SRR6854157,oligodendrocyte,300
+hypomap,SRR6854157,oligodendrocyte precursor cell,10
+hypomap,SRR6854157,tanycyte,5
+hypomap,SRR6854160,astrocyte,2
+hypomap,SRR6854160,ependymal cell,2
+hypomap,SRR6854160,neuron,143
+hypomap,SRR6854160,oligodendrocyte,20
+hypomap,SRR6854160,pituitary gland cell,2
+hypomap,SRR6854160,tanycyte,5
+hypomap,SRR9000480,astrocyte,5
+hypomap,SRR9000480,endothelial cell,10
+hypomap,SRR9000480,fibroblast,2
+hypomap,SRR9000480,microglial cell,16
+hypomap,SRR9000480,mural cell,1
+hypomap,SRR9000480,neuron,435
+hypomap,SRR9000480,oligodendrocyte,211
+hypomap,SRR9000480,oligodendrocyte precursor cell,9
+hypomap,SRR9000481,astrocyte,1
+hypomap,SRR9000481,endothelial cell,6
+hypomap,SRR9000481,microglial cell,3
+hypomap,SRR9000481,neuron,635
+hypomap,SRR9000481,oligodendrocyte,145
+hypomap,SRR9000481,oligodendrocyte precursor cell,12
+hypomap,SRR9000482,astrocyte,9
+hypomap,SRR9000482,endothelial cell,7
+hypomap,SRR9000482,microglial cell,26
+hypomap,SRR9000482,mural cell,6
+hypomap,SRR9000482,neuron,229
+hypomap,SRR9000482,oligodendrocyte,397
+hypomap,SRR9000482,oligodendrocyte precursor cell,46
+hypomap,SRR9000483,astrocyte,17
+hypomap,SRR9000483,endothelial cell,10
+hypomap,SRR9000483,fibroblast,1
+hypomap,SRR9000483,microglial cell,16
+hypomap,SRR9000483,mural cell,2
+hypomap,SRR9000483,neuron,654
+hypomap,SRR9000483,oligodendrocyte,369
+hypomap,SRR9000483,oligodendrocyte precursor cell,25
+hypomap,SRR9000484,astrocyte,2
+hypomap,SRR9000484,endothelial cell,21
+hypomap,SRR9000484,fibroblast,1
+hypomap,SRR9000484,microglial cell,9
+hypomap,SRR9000484,mural cell,3
+hypomap,SRR9000484,neuron,567
+hypomap,SRR9000484,oligodendrocyte,174
+hypomap,SRR9000484,oligodendrocyte precursor cell,34
+hypomap,SRR9000485,astrocyte,3
+hypomap,SRR9000485,endothelial cell,5
+hypomap,SRR9000485,microglial cell,4
+hypomap,SRR9000485,neuron,722
+hypomap,SRR9000485,oligodendrocyte,183
+hypomap,SRR9000485,oligodendrocyte precursor cell,16
+hypomap,SRR9000486,astrocyte,22
+hypomap,SRR9000486,endothelial cell,15
+hypomap,SRR9000486,fibroblast,2
+hypomap,SRR9000486,microglial cell,30
+hypomap,SRR9000486,mural cell,12
+hypomap,SRR9000486,neuron,535
+hypomap,SRR9000486,oligodendrocyte,500
+hypomap,SRR9000486,oligodendrocyte precursor cell,43
+hypomap,SRR9000487,astrocyte,5
+hypomap,SRR9000487,endothelial cell,19
+hypomap,SRR9000487,fibroblast,3
+hypomap,SRR9000487,microglial cell,4
+hypomap,SRR9000487,mural cell,2
+hypomap,SRR9000487,neuron,702
+hypomap,SRR9000487,oligodendrocyte,171
+hypomap,SRR9000487,oligodendrocyte precursor cell,4
+hypomap,SRR9000488,astrocyte,17
+hypomap,SRR9000488,endothelial cell,18
+hypomap,SRR9000488,fibroblast,3
+hypomap,SRR9000488,microglial cell,19
+hypomap,SRR9000488,mural cell,6
+hypomap,SRR9000488,neuron,495
+hypomap,SRR9000488,oligodendrocyte,498
+hypomap,SRR9000488,oligodendrocyte precursor cell,40
+hypomap,SRR9000489,astrocyte,7
+hypomap,SRR9000489,endothelial cell,13
+hypomap,SRR9000489,microglial cell,22
+hypomap,SRR9000489,mural cell,5
+hypomap,SRR9000489,neuron,205
+hypomap,SRR9000489,oligodendrocyte,276
+hypomap,SRR9000489,oligodendrocyte precursor cell,18
+hypomap,SRR9000491,astrocyte,3
+hypomap,SRR9000491,endothelial cell,5
+hypomap,SRR9000491,microglial cell,5
+hypomap,SRR9000491,mural cell,2
+hypomap,SRR9000491,neuron,190
+hypomap,SRR9000491,oligodendrocyte,158
+hypomap,SRR9000491,oligodendrocyte precursor cell,11
+hypomap,SRR9000492,astrocyte,9
+hypomap,SRR9000492,endothelial cell,12
+hypomap,SRR9000492,fibroblast,2
+hypomap,SRR9000492,microglial cell,7
+hypomap,SRR9000492,mural cell,5
+hypomap,SRR9000492,neuron,34
+hypomap,SRR9000492,oligodendrocyte,87
+hypomap,SRR9000492,oligodendrocyte precursor cell,2
+hypomap,pooled,astrocyte,51029
+hypomap,pooled,endothelial cell,9635
+hypomap,pooled,ependymal cell,4398
+hypomap,pooled,erythrocyte,41
+hypomap,pooled,fibroblast,1332
+hypomap,pooled,hypendymal cell,41
+hypomap,pooled,microglial cell,13737
+hypomap,pooled,mural cell,3711
+hypomap,pooled,neuron,199437
+hypomap,pooled,oligodendrocyte,41101
+hypomap,pooled,oligodendrocyte precursor cell,19326
+hypomap,pooled,pituitary gland cell,725
+hypomap,pooled,tanycyte,9699
+immune_cell_atlas,582C,CD4-positive helper T cell,160
+immune_cell_atlas,582C,"CD8-positive, alpha-beta memory T cell",99
+immune_cell_atlas,582C,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",449
+immune_cell_atlas,582C,"CD16-negative, CD56-bright natural killer cell, human",361
+immune_cell_atlas,582C,"CD16-positive, CD56-dim natural killer cell, human",165
+immune_cell_atlas,582C,T follicular helper cell,429
+immune_cell_atlas,582C,alpha-beta T cell,42
+immune_cell_atlas,582C,alveolar macrophage,12
+immune_cell_atlas,582C,animal cell,175
+immune_cell_atlas,582C,classical monocyte,175
+immune_cell_atlas,582C,conventional dendritic cell,85
+immune_cell_atlas,582C,"dendritic cell, human",16
+immune_cell_atlas,582C,"effector memory CD4-positive, alpha-beta T cell",792
+immune_cell_atlas,582C,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",134
+immune_cell_atlas,582C,erythroid lineage cell,1
+immune_cell_atlas,582C,gamma-delta T cell,42
+immune_cell_atlas,582C,germinal center B cell,57
+immune_cell_atlas,582C,group 3 innate lymphoid cell,34
+immune_cell_atlas,582C,lymphocyte,244
+immune_cell_atlas,582C,macrophage,72
+immune_cell_atlas,582C,mast cell,1
+immune_cell_atlas,582C,megakaryocyte,1
+immune_cell_atlas,582C,memory B cell,2266
+immune_cell_atlas,582C,mucosal invariant T cell,25
+immune_cell_atlas,582C,naive B cell,2297
+immune_cell_atlas,582C,"naive thymus-derived CD4-positive, alpha-beta T cell",2172
+immune_cell_atlas,582C,"naive thymus-derived CD8-positive, alpha-beta T cell",231
+immune_cell_atlas,582C,non-classical monocyte,7
+immune_cell_atlas,582C,plasma cell,129
+immune_cell_atlas,582C,plasmablast,5
+immune_cell_atlas,582C,plasmacytoid dendritic cell,8
+immune_cell_atlas,582C,progenitor cell,3
+immune_cell_atlas,582C,regulatory T cell,901
+immune_cell_atlas,621B,CD4-positive helper T cell,156
+immune_cell_atlas,621B,"CD8-positive, alpha-beta memory T cell",187
+immune_cell_atlas,621B,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",346
+immune_cell_atlas,621B,"CD16-negative, CD56-bright natural killer cell, human",213
+immune_cell_atlas,621B,"CD16-positive, CD56-dim natural killer cell, human",203
+immune_cell_atlas,621B,T follicular helper cell,956
+immune_cell_atlas,621B,alpha-beta T cell,98
+immune_cell_atlas,621B,alveolar macrophage,7
+immune_cell_atlas,621B,animal cell,73
+immune_cell_atlas,621B,classical monocyte,134
+immune_cell_atlas,621B,conventional dendritic cell,21
+immune_cell_atlas,621B,"dendritic cell, human",6
+immune_cell_atlas,621B,"effector memory CD4-positive, alpha-beta T cell",826
+immune_cell_atlas,621B,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",123
+immune_cell_atlas,621B,erythroid lineage cell,17
+immune_cell_atlas,621B,gamma-delta T cell,70
+immune_cell_atlas,621B,germinal center B cell,12
+immune_cell_atlas,621B,group 3 innate lymphoid cell,106
+immune_cell_atlas,621B,lymphocyte,91
+immune_cell_atlas,621B,macrophage,32
+immune_cell_atlas,621B,mast cell,3
+immune_cell_atlas,621B,megakaryocyte,1
+immune_cell_atlas,621B,memory B cell,3640
+immune_cell_atlas,621B,mucosal invariant T cell,162
+immune_cell_atlas,621B,naive B cell,596
+immune_cell_atlas,621B,"naive thymus-derived CD4-positive, alpha-beta T cell",1569
+immune_cell_atlas,621B,"naive thymus-derived CD8-positive, alpha-beta T cell",628
+immune_cell_atlas,621B,non-classical monocyte,11
+immune_cell_atlas,621B,plasma cell,28
+immune_cell_atlas,621B,plasmablast,3
+immune_cell_atlas,621B,plasmacytoid dendritic cell,1
+immune_cell_atlas,621B,precursor B cell,2
+immune_cell_atlas,621B,progenitor cell,7
+immune_cell_atlas,621B,regulatory T cell,304
+immune_cell_atlas,637C,CD4-positive helper T cell,1172
+immune_cell_atlas,637C,"CD8-positive, alpha-beta memory T cell",769
+immune_cell_atlas,637C,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",746
+immune_cell_atlas,637C,"CD16-negative, CD56-bright natural killer cell, human",1408
+immune_cell_atlas,637C,"CD16-positive, CD56-dim natural killer cell, human",1712
+immune_cell_atlas,637C,T follicular helper cell,1017
+immune_cell_atlas,637C,alpha-beta T cell,453
+immune_cell_atlas,637C,alveolar macrophage,27
+immune_cell_atlas,637C,animal cell,148
+immune_cell_atlas,637C,classical monocyte,344
+immune_cell_atlas,637C,conventional dendritic cell,17
+immune_cell_atlas,637C,"dendritic cell, human",3
+immune_cell_atlas,637C,"effector memory CD4-positive, alpha-beta T cell",1245
+immune_cell_atlas,637C,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",1460
+immune_cell_atlas,637C,erythroid lineage cell,1
+immune_cell_atlas,637C,gamma-delta T cell,2182
+immune_cell_atlas,637C,germinal center B cell,8
+immune_cell_atlas,637C,group 3 innate lymphoid cell,316
+immune_cell_atlas,637C,lymphocyte,122
+immune_cell_atlas,637C,macrophage,358
+immune_cell_atlas,637C,mast cell,4
+immune_cell_atlas,637C,megakaryocyte,2
+immune_cell_atlas,637C,memory B cell,2207
+immune_cell_atlas,637C,mucosal invariant T cell,756
+immune_cell_atlas,637C,naive B cell,1779
+immune_cell_atlas,637C,"naive thymus-derived CD4-positive, alpha-beta T cell",4351
+immune_cell_atlas,637C,"naive thymus-derived CD8-positive, alpha-beta T cell",1414
+immune_cell_atlas,637C,non-classical monocyte,249
+immune_cell_atlas,637C,plasma cell,35
+immune_cell_atlas,637C,plasmablast,10
+immune_cell_atlas,637C,precursor B cell,19
+immune_cell_atlas,637C,pro-B cell,6
+immune_cell_atlas,637C,progenitor cell,38
+immune_cell_atlas,637C,regulatory T cell,1465
+immune_cell_atlas,640C,CD4-positive helper T cell,2994
+immune_cell_atlas,640C,"CD8-positive, alpha-beta memory T cell",8572
+immune_cell_atlas,640C,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",1425
+immune_cell_atlas,640C,"CD16-negative, CD56-bright natural killer cell, human",642
+immune_cell_atlas,640C,"CD16-positive, CD56-dim natural killer cell, human",1432
+immune_cell_atlas,640C,T follicular helper cell,1479
+immune_cell_atlas,640C,alpha-beta T cell,1551
+immune_cell_atlas,640C,alveolar macrophage,92
+immune_cell_atlas,640C,animal cell,235
+immune_cell_atlas,640C,classical monocyte,784
+immune_cell_atlas,640C,conventional dendritic cell,208
+immune_cell_atlas,640C,"dendritic cell, human",23
+immune_cell_atlas,640C,"effector memory CD4-positive, alpha-beta T cell",1445
+immune_cell_atlas,640C,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",733
+immune_cell_atlas,640C,erythroid lineage cell,99
+immune_cell_atlas,640C,gamma-delta T cell,2121
+immune_cell_atlas,640C,germinal center B cell,39
+immune_cell_atlas,640C,group 3 innate lymphoid cell,175
+immune_cell_atlas,640C,lymphocyte,150
+immune_cell_atlas,640C,macrophage,284
+immune_cell_atlas,640C,mast cell,13
+immune_cell_atlas,640C,megakaryocyte,2
+immune_cell_atlas,640C,memory B cell,1924
+immune_cell_atlas,640C,mucosal invariant T cell,749
+immune_cell_atlas,640C,naive B cell,1709
+immune_cell_atlas,640C,"naive thymus-derived CD4-positive, alpha-beta T cell",3292
+immune_cell_atlas,640C,"naive thymus-derived CD8-positive, alpha-beta T cell",249
+immune_cell_atlas,640C,non-classical monocyte,266
+immune_cell_atlas,640C,plasma cell,487
+immune_cell_atlas,640C,plasmablast,66
+immune_cell_atlas,640C,plasmacytoid dendritic cell,58
+immune_cell_atlas,640C,precursor B cell,23
+immune_cell_atlas,640C,pro-B cell,7
+immune_cell_atlas,640C,progenitor cell,121
+immune_cell_atlas,640C,regulatory T cell,2078
+immune_cell_atlas,A29,CD4-positive helper T cell,247
+immune_cell_atlas,A29,"CD8-positive, alpha-beta memory T cell",264
+immune_cell_atlas,A29,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",899
+immune_cell_atlas,A29,"CD16-negative, CD56-bright natural killer cell, human",183
+immune_cell_atlas,A29,"CD16-positive, CD56-dim natural killer cell, human",390
+immune_cell_atlas,A29,T follicular helper cell,708
+immune_cell_atlas,A29,alpha-beta T cell,88
+immune_cell_atlas,A29,alveolar macrophage,465
+immune_cell_atlas,A29,animal cell,155
+immune_cell_atlas,A29,classical monocyte,510
+immune_cell_atlas,A29,conventional dendritic cell,160
+immune_cell_atlas,A29,"dendritic cell, human",40
+immune_cell_atlas,A29,"effector memory CD4-positive, alpha-beta T cell",831
+immune_cell_atlas,A29,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",690
+immune_cell_atlas,A29,erythroid lineage cell,82
+immune_cell_atlas,A29,gamma-delta T cell,245
+immune_cell_atlas,A29,germinal center B cell,93
+immune_cell_atlas,A29,group 3 innate lymphoid cell,46
+immune_cell_atlas,A29,lymphocyte,83
+immune_cell_atlas,A29,macrophage,2086
+immune_cell_atlas,A29,mast cell,66
+immune_cell_atlas,A29,megakaryocyte,10
+immune_cell_atlas,A29,memory B cell,1915
+immune_cell_atlas,A29,mucosal invariant T cell,223
+immune_cell_atlas,A29,naive B cell,1518
+immune_cell_atlas,A29,"naive thymus-derived CD4-positive, alpha-beta T cell",2952
+immune_cell_atlas,A29,"naive thymus-derived CD8-positive, alpha-beta T cell",892
+immune_cell_atlas,A29,non-classical monocyte,164
+immune_cell_atlas,A29,plasma cell,283
+immune_cell_atlas,A29,plasmablast,5
+immune_cell_atlas,A29,plasmacytoid dendritic cell,30
+immune_cell_atlas,A29,precursor B cell,12
+immune_cell_atlas,A29,pro-B cell,17
+immune_cell_atlas,A29,progenitor cell,47
+immune_cell_atlas,A29,regulatory T cell,928
+immune_cell_atlas,A31,CD4-positive helper T cell,290
+immune_cell_atlas,A31,"CD8-positive, alpha-beta memory T cell",315
+immune_cell_atlas,A31,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",470
+immune_cell_atlas,A31,"CD16-negative, CD56-bright natural killer cell, human",158
+immune_cell_atlas,A31,"CD16-positive, CD56-dim natural killer cell, human",108
+immune_cell_atlas,A31,T follicular helper cell,722
+immune_cell_atlas,A31,alpha-beta T cell,398
+immune_cell_atlas,A31,alveolar macrophage,715
+immune_cell_atlas,A31,animal cell,148
+immune_cell_atlas,A31,classical monocyte,493
+immune_cell_atlas,A31,conventional dendritic cell,91
+immune_cell_atlas,A31,"dendritic cell, human",18
+immune_cell_atlas,A31,"effector memory CD4-positive, alpha-beta T cell",418
+immune_cell_atlas,A31,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",491
+immune_cell_atlas,A31,erythroid lineage cell,53
+immune_cell_atlas,A31,gamma-delta T cell,236
+immune_cell_atlas,A31,germinal center B cell,48
+immune_cell_atlas,A31,group 3 innate lymphoid cell,70
+immune_cell_atlas,A31,lymphocyte,341
+immune_cell_atlas,A31,macrophage,318
+immune_cell_atlas,A31,mast cell,22
+immune_cell_atlas,A31,megakaryocyte,29
+immune_cell_atlas,A31,memory B cell,1669
+immune_cell_atlas,A31,mucosal invariant T cell,1083
+immune_cell_atlas,A31,naive B cell,705
+immune_cell_atlas,A31,"naive thymus-derived CD4-positive, alpha-beta T cell",1310
+immune_cell_atlas,A31,"naive thymus-derived CD8-positive, alpha-beta T cell",443
+immune_cell_atlas,A31,non-classical monocyte,86
+immune_cell_atlas,A31,plasma cell,432
+immune_cell_atlas,A31,plasmablast,74
+immune_cell_atlas,A31,plasmacytoid dendritic cell,10
+immune_cell_atlas,A31,progenitor cell,28
+immune_cell_atlas,A31,regulatory T cell,654
+immune_cell_atlas,A35,CD4-positive helper T cell,196
+immune_cell_atlas,A35,"CD8-positive, alpha-beta memory T cell",67
+immune_cell_atlas,A35,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",393
+immune_cell_atlas,A35,"CD16-negative, CD56-bright natural killer cell, human",273
+immune_cell_atlas,A35,"CD16-positive, CD56-dim natural killer cell, human",454
+immune_cell_atlas,A35,T follicular helper cell,417
+immune_cell_atlas,A35,alpha-beta T cell,274
+immune_cell_atlas,A35,alveolar macrophage,37
+immune_cell_atlas,A35,animal cell,99
+immune_cell_atlas,A35,classical monocyte,967
+immune_cell_atlas,A35,conventional dendritic cell,93
+immune_cell_atlas,A35,"dendritic cell, human",37
+immune_cell_atlas,A35,"effector memory CD4-positive, alpha-beta T cell",662
+immune_cell_atlas,A35,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",832
+immune_cell_atlas,A35,erythroid lineage cell,39
+immune_cell_atlas,A35,gamma-delta T cell,175
+immune_cell_atlas,A35,germinal center B cell,156
+immune_cell_atlas,A35,group 3 innate lymphoid cell,27
+immune_cell_atlas,A35,lymphocyte,284
+immune_cell_atlas,A35,macrophage,254
+immune_cell_atlas,A35,mast cell,7
+immune_cell_atlas,A35,megakaryocyte,34
+immune_cell_atlas,A35,memory B cell,2438
+immune_cell_atlas,A35,mucosal invariant T cell,26
+immune_cell_atlas,A35,naive B cell,235
+immune_cell_atlas,A35,"naive thymus-derived CD4-positive, alpha-beta T cell",1287
+immune_cell_atlas,A35,"naive thymus-derived CD8-positive, alpha-beta T cell",88
+immune_cell_atlas,A35,non-classical monocyte,335
+immune_cell_atlas,A35,plasma cell,265
+immune_cell_atlas,A35,plasmablast,69
+immune_cell_atlas,A35,plasmacytoid dendritic cell,31
+immune_cell_atlas,A35,progenitor cell,55
+immune_cell_atlas,A35,regulatory T cell,499
+immune_cell_atlas,A36,CD4-positive helper T cell,387
+immune_cell_atlas,A36,"CD8-positive, alpha-beta memory T cell",665
+immune_cell_atlas,A36,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",1211
+immune_cell_atlas,A36,"CD16-negative, CD56-bright natural killer cell, human",986
+immune_cell_atlas,A36,"CD16-positive, CD56-dim natural killer cell, human",482
+immune_cell_atlas,A36,T follicular helper cell,1458
+immune_cell_atlas,A36,alpha-beta T cell,601
+immune_cell_atlas,A36,alveolar macrophage,1921
+immune_cell_atlas,A36,animal cell,346
+immune_cell_atlas,A36,classical monocyte,1533
+immune_cell_atlas,A36,conventional dendritic cell,159
+immune_cell_atlas,A36,"dendritic cell, human",29
+immune_cell_atlas,A36,"effector memory CD4-positive, alpha-beta T cell",1573
+immune_cell_atlas,A36,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",848
+immune_cell_atlas,A36,erythroid lineage cell,32
+immune_cell_atlas,A36,gamma-delta T cell,420
+immune_cell_atlas,A36,germinal center B cell,101
+immune_cell_atlas,A36,group 3 innate lymphoid cell,52
+immune_cell_atlas,A36,lymphocyte,306
+immune_cell_atlas,A36,macrophage,330
+immune_cell_atlas,A36,mast cell,61
+immune_cell_atlas,A36,megakaryocyte,157
+immune_cell_atlas,A36,memory B cell,4133
+immune_cell_atlas,A36,mucosal invariant T cell,732
+immune_cell_atlas,A36,naive B cell,1548
+immune_cell_atlas,A36,"naive thymus-derived CD4-positive, alpha-beta T cell",1760
+immune_cell_atlas,A36,"naive thymus-derived CD8-positive, alpha-beta T cell",166
+immune_cell_atlas,A36,non-classical monocyte,237
+immune_cell_atlas,A36,plasma cell,717
+immune_cell_atlas,A36,plasmablast,201
+immune_cell_atlas,A36,plasmacytoid dendritic cell,69
+immune_cell_atlas,A36,progenitor cell,33
+immune_cell_atlas,A36,regulatory T cell,851
+immune_cell_atlas,A37,CD4-positive helper T cell,233
+immune_cell_atlas,A37,"CD8-positive, alpha-beta memory T cell",202
+immune_cell_atlas,A37,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",635
+immune_cell_atlas,A37,"CD16-negative, CD56-bright natural killer cell, human",224
+immune_cell_atlas,A37,"CD16-positive, CD56-dim natural killer cell, human",342
+immune_cell_atlas,A37,T follicular helper cell,352
+immune_cell_atlas,A37,alpha-beta T cell,35
+immune_cell_atlas,A37,alveolar macrophage,30
+immune_cell_atlas,A37,animal cell,73
+immune_cell_atlas,A37,classical monocyte,180
+immune_cell_atlas,A37,conventional dendritic cell,50
+immune_cell_atlas,A37,"dendritic cell, human",11
+immune_cell_atlas,A37,"effector memory CD4-positive, alpha-beta T cell",864
+immune_cell_atlas,A37,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",129
+immune_cell_atlas,A37,erythroid lineage cell,43
+immune_cell_atlas,A37,gamma-delta T cell,88
+immune_cell_atlas,A37,germinal center B cell,30
+immune_cell_atlas,A37,group 3 innate lymphoid cell,16
+immune_cell_atlas,A37,lymphocyte,57
+immune_cell_atlas,A37,macrophage,81
+immune_cell_atlas,A37,mast cell,1
+immune_cell_atlas,A37,megakaryocyte,10
+immune_cell_atlas,A37,memory B cell,2618
+immune_cell_atlas,A37,mucosal invariant T cell,110
+immune_cell_atlas,A37,naive B cell,1909
+immune_cell_atlas,A37,"naive thymus-derived CD4-positive, alpha-beta T cell",793
+immune_cell_atlas,A37,"naive thymus-derived CD8-positive, alpha-beta T cell",182
+immune_cell_atlas,A37,non-classical monocyte,23
+immune_cell_atlas,A37,plasma cell,50
+immune_cell_atlas,A37,plasmablast,16
+immune_cell_atlas,A37,plasmacytoid dendritic cell,13
+immune_cell_atlas,A37,precursor B cell,17
+immune_cell_atlas,A37,pro-B cell,4
+immune_cell_atlas,A37,progenitor cell,50
+immune_cell_atlas,A37,regulatory T cell,335
+immune_cell_atlas,A52,CD4-positive helper T cell,268
+immune_cell_atlas,A52,"CD8-positive, alpha-beta memory T cell",99
+immune_cell_atlas,A52,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",105
+immune_cell_atlas,A52,"CD16-negative, CD56-bright natural killer cell, human",421
+immune_cell_atlas,A52,"CD16-positive, CD56-dim natural killer cell, human",466
+immune_cell_atlas,A52,T follicular helper cell,31
+immune_cell_atlas,A52,alpha-beta T cell,232
+immune_cell_atlas,A52,alveolar macrophage,63
+immune_cell_atlas,A52,animal cell,22
+immune_cell_atlas,A52,classical monocyte,680
+immune_cell_atlas,A52,conventional dendritic cell,54
+immune_cell_atlas,A52,"effector memory CD4-positive, alpha-beta T cell",115
+immune_cell_atlas,A52,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",74
+immune_cell_atlas,A52,gamma-delta T cell,44
+immune_cell_atlas,A52,germinal center B cell,9
+immune_cell_atlas,A52,group 3 innate lymphoid cell,4
+immune_cell_atlas,A52,lymphocyte,112
+immune_cell_atlas,A52,macrophage,241
+immune_cell_atlas,A52,mast cell,3
+immune_cell_atlas,A52,memory B cell,614
+immune_cell_atlas,A52,mucosal invariant T cell,134
+immune_cell_atlas,A52,naive B cell,274
+immune_cell_atlas,A52,"naive thymus-derived CD4-positive, alpha-beta T cell",25
+immune_cell_atlas,A52,"naive thymus-derived CD8-positive, alpha-beta T cell",1
+immune_cell_atlas,A52,non-classical monocyte,133
+immune_cell_atlas,A52,plasma cell,48
+immune_cell_atlas,A52,plasmablast,10
+immune_cell_atlas,A52,plasmacytoid dendritic cell,6
+immune_cell_atlas,A52,regulatory T cell,32
+immune_cell_atlas,D496,CD4-positive helper T cell,4220
+immune_cell_atlas,D496,"CD8-positive, alpha-beta memory T cell",5253
+immune_cell_atlas,D496,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",5031
+immune_cell_atlas,D496,"CD16-negative, CD56-bright natural killer cell, human",187
+immune_cell_atlas,D496,"CD16-positive, CD56-dim natural killer cell, human",4977
+immune_cell_atlas,D496,T follicular helper cell,4996
+immune_cell_atlas,D496,alpha-beta T cell,1037
+immune_cell_atlas,D496,alveolar macrophage,13324
+immune_cell_atlas,D496,animal cell,1388
+immune_cell_atlas,D496,classical monocyte,9744
+immune_cell_atlas,D496,conventional dendritic cell,46
+immune_cell_atlas,D496,"dendritic cell, human",11
+immune_cell_atlas,D496,"effector memory CD4-positive, alpha-beta T cell",5158
+immune_cell_atlas,D496,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",8836
+immune_cell_atlas,D496,erythroid lineage cell,2
+immune_cell_atlas,D496,gamma-delta T cell,2822
+immune_cell_atlas,D496,germinal center B cell,9
+immune_cell_atlas,D496,group 3 innate lymphoid cell,227
+immune_cell_atlas,D496,lymphocyte,310
+immune_cell_atlas,D496,macrophage,370
+immune_cell_atlas,D496,mast cell,831
+immune_cell_atlas,D496,megakaryocyte,14
+immune_cell_atlas,D496,memory B cell,4893
+immune_cell_atlas,D496,mucosal invariant T cell,284
+immune_cell_atlas,D496,naive B cell,378
+immune_cell_atlas,D496,"naive thymus-derived CD4-positive, alpha-beta T cell",5124
+immune_cell_atlas,D496,"naive thymus-derived CD8-positive, alpha-beta T cell",3031
+immune_cell_atlas,D496,non-classical monocyte,62
+immune_cell_atlas,D496,plasma cell,2844
+immune_cell_atlas,D496,plasmablast,725
+immune_cell_atlas,D496,plasmacytoid dendritic cell,1
+immune_cell_atlas,D496,precursor B cell,1
+immune_cell_atlas,D496,progenitor cell,74
+immune_cell_atlas,D496,regulatory T cell,1847
+immune_cell_atlas,D503,CD4-positive helper T cell,5776
+immune_cell_atlas,D503,"CD8-positive, alpha-beta memory T cell",9027
+immune_cell_atlas,D503,"CD8-positive, alpha-beta memory T cell, CD45RO-positive",964
+immune_cell_atlas,D503,"CD16-negative, CD56-bright natural killer cell, human",3846
+immune_cell_atlas,D503,"CD16-positive, CD56-dim natural killer cell, human",9860
+immune_cell_atlas,D503,T follicular helper cell,2728
+immune_cell_atlas,D503,alpha-beta T cell,822
+immune_cell_atlas,D503,alveolar macrophage,545
+immune_cell_atlas,D503,animal cell,1551
+immune_cell_atlas,D503,classical monocyte,6303
+immune_cell_atlas,D503,conventional dendritic cell,519
+immune_cell_atlas,D503,"dendritic cell, human",68
+immune_cell_atlas,D503,"effector memory CD4-positive, alpha-beta T cell",5940
+immune_cell_atlas,D503,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated",262
+immune_cell_atlas,D503,erythroid lineage cell,76
+immune_cell_atlas,D503,gamma-delta T cell,3132
+immune_cell_atlas,D503,germinal center B cell,10
+immune_cell_atlas,D503,group 3 innate lymphoid cell,239
+immune_cell_atlas,D503,lymphocyte,1484
+immune_cell_atlas,D503,macrophage,512
+immune_cell_atlas,D503,mast cell,2279
+immune_cell_atlas,D503,megakaryocyte,57
+immune_cell_atlas,D503,memory B cell,1807
+immune_cell_atlas,D503,mucosal invariant T cell,565
+immune_cell_atlas,D503,naive B cell,1050
+immune_cell_atlas,D503,"naive thymus-derived CD4-positive, alpha-beta T cell",12978
+immune_cell_atlas,D503,"naive thymus-derived CD8-positive, alpha-beta T cell",476
+immune_cell_atlas,D503,non-classical monocyte,847
+immune_cell_atlas,D503,plasma cell,952
+immune_cell_atlas,D503,plasmablast,526
+immune_cell_atlas,D503,plasmacytoid dendritic cell,486
+immune_cell_atlas,D503,precursor B cell,1
+immune_cell_atlas,D503,pro-B cell,5
+immune_cell_atlas,D503,progenitor cell,1062
+immune_cell_atlas,D503,regulatory T cell,2249
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,Schwann cell,12
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,endothelial cell,183
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,hematopoietic cell,172
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,native cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic A cell,240
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic D cell,205
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic PP cell,30
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic acinar cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic ductal cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic endocrine cell,209
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,pancreatic stellate cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974,type B pancreatic cell,6445
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,Schwann cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,endothelial cell,447
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,hematopoietic cell,123
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,native cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic A cell,184
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic D cell,182
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic PP cell,87
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic acinar cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic ductal cell,50
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic endocrine cell,125
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,pancreatic stellate cell,117
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975,type B pancreatic cell,2413
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,hematopoietic cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,native cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,pancreatic A cell,318
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,pancreatic D cell,137
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,pancreatic PP cell,30
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,pancreatic ductal cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,pancreatic endocrine cell,131
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976,type B pancreatic cell,5459
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,hematopoietic cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,native cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,pancreatic A cell,4046
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,pancreatic D cell,1060
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,pancreatic PP cell,242
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,pancreatic ductal cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,pancreatic endocrine cell,617
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP,type B pancreatic cell,3246
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,Schwann cell,37
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,endothelial cell,189
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,hematopoietic cell,90
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,native cell,18
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic A cell,2838
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic D cell,320
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic PP cell,329
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic acinar cell,36
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic ductal cell,45
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic endocrine cell,318
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,pancreatic stellate cell,324
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP,type B pancreatic cell,2628
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,Schwann cell,20
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,hematopoietic cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,native cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic A cell,911
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic D cell,336
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic PP cell,92
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic acinar cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic ductal cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic endocrine cell,567
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,pancreatic stellate cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG,type B pancreatic cell,1536
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,Schwann cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,endothelial cell,58
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,hematopoietic cell,36
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic A cell,302
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic D cell,116
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic PP cell,251
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic ductal cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic endocrine cell,66
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,pancreatic stellate cell,16
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1,type B pancreatic cell,3245
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,hematopoietic cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,pancreatic A cell,104
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,pancreatic D cell,108
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,pancreatic PP cell,116
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,pancreatic endocrine cell,82
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2,type B pancreatic cell,4252
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,endothelial cell,55
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,hematopoietic cell,74
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic A cell,949
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic D cell,185
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic PP cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic ductal cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic endocrine cell,41
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,pancreatic stellate cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3,type B pancreatic cell,1916
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,endothelial cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,hematopoietic cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,pancreatic A cell,629
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,pancreatic D cell,254
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,pancreatic PP cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,pancreatic ductal cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,pancreatic endocrine cell,139
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4,type B pancreatic cell,4325
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,Schwann cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,endothelial cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,hematopoietic cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic A cell,308
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic D cell,125
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic PP cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic ductal cell,26
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic endocrine cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,pancreatic stellate cell,23
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097,type B pancreatic cell,445
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,Schwann cell,12
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,endothelial cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,hematopoietic cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic A cell,172
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic D cell,74
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic PP cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic ductal cell,28
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic endocrine cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,pancreatic stellate cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098,type B pancreatic cell,306
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,endothelial cell,29
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,hematopoietic cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic A cell,146
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic D cell,104
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic PP cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic ductal cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic endocrine cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,pancreatic stellate cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099,type B pancreatic cell,783
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,Schwann cell,25
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,endothelial cell,991
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,hematopoietic cell,24
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,native cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic A cell,334
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic D cell,651
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic PP cell,99
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic ductal cell,777
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic endocrine cell,43
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,pancreatic stellate cell,1743
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295,type B pancreatic cell,189
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,Schwann cell,39
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,endothelial cell,884
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,hematopoietic cell,44
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,native cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic A cell,429
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic D cell,645
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic PP cell,143
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic ductal cell,574
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic endocrine cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,pancreatic stellate cell,1425
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296,type B pancreatic cell,128
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,Schwann cell,39
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,endothelial cell,698
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,hematopoietic cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,native cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic A cell,1094
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic D cell,1236
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic PP cell,249
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic acinar cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic ductal cell,397
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic endocrine cell,72
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,pancreatic stellate cell,1136
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297,type B pancreatic cell,231
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,Schwann cell,18
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,endothelial cell,908
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,hematopoietic cell,492
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,native cell,19
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic A cell,1381
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic D cell,1110
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic PP cell,225
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic ductal cell,585
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic endocrine cell,90
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,pancreatic stellate cell,2747
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298,type B pancreatic cell,795
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,Schwann cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,endothelial cell,784
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,hematopoietic cell,320
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,native cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic A cell,768
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic D cell,862
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic PP cell,149
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic acinar cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic ductal cell,551
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic endocrine cell,59
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,pancreatic stellate cell,2130
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299,type B pancreatic cell,620
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,Schwann cell,44
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,endothelial cell,841
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,hematopoietic cell,406
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,native cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic A cell,666
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic D cell,1056
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic PP cell,87
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic acinar cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic ductal cell,471
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic endocrine cell,35
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,pancreatic stellate cell,1911
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300,type B pancreatic cell,233
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,Schwann cell,24
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,endothelial cell,1129
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,hematopoietic cell,10
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,native cell,10
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic A cell,1788
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic D cell,1275
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic PP cell,214
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic acinar cell,29
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic ductal cell,693
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic endocrine cell,85
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,pancreatic stellate cell,2001
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301,type B pancreatic cell,305
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,Schwann cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,endothelial cell,583
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,hematopoietic cell,266
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,native cell,10
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic A cell,1049
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic D cell,739
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic PP cell,76
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic acinar cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic ductal cell,674
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic endocrine cell,77
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,pancreatic stellate cell,1904
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302,type B pancreatic cell,589
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,Schwann cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,endothelial cell,656
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,hematopoietic cell,998
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,native cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic A cell,546
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic D cell,421
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic PP cell,75
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic acinar cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic ductal cell,625
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic endocrine cell,71
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,pancreatic stellate cell,1904
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303,type B pancreatic cell,649
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,Schwann cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,endothelial cell,240
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,hematopoietic cell,91
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,native cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic A cell,1141
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic D cell,660
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic PP cell,113
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic ductal cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic endocrine cell,252
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,pancreatic stellate cell,66
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1,type B pancreatic cell,5795
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,Schwann cell,42
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,cell,31
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,endothelial cell,443
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,hematopoietic cell,1239
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,native cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic A cell,2895
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic D cell,1426
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic PP cell,312
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic ductal cell,103
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic endocrine cell,765
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,pancreatic stellate cell,425
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2,type B pancreatic cell,1496
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,Schwann cell,16
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,endothelial cell,60
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,hematopoietic cell,175
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic A cell,1099
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic D cell,688
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic PP cell,267
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic ductal cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic endocrine cell,670
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,pancreatic stellate cell,44
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3,type B pancreatic cell,1204
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,Schwann cell,31
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,cell,29
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,endothelial cell,294
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,hematopoietic cell,818
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,native cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic A cell,1487
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic D cell,1195
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic PP cell,447
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic acinar cell,22
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic ductal cell,42
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic endocrine cell,569
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,pancreatic stellate cell,219
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4,type B pancreatic cell,1135
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,Schwann cell,23
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,endothelial cell,317
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,hematopoietic cell,801
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,native cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic A cell,1441
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic D cell,1349
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic PP cell,767
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic acinar cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic ductal cell,61
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic endocrine cell,686
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,pancreatic stellate cell,204
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5,type B pancreatic cell,1608
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,Schwann cell,40
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,cell,42
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,endothelial cell,284
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,hematopoietic cell,2439
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,native cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic A cell,2539
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic D cell,1472
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic PP cell,341
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic ductal cell,24
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic endocrine cell,683
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,pancreatic stellate cell,314
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6,type B pancreatic cell,1670
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,Schwann cell,19
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,endothelial cell,71
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,hematopoietic cell,187
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,native cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic A cell,1052
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic D cell,787
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic PP cell,195
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic ductal cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic endocrine cell,503
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,pancreatic stellate cell,45
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8,type B pancreatic cell,1421
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,cell,20
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,endothelial cell,141
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,hematopoietic cell,1276
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic A cell,132
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic D cell,199
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic PP cell,47
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic acinar cell,26
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic ductal cell,179
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic endocrine cell,36
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,pancreatic stellate cell,290
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631,type B pancreatic cell,865
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,Schwann cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,cell,59
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,endothelial cell,785
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,hematopoietic cell,4182
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,native cell,34
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic A cell,2015
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic D cell,1437
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic PP cell,342
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic acinar cell,61
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic ductal cell,897
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic endocrine cell,719
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,pancreatic stellate cell,1247
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632,type B pancreatic cell,8130
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,Schwann cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,endothelial cell,301
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,hematopoietic cell,132
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic A cell,721
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic D cell,311
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic PP cell,147
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic acinar cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic ductal cell,30
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic endocrine cell,120
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,pancreatic stellate cell,83
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633,type B pancreatic cell,3656
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,Schwann cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,endothelial cell,242
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,hematopoietic cell,111
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic A cell,652
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic D cell,342
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic PP cell,91
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic acinar cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic ductal cell,20
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic endocrine cell,64
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,pancreatic stellate cell,47
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634,type B pancreatic cell,4050
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,Schwann cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,cell,98
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,endothelial cell,523
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,hematopoietic cell,1349
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic A cell,1484
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic D cell,830
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic PP cell,138
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic acinar cell,127
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic ductal cell,738
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic endocrine cell,153
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,pancreatic stellate cell,928
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639,type B pancreatic cell,3058
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,Schwann cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,cell,104
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,endothelial cell,306
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,hematopoietic cell,891
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,native cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic A cell,614
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic D cell,575
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic PP cell,193
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic acinar cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic ductal cell,209
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic endocrine cell,211
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,pancreatic stellate cell,295
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640,type B pancreatic cell,5374
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,Schwann cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,cell,64
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,endothelial cell,425
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,hematopoietic cell,3664
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic A cell,438
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic D cell,375
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic PP cell,137
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic acinar cell,35
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic ductal cell,731
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic endocrine cell,87
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,pancreatic stellate cell,621
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641,type B pancreatic cell,2206
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,Schwann cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,cell,48
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,endothelial cell,254
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,hematopoietic cell,1764
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,native cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic A cell,531
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic D cell,572
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic PP cell,114
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic acinar cell,56
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic ductal cell,102
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic endocrine cell,160
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,pancreatic stellate cell,187
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642,type B pancreatic cell,4644
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,endothelial cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,hematopoietic cell,215
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,native cell,10792
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,pancreatic A cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,pancreatic D cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,pancreatic endocrine cell,10
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,pancreatic stellate cell,48
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5,type B pancreatic cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,hematopoietic cell,43
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,native cell,5023
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,pancreatic D cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,pancreatic endocrine cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,pancreatic stellate cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5,type B pancreatic cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,hematopoietic cell,104
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,native cell,9866
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic A cell,8
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic D cell,29
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic PP cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic ductal cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic endocrine cell,21
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,pancreatic stellate cell,53
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5,type B pancreatic cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,Schwann cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,hematopoietic cell,77
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,native cell,11000
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic A cell,21
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic D cell,73
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic PP cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic ductal cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic endocrine cell,12
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,pancreatic stellate cell,96
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5,type B pancreatic cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,Schwann cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,endothelial cell,21
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,hematopoietic cell,3954
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,native cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic A cell,190
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic D cell,120
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic PP cell,36
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic ductal cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic endocrine cell,179
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,pancreatic stellate cell,144
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502,type B pancreatic cell,1481
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,Schwann cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,endothelial cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,hematopoietic cell,650
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic A cell,103
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic D cell,56
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic PP cell,66
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic ductal cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic endocrine cell,164
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,pancreatic stellate cell,59
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503,type B pancreatic cell,746
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,Schwann cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,cell,21
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,endothelial cell,27
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,hematopoietic cell,609
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic A cell,258
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic D cell,163
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic PP cell,116
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic acinar cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic ductal cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic endocrine cell,149
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,pancreatic stellate cell,59
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504,type B pancreatic cell,1883
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,Schwann cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,cell,19
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,endothelial cell,19
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,hematopoietic cell,58
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic A cell,154
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic D cell,43
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic PP cell,25
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic ductal cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic endocrine cell,126
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,pancreatic stellate cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505,type B pancreatic cell,1068
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,Schwann cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,endothelial cell,38
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,hematopoietic cell,3056
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,native cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic A cell,218
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic D cell,135
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic PP cell,60
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic ductal cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic endocrine cell,217
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,pancreatic stellate cell,211
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506,type B pancreatic cell,1598
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,Schwann cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,endothelial cell,21
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,hematopoietic cell,20
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic A cell,239
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic D cell,50
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic PP cell,48
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic ductal cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic endocrine cell,221
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,pancreatic stellate cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507,type B pancreatic cell,694
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,Schwann cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,cell,32
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,endothelial cell,29
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,hematopoietic cell,310
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,native cell,3
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic A cell,583
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic D cell,130
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic PP cell,83
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic ductal cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic endocrine cell,295
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,pancreatic stellate cell,28
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508,type B pancreatic cell,1583
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,cell,38
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,endothelial cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,hematopoietic cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic A cell,318
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic D cell,84
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic PP cell,82
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic ductal cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic endocrine cell,72
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,pancreatic stellate cell,16
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509,type B pancreatic cell,426
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,Schwann cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,cell,43
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,endothelial cell,48
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,hematopoietic cell,176
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,native cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic A cell,386
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic D cell,77
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic PP cell,93
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic ductal cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic endocrine cell,170
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,pancreatic stellate cell,39
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510,type B pancreatic cell,914
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,Schwann cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,cell,16
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,endothelial cell,22
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,hematopoietic cell,23
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic A cell,486
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic D cell,105
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic PP cell,94
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic endocrine cell,222
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,pancreatic stellate cell,27
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511,type B pancreatic cell,876
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,Schwann cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,endothelial cell,13
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,hematopoietic cell,102
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic A cell,70
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic D cell,45
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic PP cell,27
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic acinar cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic endocrine cell,56
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,pancreatic stellate cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512,type B pancreatic cell,440
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,Schwann cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,cell,16
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,endothelial cell,9
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,hematopoietic cell,12
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic A cell,102
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic D cell,53
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic PP cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic ductal cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic endocrine cell,127
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,pancreatic stellate cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513,type B pancreatic cell,567
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,endothelial cell,15
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,hematopoietic cell,33
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,native cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic A cell,143
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic D cell,68
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic PP cell,25
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic ductal cell,5
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic endocrine cell,103
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,pancreatic stellate cell,14
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514,type B pancreatic cell,1010
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,Schwann cell,7
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,cell,27
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,endothelial cell,28
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,hematopoietic cell,4
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic A cell,90
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic D cell,43
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic PP cell,28
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic ductal cell,2
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic endocrine cell,79
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,pancreatic stellate cell,11
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515,type B pancreatic cell,590
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,Schwann cell,6
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,endothelial cell,17
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,hematopoietic cell,30
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,native cell,1
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,pancreatic A cell,120
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,pancreatic D cell,72
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,pancreatic PP cell,37
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,pancreatic endocrine cell,77
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,pancreatic stellate cell,10
+mouse_pancreas_atlas,mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516,type B pancreatic cell,1183
+tabula_sapiens,TSP1+10x 3' v3,B cell,92
+tabula_sapiens,TSP1+10x 3' v3,"CD4-positive, alpha-beta T cell",1292
+tabula_sapiens,TSP1+10x 3' v3,"CD8-positive, alpha-beta T cell",461
+tabula_sapiens,TSP1+10x 3' v3,T cell,1251
+tabula_sapiens,TSP1+10x 3' v3,adventitial cell,37
+tabula_sapiens,TSP1+10x 3' v3,basal cell,39
+tabula_sapiens,TSP1+10x 3' v3,basophil,486
+tabula_sapiens,TSP1+10x 3' v3,bladder urothelial cell,1784
+tabula_sapiens,TSP1+10x 3' v3,bronchial smooth muscle cell,25
+tabula_sapiens,TSP1+10x 3' v3,capillary endothelial cell,563
+tabula_sapiens,TSP1+10x 3' v3,classical monocyte,291
+tabula_sapiens,TSP1+10x 3' v3,club cell,46
+tabula_sapiens,TSP1+10x 3' v3,common myeloid progenitor,1
+tabula_sapiens,TSP1+10x 3' v3,dendritic cell,240
+tabula_sapiens,TSP1+10x 3' v3,endothelial cell,238
+tabula_sapiens,TSP1+10x 3' v3,endothelial cell of artery,110
+tabula_sapiens,TSP1+10x 3' v3,endothelial cell of lymphatic vessel,72
+tabula_sapiens,TSP1+10x 3' v3,endothelial cell of vascular tree,302
+tabula_sapiens,TSP1+10x 3' v3,erythrocyte,90
+tabula_sapiens,TSP1+10x 3' v3,fast muscle cell,143
+tabula_sapiens,TSP1+10x 3' v3,fibroblast,3176
+tabula_sapiens,TSP1+10x 3' v3,hematopoietic stem cell,2
+tabula_sapiens,TSP1+10x 3' v3,lung ciliated cell,255
+tabula_sapiens,TSP1+10x 3' v3,lung microvascular endothelial cell,20
+tabula_sapiens,TSP1+10x 3' v3,macrophage,10602
+tabula_sapiens,TSP1+10x 3' v3,mast cell,580
+tabula_sapiens,TSP1+10x 3' v3,mature NK T cell,166
+tabula_sapiens,TSP1+10x 3' v3,memory B cell,144
+tabula_sapiens,TSP1+10x 3' v3,mesenchymal stem cell,737
+tabula_sapiens,TSP1+10x 3' v3,mesothelial cell,10
+tabula_sapiens,TSP1+10x 3' v3,monocyte,1616
+tabula_sapiens,TSP1+10x 3' v3,myeloid cell,33
+tabula_sapiens,TSP1+10x 3' v3,myofibroblast cell,990
+tabula_sapiens,TSP1+10x 3' v3,naive B cell,228
+tabula_sapiens,TSP1+10x 3' v3,neutrophil,2
+tabula_sapiens,TSP1+10x 3' v3,non-classical monocyte,151
+tabula_sapiens,TSP1+10x 3' v3,pancreatic A cell,46
+tabula_sapiens,TSP1+10x 3' v3,pancreatic D cell,9
+tabula_sapiens,TSP1+10x 3' v3,pancreatic PP cell,3
+tabula_sapiens,TSP1+10x 3' v3,pancreatic acinar cell,3851
+tabula_sapiens,TSP1+10x 3' v3,pancreatic ductal cell,1545
+tabula_sapiens,TSP1+10x 3' v3,pancreatic stellate cell,33
+tabula_sapiens,TSP1+10x 3' v3,pericyte,858
+tabula_sapiens,TSP1+10x 3' v3,plasma cell,623
+tabula_sapiens,TSP1+10x 3' v3,plasmablast,7
+tabula_sapiens,TSP1+10x 3' v3,plasmacytoid dendritic cell,34
+tabula_sapiens,TSP1+10x 3' v3,respiratory goblet cell,252
+tabula_sapiens,TSP1+10x 3' v3,serous cell of epithelium of bronchus,6
+tabula_sapiens,TSP1+10x 3' v3,skeletal muscle satellite stem cell,234
+tabula_sapiens,TSP1+10x 3' v3,slow muscle cell,57
+tabula_sapiens,TSP1+10x 3' v3,smooth muscle cell,77
+tabula_sapiens,TSP1+10x 3' v3,tendon cell,106
+tabula_sapiens,TSP1+10x 3' v3,type B pancreatic cell,73
+tabula_sapiens,TSP1+10x 3' v3,type I pneumocyte,142
+tabula_sapiens,TSP1+10x 3' v3,type II pneumocyte,1109
+tabula_sapiens,TSP1+10x 3' v3,vascular associated smooth muscle cell,35
+tabula_sapiens,TSP1+10x 3' v3,vein endothelial cell,218
+tabula_sapiens,TSP1+Smart-seq2,B cell,103
+tabula_sapiens,TSP1+Smart-seq2,"CD4-positive, alpha-beta T cell",236
+tabula_sapiens,TSP1+Smart-seq2,"CD8-positive, alpha-beta T cell",90
+tabula_sapiens,TSP1+Smart-seq2,T cell,17
+tabula_sapiens,TSP1+Smart-seq2,adventitial cell,40
+tabula_sapiens,TSP1+Smart-seq2,basal cell,13
+tabula_sapiens,TSP1+Smart-seq2,basophil,8
+tabula_sapiens,TSP1+Smart-seq2,bladder urothelial cell,133
+tabula_sapiens,TSP1+Smart-seq2,bronchial smooth muscle cell,8
+tabula_sapiens,TSP1+Smart-seq2,capillary endothelial cell,266
+tabula_sapiens,TSP1+Smart-seq2,classical monocyte,90
+tabula_sapiens,TSP1+Smart-seq2,club cell,9
+tabula_sapiens,TSP1+Smart-seq2,dendritic cell,38
+tabula_sapiens,TSP1+Smart-seq2,endothelial cell,27
+tabula_sapiens,TSP1+Smart-seq2,endothelial cell of artery,17
+tabula_sapiens,TSP1+Smart-seq2,endothelial cell of lymphatic vessel,39
+tabula_sapiens,TSP1+Smart-seq2,endothelial cell of vascular tree,134
+tabula_sapiens,TSP1+Smart-seq2,erythrocyte,1
+tabula_sapiens,TSP1+Smart-seq2,fast muscle cell,6
+tabula_sapiens,TSP1+Smart-seq2,fibroblast,259
+tabula_sapiens,TSP1+Smart-seq2,lung ciliated cell,32
+tabula_sapiens,TSP1+Smart-seq2,lung microvascular endothelial cell,2
+tabula_sapiens,TSP1+Smart-seq2,macrophage,236
+tabula_sapiens,TSP1+Smart-seq2,mast cell,135
+tabula_sapiens,TSP1+Smart-seq2,mature NK T cell,92
+tabula_sapiens,TSP1+Smart-seq2,memory B cell,24
+tabula_sapiens,TSP1+Smart-seq2,mesenchymal stem cell,328
+tabula_sapiens,TSP1+Smart-seq2,monocyte,18
+tabula_sapiens,TSP1+Smart-seq2,myeloid cell,52
+tabula_sapiens,TSP1+Smart-seq2,myofibroblast cell,17
+tabula_sapiens,TSP1+Smart-seq2,naive B cell,35
+tabula_sapiens,TSP1+Smart-seq2,neutrophil,3
+tabula_sapiens,TSP1+Smart-seq2,non-classical monocyte,6
+tabula_sapiens,TSP1+Smart-seq2,pancreatic A cell,25
+tabula_sapiens,TSP1+Smart-seq2,pancreatic PP cell,68
+tabula_sapiens,TSP1+Smart-seq2,pancreatic acinar cell,513
+tabula_sapiens,TSP1+Smart-seq2,pancreatic ductal cell,68
+tabula_sapiens,TSP1+Smart-seq2,pancreatic stellate cell,6
+tabula_sapiens,TSP1+Smart-seq2,pericyte,184
+tabula_sapiens,TSP1+Smart-seq2,plasma cell,85
+tabula_sapiens,TSP1+Smart-seq2,plasmacytoid dendritic cell,2
+tabula_sapiens,TSP1+Smart-seq2,respiratory goblet cell,23
+tabula_sapiens,TSP1+Smart-seq2,skeletal muscle satellite stem cell,112
+tabula_sapiens,TSP1+Smart-seq2,slow muscle cell,8
+tabula_sapiens,TSP1+Smart-seq2,smooth muscle cell,4
+tabula_sapiens,TSP1+Smart-seq2,tendon cell,47
+tabula_sapiens,TSP1+Smart-seq2,type B pancreatic cell,9
+tabula_sapiens,TSP1+Smart-seq2,type I pneumocyte,5
+tabula_sapiens,TSP1+Smart-seq2,type II pneumocyte,81
+tabula_sapiens,TSP1+Smart-seq2,vascular associated smooth muscle cell,8
+tabula_sapiens,TSP1+Smart-seq2,vein endothelial cell,76
+tabula_sapiens,TSP2+10x 3' v3,B cell,643
+tabula_sapiens,TSP2+10x 3' v3,CD1c-positive myeloid dendritic cell,39
+tabula_sapiens,TSP2+10x 3' v3,CD4-positive helper T cell,4277
+tabula_sapiens,TSP2+10x 3' v3,"CD4-positive, alpha-beta T cell",1695
+tabula_sapiens,TSP2+10x 3' v3,"CD4-positive, alpha-beta memory T cell",1519
+tabula_sapiens,TSP2+10x 3' v3,"CD8-positive, alpha-beta T cell",1930
+tabula_sapiens,TSP2+10x 3' v3,"CD8-positive, alpha-beta memory T cell",1380
+tabula_sapiens,TSP2+10x 3' v3,CD141-positive myeloid dendritic cell,79
+tabula_sapiens,TSP2+10x 3' v3,T cell,1883
+tabula_sapiens,TSP2+10x 3' v3,adventitial cell,12
+tabula_sapiens,TSP2+10x 3' v3,basal cell,5814
+tabula_sapiens,TSP2+10x 3' v3,basophil,191
+tabula_sapiens,TSP2+10x 3' v3,bladder urothelial cell,862
+tabula_sapiens,TSP2+10x 3' v3,bronchial smooth muscle cell,42
+tabula_sapiens,TSP2+10x 3' v3,capillary endothelial cell,2932
+tabula_sapiens,TSP2+10x 3' v3,ciliated cell,35
+tabula_sapiens,TSP2+10x 3' v3,classical monocyte,2012
+tabula_sapiens,TSP2+10x 3' v3,club cell,977
+tabula_sapiens,TSP2+10x 3' v3,common myeloid progenitor,75
+tabula_sapiens,TSP2+10x 3' v3,connective tissue cell,249
+tabula_sapiens,TSP2+10x 3' v3,dendritic cell,73
+tabula_sapiens,TSP2+10x 3' v3,duodenum glandular cell,39
+tabula_sapiens,TSP2+10x 3' v3,endothelial cell,1567
+tabula_sapiens,TSP2+10x 3' v3,endothelial cell of artery,317
+tabula_sapiens,TSP2+10x 3' v3,endothelial cell of lymphatic vessel,74
+tabula_sapiens,TSP2+10x 3' v3,endothelial cell of vascular tree,2338
+tabula_sapiens,TSP2+10x 3' v3,enterocyte,1669
+tabula_sapiens,TSP2+10x 3' v3,epithelial cell,26
+tabula_sapiens,TSP2+10x 3' v3,erythrocyte,404
+tabula_sapiens,TSP2+10x 3' v3,erythroid progenitor cell,104
+tabula_sapiens,TSP2+10x 3' v3,fast muscle cell,78
+tabula_sapiens,TSP2+10x 3' v3,fibroblast,5205
+tabula_sapiens,TSP2+10x 3' v3,goblet cell,192
+tabula_sapiens,TSP2+10x 3' v3,granulocyte,195
+tabula_sapiens,TSP2+10x 3' v3,gut endothelial cell,53
+tabula_sapiens,TSP2+10x 3' v3,hematopoietic stem cell,133
+tabula_sapiens,TSP2+10x 3' v3,immature natural killer cell,42
+tabula_sapiens,TSP2+10x 3' v3,innate lymphoid cell,262
+tabula_sapiens,TSP2+10x 3' v3,intermediate monocyte,417
+tabula_sapiens,TSP2+10x 3' v3,intestinal crypt stem cell,171
+tabula_sapiens,TSP2+10x 3' v3,intestinal enteroendocrine cell,76
+tabula_sapiens,TSP2+10x 3' v3,intestinal tuft cell,14
+tabula_sapiens,TSP2+10x 3' v3,kidney epithelial cell,8158
+tabula_sapiens,TSP2+10x 3' v3,lung ciliated cell,312
+tabula_sapiens,TSP2+10x 3' v3,lung microvascular endothelial cell,460
+tabula_sapiens,TSP2+10x 3' v3,macrophage,9654
+tabula_sapiens,TSP2+10x 3' v3,mast cell,405
+tabula_sapiens,TSP2+10x 3' v3,mature NK T cell,2277
+tabula_sapiens,TSP2+10x 3' v3,medullary thymic epithelial cell,21
+tabula_sapiens,TSP2+10x 3' v3,memory B cell,6635
+tabula_sapiens,TSP2+10x 3' v3,mesenchymal stem cell,7130
+tabula_sapiens,TSP2+10x 3' v3,mesothelial cell,16
+tabula_sapiens,TSP2+10x 3' v3,monocyte,7606
+tabula_sapiens,TSP2+10x 3' v3,myofibroblast cell,979
+tabula_sapiens,TSP2+10x 3' v3,naive B cell,3144
+tabula_sapiens,TSP2+10x 3' v3,"naive thymus-derived CD4-positive, alpha-beta T cell",1455
+tabula_sapiens,TSP2+10x 3' v3,"naive thymus-derived CD8-positive, alpha-beta T cell",359
+tabula_sapiens,TSP2+10x 3' v3,neutrophil,33
+tabula_sapiens,TSP2+10x 3' v3,non-classical monocyte,848
+tabula_sapiens,TSP2+10x 3' v3,paneth cell of colon,57
+tabula_sapiens,TSP2+10x 3' v3,paneth cell of epithelium of small intestine,437
+tabula_sapiens,TSP2+10x 3' v3,pericyte,1490
+tabula_sapiens,TSP2+10x 3' v3,plasma cell,1743
+tabula_sapiens,TSP2+10x 3' v3,plasmablast,3
+tabula_sapiens,TSP2+10x 3' v3,plasmacytoid dendritic cell,2
+tabula_sapiens,TSP2+10x 3' v3,pulmonary ionocyte,19
+tabula_sapiens,TSP2+10x 3' v3,regulatory T cell,23
+tabula_sapiens,TSP2+10x 3' v3,respiratory goblet cell,469
+tabula_sapiens,TSP2+10x 3' v3,secretory cell,69
+tabula_sapiens,TSP2+10x 3' v3,serous cell of epithelium of bronchus,7
+tabula_sapiens,TSP2+10x 3' v3,skeletal muscle satellite stem cell,2338
+tabula_sapiens,TSP2+10x 3' v3,slow muscle cell,25
+tabula_sapiens,TSP2+10x 3' v3,smooth muscle cell,1376
+tabula_sapiens,TSP2+10x 3' v3,tendon cell,26
+tabula_sapiens,TSP2+10x 3' v3,thymocyte,8
+tabula_sapiens,TSP2+10x 3' v3,transit amplifying cell of colon,152
+tabula_sapiens,TSP2+10x 3' v3,transit amplifying cell of small intestine,70
+tabula_sapiens,TSP2+10x 3' v3,type I pneumocyte,62
+tabula_sapiens,TSP2+10x 3' v3,type II pneumocyte,3854
+tabula_sapiens,TSP2+10x 3' v3,vascular associated smooth muscle cell,575
+tabula_sapiens,TSP2+10x 3' v3,vein endothelial cell,1019
+tabula_sapiens,TSP2+10x 5' transcription profiling,CD4-positive helper T cell,120
+tabula_sapiens,TSP2+10x 5' transcription profiling,"CD4-positive, alpha-beta T cell",296
+tabula_sapiens,TSP2+10x 5' transcription profiling,"CD8-positive, alpha-beta T cell",44
+tabula_sapiens,TSP2+10x 5' transcription profiling,capillary endothelial cell,19
+tabula_sapiens,TSP2+10x 5' transcription profiling,common myeloid progenitor,1
+tabula_sapiens,TSP2+10x 5' transcription profiling,endothelial cell of artery,11
+tabula_sapiens,TSP2+10x 5' transcription profiling,endothelial cell of lymphatic vessel,1
+tabula_sapiens,TSP2+10x 5' transcription profiling,erythrocyte,3
+tabula_sapiens,TSP2+10x 5' transcription profiling,erythroid progenitor cell,145
+tabula_sapiens,TSP2+10x 5' transcription profiling,fast muscle cell,2
+tabula_sapiens,TSP2+10x 5' transcription profiling,fibroblast,5
+tabula_sapiens,TSP2+10x 5' transcription profiling,granulocyte,75
+tabula_sapiens,TSP2+10x 5' transcription profiling,hematopoietic stem cell,78
+tabula_sapiens,TSP2+10x 5' transcription profiling,macrophage,657
+tabula_sapiens,TSP2+10x 5' transcription profiling,mast cell,1
+tabula_sapiens,TSP2+10x 5' transcription profiling,mature NK T cell,30
+tabula_sapiens,TSP2+10x 5' transcription profiling,medullary thymic epithelial cell,2
+tabula_sapiens,TSP2+10x 5' transcription profiling,memory B cell,66
+tabula_sapiens,TSP2+10x 5' transcription profiling,mesothelial cell,1
+tabula_sapiens,TSP2+10x 5' transcription profiling,monocyte,12
+tabula_sapiens,TSP2+10x 5' transcription profiling,naive B cell,6
+tabula_sapiens,TSP2+10x 5' transcription profiling,plasma cell,115
+tabula_sapiens,TSP2+10x 5' transcription profiling,thymocyte,545
+tabula_sapiens,TSP2+10x 5' transcription profiling,vascular associated smooth muscle cell,6
+tabula_sapiens,TSP2+10x 5' transcription profiling,vein endothelial cell,11
+tabula_sapiens,TSP2+Smart-seq2,B cell,76
+tabula_sapiens,TSP2+Smart-seq2,CD1c-positive myeloid dendritic cell,8
+tabula_sapiens,TSP2+Smart-seq2,CD4-positive helper T cell,39
+tabula_sapiens,TSP2+Smart-seq2,"CD4-positive, alpha-beta T cell",504
+tabula_sapiens,TSP2+Smart-seq2,"CD4-positive, alpha-beta memory T cell",223
+tabula_sapiens,TSP2+Smart-seq2,"CD8-positive, alpha-beta T cell",447
+tabula_sapiens,TSP2+Smart-seq2,"CD8-positive, alpha-beta memory T cell",306
+tabula_sapiens,TSP2+Smart-seq2,CD141-positive myeloid dendritic cell,7
+tabula_sapiens,TSP2+Smart-seq2,T cell,58
+tabula_sapiens,TSP2+Smart-seq2,adventitial cell,259
+tabula_sapiens,TSP2+Smart-seq2,basal cell,229
+tabula_sapiens,TSP2+Smart-seq2,basophil,1
+tabula_sapiens,TSP2+Smart-seq2,bladder urothelial cell,94
+tabula_sapiens,TSP2+Smart-seq2,bronchial smooth muscle cell,6
+tabula_sapiens,TSP2+Smart-seq2,capillary endothelial cell,300
+tabula_sapiens,TSP2+Smart-seq2,ciliated cell,4
+tabula_sapiens,TSP2+Smart-seq2,classical monocyte,172
+tabula_sapiens,TSP2+Smart-seq2,club cell,6
+tabula_sapiens,TSP2+Smart-seq2,common myeloid progenitor,14
+tabula_sapiens,TSP2+Smart-seq2,duodenum glandular cell,5
+tabula_sapiens,TSP2+Smart-seq2,endothelial cell,283
+tabula_sapiens,TSP2+Smart-seq2,endothelial cell of artery,11
+tabula_sapiens,TSP2+Smart-seq2,endothelial cell of lymphatic vessel,5
+tabula_sapiens,TSP2+Smart-seq2,endothelial cell of vascular tree,335
+tabula_sapiens,TSP2+Smart-seq2,enterocyte,737
+tabula_sapiens,TSP2+Smart-seq2,erythrocyte,23
+tabula_sapiens,TSP2+Smart-seq2,erythroid progenitor cell,12
+tabula_sapiens,TSP2+Smart-seq2,fast muscle cell,20
+tabula_sapiens,TSP2+Smart-seq2,fibroblast,444
+tabula_sapiens,TSP2+Smart-seq2,goblet cell,119
+tabula_sapiens,TSP2+Smart-seq2,granulocyte,19
+tabula_sapiens,TSP2+Smart-seq2,hematopoietic stem cell,66
+tabula_sapiens,TSP2+Smart-seq2,immature natural killer cell,2
+tabula_sapiens,TSP2+Smart-seq2,innate lymphoid cell,133
+tabula_sapiens,TSP2+Smart-seq2,intermediate monocyte,7
+tabula_sapiens,TSP2+Smart-seq2,intestinal crypt stem cell,74
+tabula_sapiens,TSP2+Smart-seq2,intestinal enteroendocrine cell,6
+tabula_sapiens,TSP2+Smart-seq2,intestinal tuft cell,21
+tabula_sapiens,TSP2+Smart-seq2,kidney epithelial cell,173
+tabula_sapiens,TSP2+Smart-seq2,lung ciliated cell,3
+tabula_sapiens,TSP2+Smart-seq2,lung microvascular endothelial cell,3
+tabula_sapiens,TSP2+Smart-seq2,macrophage,769
+tabula_sapiens,TSP2+Smart-seq2,mast cell,51
+tabula_sapiens,TSP2+Smart-seq2,mature NK T cell,400
+tabula_sapiens,TSP2+Smart-seq2,medullary thymic epithelial cell,3
+tabula_sapiens,TSP2+Smart-seq2,memory B cell,730
+tabula_sapiens,TSP2+Smart-seq2,mesenchymal stem cell,324
+tabula_sapiens,TSP2+Smart-seq2,mesothelial cell,2
+tabula_sapiens,TSP2+Smart-seq2,monocyte,637
+tabula_sapiens,TSP2+Smart-seq2,myofibroblast cell,13
+tabula_sapiens,TSP2+Smart-seq2,naive B cell,160
+tabula_sapiens,TSP2+Smart-seq2,"naive thymus-derived CD4-positive, alpha-beta T cell",280
+tabula_sapiens,TSP2+Smart-seq2,"naive thymus-derived CD8-positive, alpha-beta T cell",19
+tabula_sapiens,TSP2+Smart-seq2,neutrophil,101
+tabula_sapiens,TSP2+Smart-seq2,paneth cell of epithelium of small intestine,33
+tabula_sapiens,TSP2+Smart-seq2,pericyte,83
+tabula_sapiens,TSP2+Smart-seq2,plasma cell,184
+tabula_sapiens,TSP2+Smart-seq2,plasmablast,1
+tabula_sapiens,TSP2+Smart-seq2,plasmacytoid dendritic cell,4
+tabula_sapiens,TSP2+Smart-seq2,platelet,11
+tabula_sapiens,TSP2+Smart-seq2,regulatory T cell,41
+tabula_sapiens,TSP2+Smart-seq2,respiratory goblet cell,10
+tabula_sapiens,TSP2+Smart-seq2,secretory cell,5
+tabula_sapiens,TSP2+Smart-seq2,serous cell of epithelium of bronchus,2
+tabula_sapiens,TSP2+Smart-seq2,skeletal muscle satellite stem cell,207
+tabula_sapiens,TSP2+Smart-seq2,smooth muscle cell,35
+tabula_sapiens,TSP2+Smart-seq2,tendon cell,2
+tabula_sapiens,TSP2+Smart-seq2,transit amplifying cell of colon,4
+tabula_sapiens,TSP2+Smart-seq2,transit amplifying cell of small intestine,30
+tabula_sapiens,TSP2+Smart-seq2,type I pneumocyte,2
+tabula_sapiens,TSP2+Smart-seq2,type II pneumocyte,238
+tabula_sapiens,TSP2+Smart-seq2,vascular associated smooth muscle cell,147
+tabula_sapiens,TSP2+Smart-seq2,vein endothelial cell,112
+tabula_sapiens,TSP3+10x 3' v3,"CD4-positive, alpha-beta T cell",1
+tabula_sapiens,TSP3+10x 3' v3,conjunctival epithelial cell,2153
+tabula_sapiens,TSP3+10x 3' v3,keratocyte,2
+tabula_sapiens,TSP3+10x 3' v3,monocyte,1
+tabula_sapiens,TSP3+10x 3' v3,retinal blood vessel endothelial cell,1
+tabula_sapiens,TSP3+10x 3' v3,stem cell,4
+tabula_sapiens,TSP3+10x 3' v3,stromal cell,1
+tabula_sapiens,TSP3+Smart-seq2,B cell,12
+tabula_sapiens,TSP3+Smart-seq2,"CD4-positive, alpha-beta T cell",3
+tabula_sapiens,TSP3+Smart-seq2,"CD8-positive, alpha-beta T cell",4
+tabula_sapiens,TSP3+Smart-seq2,Mueller cell,2
+tabula_sapiens,TSP3+Smart-seq2,T cell,72
+tabula_sapiens,TSP3+Smart-seq2,conjunctival epithelial cell,7
+tabula_sapiens,TSP3+Smart-seq2,dendritic cell,20
+tabula_sapiens,TSP3+Smart-seq2,endothelial cell,4
+tabula_sapiens,TSP3+Smart-seq2,erythroid lineage cell,2
+tabula_sapiens,TSP3+Smart-seq2,eye photoreceptor cell,2
+tabula_sapiens,TSP3+Smart-seq2,fibroblast,3
+tabula_sapiens,TSP3+Smart-seq2,keratocyte,7
+tabula_sapiens,TSP3+Smart-seq2,macrophage,6
+tabula_sapiens,TSP3+Smart-seq2,mast cell,1
+tabula_sapiens,TSP3+Smart-seq2,microglial cell,25
+tabula_sapiens,TSP3+Smart-seq2,monocyte,1
+tabula_sapiens,TSP3+Smart-seq2,plasma cell,2
+tabula_sapiens,TSP3+Smart-seq2,radial glial cell,1
+tabula_sapiens,TSP3+Smart-seq2,retinal bipolar neuron,1
+tabula_sapiens,TSP3+Smart-seq2,retinal blood vessel endothelial cell,1
+tabula_sapiens,TSP3+Smart-seq2,stromal cell,108
+tabula_sapiens,TSP4+10x 3' v3,B cell,42
+tabula_sapiens,TSP4+10x 3' v3,T cell,2660
+tabula_sapiens,TSP4+10x 3' v3,basal cell,470
+tabula_sapiens,TSP4+10x 3' v3,ciliated epithelial cell,29
+tabula_sapiens,TSP4+10x 3' v3,endothelial cell,2059
+tabula_sapiens,TSP4+10x 3' v3,endothelial cell of artery,159
+tabula_sapiens,TSP4+10x 3' v3,endothelial cell of lymphatic vessel,113
+tabula_sapiens,TSP4+10x 3' v3,epithelial cell,66
+tabula_sapiens,TSP4+10x 3' v3,epithelial cell of uterus,144
+tabula_sapiens,TSP4+10x 3' v3,fibroblast,2860
+tabula_sapiens,TSP4+10x 3' v3,fibroblast of breast,1961
+tabula_sapiens,TSP4+10x 3' v3,leukocyte,17
+tabula_sapiens,TSP4+10x 3' v3,luminal epithelial cell of mammary gland,5160
+tabula_sapiens,TSP4+10x 3' v3,macrophage,532
+tabula_sapiens,TSP4+10x 3' v3,mast cell,14
+tabula_sapiens,TSP4+10x 3' v3,mature NK T cell,59
+tabula_sapiens,TSP4+10x 3' v3,myometrial cell,199
+tabula_sapiens,TSP4+10x 3' v3,pericyte,197
+tabula_sapiens,TSP4+10x 3' v3,plasma cell,180
+tabula_sapiens,TSP4+10x 3' v3,vascular associated smooth muscle cell,459
+tabula_sapiens,TSP4+10x 3' v3,vein endothelial cell,253
+tabula_sapiens,TSP4+Smart-seq2,B cell,11
+tabula_sapiens,TSP4+Smart-seq2,"CD4-positive, alpha-beta T cell",70
+tabula_sapiens,TSP4+Smart-seq2,"CD8-positive, alpha-beta T cell",224
+tabula_sapiens,TSP4+Smart-seq2,T cell,215
+tabula_sapiens,TSP4+Smart-seq2,basal cell,170
+tabula_sapiens,TSP4+Smart-seq2,capillary endothelial cell,150
+tabula_sapiens,TSP4+Smart-seq2,ciliated epithelial cell,2
+tabula_sapiens,TSP4+Smart-seq2,endothelial cell,18
+tabula_sapiens,TSP4+Smart-seq2,endothelial cell of artery,12
+tabula_sapiens,TSP4+Smart-seq2,endothelial cell of lymphatic vessel,61
+tabula_sapiens,TSP4+Smart-seq2,endothelial cell of vascular tree,266
+tabula_sapiens,TSP4+Smart-seq2,epithelial cell,2
+tabula_sapiens,TSP4+Smart-seq2,epithelial cell of uterus,50
+tabula_sapiens,TSP4+Smart-seq2,erythrocyte,1
+tabula_sapiens,TSP4+Smart-seq2,fast muscle cell,59
+tabula_sapiens,TSP4+Smart-seq2,fibroblast,162
+tabula_sapiens,TSP4+Smart-seq2,fibroblast of breast,105
+tabula_sapiens,TSP4+Smart-seq2,keratinocyte,5
+tabula_sapiens,TSP4+Smart-seq2,leukocyte,6
+tabula_sapiens,TSP4+Smart-seq2,luminal epithelial cell of mammary gland,218
+tabula_sapiens,TSP4+Smart-seq2,macrophage,183
+tabula_sapiens,TSP4+Smart-seq2,mast cell,21
+tabula_sapiens,TSP4+Smart-seq2,mature NK T cell,13
+tabula_sapiens,TSP4+Smart-seq2,mesenchymal stem cell,771
+tabula_sapiens,TSP4+Smart-seq2,mesothelial cell,1
+tabula_sapiens,TSP4+Smart-seq2,pericyte,117
+tabula_sapiens,TSP4+Smart-seq2,plasma cell,14
+tabula_sapiens,TSP4+Smart-seq2,skeletal muscle satellite stem cell,292
+tabula_sapiens,TSP4+Smart-seq2,slow muscle cell,44
+tabula_sapiens,TSP4+Smart-seq2,smooth muscle cell,15
+tabula_sapiens,TSP4+Smart-seq2,tendon cell,6
+tabula_sapiens,TSP4+Smart-seq2,tongue muscle cell,1
+tabula_sapiens,TSP4+Smart-seq2,vascular associated smooth muscle cell,2
+tabula_sapiens,TSP4+Smart-seq2,vein endothelial cell,10
+tabula_sapiens,TSP5+10x 3' v3,B cell,37
+tabula_sapiens,TSP5+10x 3' v3,"CD4-positive, alpha-beta T cell",4
+tabula_sapiens,TSP5+10x 3' v3,"CD8-positive, alpha-beta T cell",2
+tabula_sapiens,TSP5+10x 3' v3,Mueller cell,57
+tabula_sapiens,TSP5+10x 3' v3,T cell,75
+tabula_sapiens,TSP5+10x 3' v3,conjunctival epithelial cell,1079
+tabula_sapiens,TSP5+10x 3' v3,corneal epithelial cell,43
+tabula_sapiens,TSP5+10x 3' v3,dendritic cell,28
+tabula_sapiens,TSP5+10x 3' v3,endothelial cell,3
+tabula_sapiens,TSP5+10x 3' v3,epithelial cell of lacrimal sac,52
+tabula_sapiens,TSP5+10x 3' v3,erythroid lineage cell,8
+tabula_sapiens,TSP5+10x 3' v3,eye photoreceptor cell,557
+tabula_sapiens,TSP5+10x 3' v3,fibroblast,13
+tabula_sapiens,TSP5+10x 3' v3,keratocyte,143
+tabula_sapiens,TSP5+10x 3' v3,macrophage,19
+tabula_sapiens,TSP5+10x 3' v3,mast cell,1
+tabula_sapiens,TSP5+10x 3' v3,melanocyte,59
+tabula_sapiens,TSP5+10x 3' v3,microglial cell,100
+tabula_sapiens,TSP5+10x 3' v3,monocyte,25
+tabula_sapiens,TSP5+10x 3' v3,pigmented ciliary epithelial cell,2
+tabula_sapiens,TSP5+10x 3' v3,plasma cell,2
+tabula_sapiens,TSP5+10x 3' v3,radial glial cell,14
+tabula_sapiens,TSP5+10x 3' v3,retina horizontal cell,3
+tabula_sapiens,TSP5+10x 3' v3,retinal bipolar neuron,17
+tabula_sapiens,TSP5+10x 3' v3,retinal blood vessel endothelial cell,22
+tabula_sapiens,TSP5+10x 3' v3,retinal pigment epithelial cell,46
+tabula_sapiens,TSP5+10x 3' v3,stem cell,16
+tabula_sapiens,TSP5+10x 3' v3,stromal cell,26
+tabula_sapiens,TSP5+10x 3' v3,surface ectodermal cell,6
+tabula_sapiens,TSP5+Smart-seq2,B cell,15
+tabula_sapiens,TSP5+Smart-seq2,"CD4-positive, alpha-beta T cell",6
+tabula_sapiens,TSP5+Smart-seq2,"CD8-positive, alpha-beta T cell",1
+tabula_sapiens,TSP5+Smart-seq2,Mueller cell,4
+tabula_sapiens,TSP5+Smart-seq2,T cell,43
+tabula_sapiens,TSP5+Smart-seq2,conjunctival epithelial cell,9
+tabula_sapiens,TSP5+Smart-seq2,dendritic cell,10
+tabula_sapiens,TSP5+Smart-seq2,erythroid lineage cell,1
+tabula_sapiens,TSP5+Smart-seq2,eye photoreceptor cell,7
+tabula_sapiens,TSP5+Smart-seq2,keratocyte,3
+tabula_sapiens,TSP5+Smart-seq2,macrophage,2
+tabula_sapiens,TSP5+Smart-seq2,melanocyte,1
+tabula_sapiens,TSP5+Smart-seq2,microglial cell,21
+tabula_sapiens,TSP5+Smart-seq2,monocyte,2
+tabula_sapiens,TSP5+Smart-seq2,plasma cell,1
+tabula_sapiens,TSP5+Smart-seq2,retinal pigment epithelial cell,3
+tabula_sapiens,TSP5+Smart-seq2,stromal cell,4
+tabula_sapiens,TSP6+10x 3' v3,B cell,459
+tabula_sapiens,TSP6+10x 3' v3,"CD4-positive, alpha-beta T cell",65
+tabula_sapiens,TSP6+10x 3' v3,"CD8-positive, alpha-beta T cell",464
+tabula_sapiens,TSP6+10x 3' v3,T cell,143
+tabula_sapiens,TSP6+10x 3' v3,basal cell,269
+tabula_sapiens,TSP6+10x 3' v3,ciliated cell,227
+tabula_sapiens,TSP6+10x 3' v3,"double-positive, alpha-beta thymocyte",6
+tabula_sapiens,TSP6+10x 3' v3,endothelial cell,192
+tabula_sapiens,TSP6+10x 3' v3,endothelial cell of hepatic sinusoid,330
+tabula_sapiens,TSP6+10x 3' v3,fibroblast,1201
+tabula_sapiens,TSP6+10x 3' v3,hepatocyte,60
+tabula_sapiens,TSP6+10x 3' v3,intrahepatic cholangiocyte,7
+tabula_sapiens,TSP6+10x 3' v3,ionocyte,12
+tabula_sapiens,TSP6+10x 3' v3,liver dendritic cell,32
+tabula_sapiens,TSP6+10x 3' v3,macrophage,1823
+tabula_sapiens,TSP6+10x 3' v3,mast cell,61
+tabula_sapiens,TSP6+10x 3' v3,mature NK T cell,217
+tabula_sapiens,TSP6+10x 3' v3,monocyte,599
+tabula_sapiens,TSP6+10x 3' v3,mucus secreting cell,50
+tabula_sapiens,TSP6+10x 3' v3,neutrophil,729
+tabula_sapiens,TSP6+10x 3' v3,plasma cell,126
+tabula_sapiens,TSP6+10x 3' v3,secretory cell,155
+tabula_sapiens,TSP6+10x 3' v3,serous cell of epithelium of trachea,35
+tabula_sapiens,TSP6+10x 3' v3,smooth muscle cell,83
+tabula_sapiens,TSP6+10x 3' v3,tracheal goblet cell,65
+tabula_sapiens,TSP6+Smart-seq2,B cell,3
+tabula_sapiens,TSP6+Smart-seq2,T cell,8
+tabula_sapiens,TSP6+Smart-seq2,basal cell,22
+tabula_sapiens,TSP6+Smart-seq2,ciliated cell,51
+tabula_sapiens,TSP6+Smart-seq2,endothelial cell,32
+tabula_sapiens,TSP6+Smart-seq2,endothelial cell of hepatic sinusoid,11
+tabula_sapiens,TSP6+Smart-seq2,erythrocyte,2
+tabula_sapiens,TSP6+Smart-seq2,fibroblast,108
+tabula_sapiens,TSP6+Smart-seq2,hepatocyte,7
+tabula_sapiens,TSP6+Smart-seq2,intrahepatic cholangiocyte,4
+tabula_sapiens,TSP6+Smart-seq2,ionocyte,1
+tabula_sapiens,TSP6+Smart-seq2,liver dendritic cell,2
+tabula_sapiens,TSP6+Smart-seq2,macrophage,84
+tabula_sapiens,TSP6+Smart-seq2,mast cell,8
+tabula_sapiens,TSP6+Smart-seq2,mature NK T cell,14
+tabula_sapiens,TSP6+Smart-seq2,monocyte,6
+tabula_sapiens,TSP6+Smart-seq2,mucus secreting cell,14
+tabula_sapiens,TSP6+Smart-seq2,neutrophil,110
+tabula_sapiens,TSP6+Smart-seq2,plasma cell,26
+tabula_sapiens,TSP6+Smart-seq2,secretory cell,24
+tabula_sapiens,TSP6+Smart-seq2,serous cell of epithelium of trachea,6
+tabula_sapiens,TSP6+Smart-seq2,smooth muscle cell,13
+tabula_sapiens,TSP6+Smart-seq2,tracheal goblet cell,12
+tabula_sapiens,TSP7+10x 3' v3,B cell,7033
+tabula_sapiens,TSP7+10x 3' v3,CD1c-positive myeloid dendritic cell,58
+tabula_sapiens,TSP7+10x 3' v3,CD4-positive helper T cell,1097
+tabula_sapiens,TSP7+10x 3' v3,"CD4-positive, alpha-beta memory T cell",918
+tabula_sapiens,TSP7+10x 3' v3,"CD8-positive, alpha-beta T cell",183
+tabula_sapiens,TSP7+10x 3' v3,"CD8-positive, alpha-beta cytokine secreting effector T cell",1361
+tabula_sapiens,TSP7+10x 3' v3,"CD8-positive, alpha-beta memory T cell",577
+tabula_sapiens,TSP7+10x 3' v3,CD141-positive myeloid dendritic cell,36
+tabula_sapiens,TSP7+10x 3' v3,T cell,564
+tabula_sapiens,TSP7+10x 3' v3,acinar cell of salivary gland,1801
+tabula_sapiens,TSP7+10x 3' v3,adventitial cell,210
+tabula_sapiens,TSP7+10x 3' v3,basal cell,4746
+tabula_sapiens,TSP7+10x 3' v3,basophil,7
+tabula_sapiens,TSP7+10x 3' v3,capillary endothelial cell,22
+tabula_sapiens,TSP7+10x 3' v3,classical monocyte,3275
+tabula_sapiens,TSP7+10x 3' v3,duct epithelial cell,121
+tabula_sapiens,TSP7+10x 3' v3,"effector CD4-positive, alpha-beta T cell",1449
+tabula_sapiens,TSP7+10x 3' v3,"effector CD8-positive, alpha-beta T cell",736
+tabula_sapiens,TSP7+10x 3' v3,endothelial cell,379
+tabula_sapiens,TSP7+10x 3' v3,endothelial cell of artery,7
+tabula_sapiens,TSP7+10x 3' v3,endothelial cell of lymphatic vessel,77
+tabula_sapiens,TSP7+10x 3' v3,epithelial cell,2114
+tabula_sapiens,TSP7+10x 3' v3,erythrocyte,7544
+tabula_sapiens,TSP7+10x 3' v3,fibroblast,876
+tabula_sapiens,TSP7+10x 3' v3,hematopoietic stem cell,81
+tabula_sapiens,TSP7+10x 3' v3,innate lymphoid cell,353
+tabula_sapiens,TSP7+10x 3' v3,intermediate monocyte,170
+tabula_sapiens,TSP7+10x 3' v3,keratinocyte,1
+tabula_sapiens,TSP7+10x 3' v3,leukocyte,1120
+tabula_sapiens,TSP7+10x 3' v3,macrophage,473
+tabula_sapiens,TSP7+10x 3' v3,mast cell,99
+tabula_sapiens,TSP7+10x 3' v3,mature NK T cell,2618
+tabula_sapiens,TSP7+10x 3' v3,mature conventional dendritic cell,1
+tabula_sapiens,TSP7+10x 3' v3,memory B cell,4413
+tabula_sapiens,TSP7+10x 3' v3,monocyte,100
+tabula_sapiens,TSP7+10x 3' v3,myoepithelial cell,4
+tabula_sapiens,TSP7+10x 3' v3,naive B cell,2186
+tabula_sapiens,TSP7+10x 3' v3,"naive thymus-derived CD4-positive, alpha-beta T cell",590
+tabula_sapiens,TSP7+10x 3' v3,"naive thymus-derived CD8-positive, alpha-beta T cell",126
+tabula_sapiens,TSP7+10x 3' v3,neutrophil,1575
+tabula_sapiens,TSP7+10x 3' v3,non-classical monocyte,15
+tabula_sapiens,TSP7+10x 3' v3,pericyte,90
+tabula_sapiens,TSP7+10x 3' v3,plasma cell,947
+tabula_sapiens,TSP7+10x 3' v3,plasmacytoid dendritic cell,15
+tabula_sapiens,TSP7+10x 3' v3,platelet,108
+tabula_sapiens,TSP7+10x 3' v3,regulatory T cell,253
+tabula_sapiens,TSP7+10x 3' v3,stromal cell,5
+tabula_sapiens,TSP7+10x 3' v3,tongue muscle cell,4
+tabula_sapiens,TSP7+10x 3' v3,type I NK T cell,1549
+tabula_sapiens,TSP7+10x 3' v3,vein endothelial cell,61
+tabula_sapiens,TSP7+Smart-seq2,B cell,497
+tabula_sapiens,TSP7+Smart-seq2,CD1c-positive myeloid dendritic cell,1
+tabula_sapiens,TSP7+Smart-seq2,CD4-positive helper T cell,120
+tabula_sapiens,TSP7+Smart-seq2,"CD4-positive, alpha-beta T cell",182
+tabula_sapiens,TSP7+Smart-seq2,"CD4-positive, alpha-beta memory T cell",171
+tabula_sapiens,TSP7+Smart-seq2,"CD8-positive, alpha-beta T cell",116
+tabula_sapiens,TSP7+Smart-seq2,"CD8-positive, alpha-beta cytokine secreting effector T cell",16
+tabula_sapiens,TSP7+Smart-seq2,"CD8-positive, alpha-beta memory T cell",146
+tabula_sapiens,TSP7+Smart-seq2,CD141-positive myeloid dendritic cell,3
+tabula_sapiens,TSP7+Smart-seq2,T cell,170
+tabula_sapiens,TSP7+Smart-seq2,adventitial cell,119
+tabula_sapiens,TSP7+Smart-seq2,basal cell,640
+tabula_sapiens,TSP7+Smart-seq2,capillary endothelial cell,1
+tabula_sapiens,TSP7+Smart-seq2,classical monocyte,379
+tabula_sapiens,TSP7+Smart-seq2,"effector CD4-positive, alpha-beta T cell",117
+tabula_sapiens,TSP7+Smart-seq2,"effector CD8-positive, alpha-beta T cell",54
+tabula_sapiens,TSP7+Smart-seq2,endothelial cell,25
+tabula_sapiens,TSP7+Smart-seq2,endothelial cell of artery,1
+tabula_sapiens,TSP7+Smart-seq2,endothelial cell of lymphatic vessel,1
+tabula_sapiens,TSP7+Smart-seq2,erythrocyte,74
+tabula_sapiens,TSP7+Smart-seq2,fibroblast,150
+tabula_sapiens,TSP7+Smart-seq2,innate lymphoid cell,384
+tabula_sapiens,TSP7+Smart-seq2,intermediate monocyte,6
+tabula_sapiens,TSP7+Smart-seq2,keratinocyte,13
+tabula_sapiens,TSP7+Smart-seq2,leukocyte,489
+tabula_sapiens,TSP7+Smart-seq2,macrophage,11
+tabula_sapiens,TSP7+Smart-seq2,mast cell,5
+tabula_sapiens,TSP7+Smart-seq2,mature NK T cell,92
+tabula_sapiens,TSP7+Smart-seq2,mature conventional dendritic cell,1
+tabula_sapiens,TSP7+Smart-seq2,memory B cell,345
+tabula_sapiens,TSP7+Smart-seq2,naive B cell,63
+tabula_sapiens,TSP7+Smart-seq2,"naive thymus-derived CD4-positive, alpha-beta T cell",63
+tabula_sapiens,TSP7+Smart-seq2,"naive thymus-derived CD8-positive, alpha-beta T cell",18
+tabula_sapiens,TSP7+Smart-seq2,neutrophil,164
+tabula_sapiens,TSP7+Smart-seq2,non-classical monocyte,3
+tabula_sapiens,TSP7+Smart-seq2,pericyte,21
+tabula_sapiens,TSP7+Smart-seq2,plasma cell,169
+tabula_sapiens,TSP7+Smart-seq2,platelet,35
+tabula_sapiens,TSP7+Smart-seq2,regulatory T cell,23
+tabula_sapiens,TSP7+Smart-seq2,tongue muscle cell,3
+tabula_sapiens,TSP7+Smart-seq2,type I NK T cell,79
+tabula_sapiens,TSP7+Smart-seq2,vein endothelial cell,9
+tabula_sapiens,TSP8+10x 3' v3,"CD4-positive, alpha-beta memory T cell",25
+tabula_sapiens,TSP8+10x 3' v3,"CD8-positive, alpha-beta T cell",975
+tabula_sapiens,TSP8+10x 3' v3,"CD8-positive, alpha-beta cytokine secreting effector T cell",14
+tabula_sapiens,TSP8+10x 3' v3,CD141-positive myeloid dendritic cell,1
+tabula_sapiens,TSP8+10x 3' v3,basal cell of prostate epithelium,3143
+tabula_sapiens,TSP8+10x 3' v3,basophil,3
+tabula_sapiens,TSP8+10x 3' v3,classical monocyte,225
+tabula_sapiens,TSP8+10x 3' v3,club cell,290
+tabula_sapiens,TSP8+10x 3' v3,endothelial cell,471
+tabula_sapiens,TSP8+10x 3' v3,epithelial cell,6263
+tabula_sapiens,TSP8+10x 3' v3,erythrocyte,1
+tabula_sapiens,TSP8+10x 3' v3,erythroid progenitor cell,52
+tabula_sapiens,TSP8+10x 3' v3,fibroblast,207
+tabula_sapiens,TSP8+10x 3' v3,hematopoietic stem cell,1
+tabula_sapiens,TSP8+10x 3' v3,luminal cell of prostate epithelium,60
+tabula_sapiens,TSP8+10x 3' v3,macrophage,317
+tabula_sapiens,TSP8+10x 3' v3,mature NK T cell,420
+tabula_sapiens,TSP8+10x 3' v3,memory B cell,47
+tabula_sapiens,TSP8+10x 3' v3,naive B cell,26
+tabula_sapiens,TSP8+10x 3' v3,"naive thymus-derived CD4-positive, alpha-beta T cell",6
+tabula_sapiens,TSP8+10x 3' v3,neutrophil,1567
+tabula_sapiens,TSP8+10x 3' v3,plasma cell,10
+tabula_sapiens,TSP8+10x 3' v3,platelet,1
+tabula_sapiens,TSP8+10x 3' v3,smooth muscle cell,285
+tabula_sapiens,TSP8+10x 3' v3,type I NK T cell,24
+tabula_sapiens,TSP8+Smart-seq2,"CD8-positive, alpha-beta T cell",119
+tabula_sapiens,TSP8+Smart-seq2,basal cell of prostate epithelium,55
+tabula_sapiens,TSP8+Smart-seq2,epithelial cell,374
+tabula_sapiens,TSP8+Smart-seq2,mature NK T cell,20
+tabula_sapiens,TSP8+Smart-seq2,monocyte,33
+tabula_sapiens,TSP8+Smart-seq2,stromal cell,32
+tabula_sapiens,TSP9+10x 3' v3,B cell,25
+tabula_sapiens,TSP9+10x 3' v3,T cell,537
+tabula_sapiens,TSP9+10x 3' v3,endothelial cell,1835
+tabula_sapiens,TSP9+10x 3' v3,fibroblast,47
+tabula_sapiens,TSP9+10x 3' v3,mast cell,2
+tabula_sapiens,TSP9+10x 3' v3,mature NK T cell,47
+tabula_sapiens,TSP9+10x 3' v3,myeloid cell,1771
+tabula_sapiens,TSP9+10x 3' v3,pancreatic acinar cell,1147
+tabula_sapiens,TSP9+10x 3' v3,pancreatic ductal cell,773
+tabula_sapiens,TSP9+10x 3' v3,pancreatic stellate cell,353
+tabula_sapiens,TSP9+10x 3' v3,plasma cell,63
+tabula_sapiens,TSP9+10x 3' v3,type B pancreatic cell,16
+tabula_sapiens,TSP9+Smart-seq2,T cell,7
+tabula_sapiens,TSP9+Smart-seq2,myeloid cell,6
+tabula_sapiens,TSP9+Smart-seq2,pancreatic acinar cell,23
+tabula_sapiens,TSP9+Smart-seq2,pancreatic ductal cell,45
+tabula_sapiens,TSP9+Smart-seq2,pancreatic stellate cell,1
+tabula_sapiens,TSP9+Smart-seq2,type B pancreatic cell,1
+tabula_sapiens,TSP10+10x 3' v3,CD1c-positive myeloid dendritic cell,110
+tabula_sapiens,TSP10+10x 3' v3,CD4-positive helper T cell,29
+tabula_sapiens,TSP10+10x 3' v3,"CD4-positive, alpha-beta memory T cell",282
+tabula_sapiens,TSP10+10x 3' v3,"CD8-positive, alpha-beta T cell",149
+tabula_sapiens,TSP10+10x 3' v3,"CD8-positive, alpha-beta cytokine secreting effector T cell",79
+tabula_sapiens,TSP10+10x 3' v3,"CD8-positive, alpha-beta cytotoxic T cell",85
+tabula_sapiens,TSP10+10x 3' v3,"CD8-positive, alpha-beta memory T cell",544
+tabula_sapiens,TSP10+10x 3' v3,CD141-positive myeloid dendritic cell,10
+tabula_sapiens,TSP10+10x 3' v3,Langerhans cell,14
+tabula_sapiens,TSP10+10x 3' v3,T cell,1184
+tabula_sapiens,TSP10+10x 3' v3,basophil,10
+tabula_sapiens,TSP10+10x 3' v3,classical monocyte,2053
+tabula_sapiens,TSP10+10x 3' v3,endothelial cell,2491
+tabula_sapiens,TSP10+10x 3' v3,epithelial cell,59
+tabula_sapiens,TSP10+10x 3' v3,erythrocyte,824
+tabula_sapiens,TSP10+10x 3' v3,fibroblast,6191
+tabula_sapiens,TSP10+10x 3' v3,hematopoietic stem cell,11
+tabula_sapiens,TSP10+10x 3' v3,leukocyte,2
+tabula_sapiens,TSP10+10x 3' v3,macrophage,2622
+tabula_sapiens,TSP10+10x 3' v3,mast cell,390
+tabula_sapiens,TSP10+10x 3' v3,mature NK T cell,1305
+tabula_sapiens,TSP10+10x 3' v3,melanocyte,42
+tabula_sapiens,TSP10+10x 3' v3,memory B cell,277
+tabula_sapiens,TSP10+10x 3' v3,mesenchymal stem cell,11
+tabula_sapiens,TSP10+10x 3' v3,muscle cell,145
+tabula_sapiens,TSP10+10x 3' v3,myofibroblast cell,482
+tabula_sapiens,TSP10+10x 3' v3,naive B cell,773
+tabula_sapiens,TSP10+10x 3' v3,"naive thymus-derived CD4-positive, alpha-beta T cell",122
+tabula_sapiens,TSP10+10x 3' v3,"naive thymus-derived CD8-positive, alpha-beta T cell",60
+tabula_sapiens,TSP10+10x 3' v3,neutrophil,1
+tabula_sapiens,TSP10+10x 3' v3,non-classical monocyte,3
+tabula_sapiens,TSP10+10x 3' v3,plasma cell,54
+tabula_sapiens,TSP10+10x 3' v3,plasmacytoid dendritic cell,1
+tabula_sapiens,TSP10+10x 3' v3,platelet,21
+tabula_sapiens,TSP10+10x 3' v3,regulatory T cell,45
+tabula_sapiens,TSP10+10x 3' v3,smooth muscle cell,5
+tabula_sapiens,TSP10+10x 3' v3,stromal cell,1448
+tabula_sapiens,TSP10+10x 3' v3,type I NK T cell,34
+tabula_sapiens,TSP10+Smart-seq2,B cell,23
+tabula_sapiens,TSP10+Smart-seq2,CD1c-positive myeloid dendritic cell,34
+tabula_sapiens,TSP10+Smart-seq2,CD4-positive helper T cell,3
+tabula_sapiens,TSP10+Smart-seq2,"CD4-positive, alpha-beta memory T cell",8
+tabula_sapiens,TSP10+Smart-seq2,"CD8-positive, alpha-beta cytotoxic T cell",2
+tabula_sapiens,TSP10+Smart-seq2,"CD8-positive, alpha-beta memory T cell",39
+tabula_sapiens,TSP10+Smart-seq2,CD141-positive myeloid dendritic cell,6
+tabula_sapiens,TSP10+Smart-seq2,Langerhans cell,5
+tabula_sapiens,TSP10+Smart-seq2,T cell,145
+tabula_sapiens,TSP10+Smart-seq2,endothelial cell,214
+tabula_sapiens,TSP10+Smart-seq2,epithelial cell,42
+tabula_sapiens,TSP10+Smart-seq2,fibroblast,72
+tabula_sapiens,TSP10+Smart-seq2,leukocyte,155
+tabula_sapiens,TSP10+Smart-seq2,macrophage,280
+tabula_sapiens,TSP10+Smart-seq2,mast cell,192
+tabula_sapiens,TSP10+Smart-seq2,mature NK T cell,129
+tabula_sapiens,TSP10+Smart-seq2,melanocyte,19
+tabula_sapiens,TSP10+Smart-seq2,memory B cell,5
+tabula_sapiens,TSP10+Smart-seq2,muscle cell,35
+tabula_sapiens,TSP10+Smart-seq2,myofibroblast cell,4
+tabula_sapiens,TSP10+Smart-seq2,"naive thymus-derived CD4-positive, alpha-beta T cell",1
+tabula_sapiens,TSP10+Smart-seq2,"naive thymus-derived CD8-positive, alpha-beta T cell",6
+tabula_sapiens,TSP10+Smart-seq2,plasma cell,4
+tabula_sapiens,TSP10+Smart-seq2,regulatory T cell,2
+tabula_sapiens,TSP10+Smart-seq2,stromal cell,70
+tabula_sapiens,TSP11+10x 5' transcription profiling,"CD4-positive, alpha-beta T cell",489
+tabula_sapiens,TSP11+10x 5' transcription profiling,"CD8-positive, alpha-beta T cell",258
+tabula_sapiens,TSP11+10x 5' transcription profiling,common myeloid progenitor,3
+tabula_sapiens,TSP11+10x 5' transcription profiling,erythroid progenitor cell,87
+tabula_sapiens,TSP11+10x 5' transcription profiling,granulocyte,59
+tabula_sapiens,TSP11+10x 5' transcription profiling,hematopoietic stem cell,46
+tabula_sapiens,TSP11+10x 5' transcription profiling,macrophage,3
+tabula_sapiens,TSP11+10x 5' transcription profiling,mature NK T cell,85
+tabula_sapiens,TSP11+10x 5' transcription profiling,memory B cell,34
+tabula_sapiens,TSP11+10x 5' transcription profiling,monocyte,210
+tabula_sapiens,TSP11+10x 5' transcription profiling,naive B cell,32
+tabula_sapiens,TSP11+10x 5' transcription profiling,neutrophil,12
+tabula_sapiens,TSP11+10x 5' transcription profiling,plasma cell,138
+tabula_sapiens,TSP11+Smart-seq2,"CD4-positive, alpha-beta T cell",113
+tabula_sapiens,TSP11+Smart-seq2,"CD8-positive, alpha-beta T cell",142
+tabula_sapiens,TSP11+Smart-seq2,common myeloid progenitor,11
+tabula_sapiens,TSP11+Smart-seq2,erythroid progenitor cell,26
+tabula_sapiens,TSP11+Smart-seq2,granulocyte,38
+tabula_sapiens,TSP11+Smart-seq2,hematopoietic stem cell,51
+tabula_sapiens,TSP11+Smart-seq2,mature NK T cell,34
+tabula_sapiens,TSP11+Smart-seq2,memory B cell,5
+tabula_sapiens,TSP11+Smart-seq2,monocyte,131
+tabula_sapiens,TSP11+Smart-seq2,naive B cell,10
+tabula_sapiens,TSP11+Smart-seq2,neutrophil,235
+tabula_sapiens,TSP11+Smart-seq2,plasma cell,235
+tabula_sapiens,TSP11+Smart-seq2,plasmablast,1
+tabula_sapiens,TSP12+10x 3' v3,cardiac endothelial cell,2557
+tabula_sapiens,TSP12+10x 3' v3,cardiac muscle cell,7191
+tabula_sapiens,TSP12+10x 3' v3,fibroblast of cardiac tissue,201
+tabula_sapiens,TSP12+10x 3' v3,hepatocyte,1040
+tabula_sapiens,TSP12+10x 3' v3,macrophage,48
+tabula_sapiens,TSP12+10x 3' v3,smooth muscle cell,191
+tabula_sapiens,TSP12+Smart-seq2,cardiac endothelial cell,108
+tabula_sapiens,TSP12+Smart-seq2,cardiac muscle cell,14
+tabula_sapiens,TSP12+Smart-seq2,fibroblast of cardiac tissue,49
+tabula_sapiens,TSP12+Smart-seq2,hepatocyte,49
+tabula_sapiens,TSP12+Smart-seq2,macrophage,26
+tabula_sapiens,TSP12+Smart-seq2,smooth muscle cell,31
+tabula_sapiens,TSP13+Smart-seq2,"CD4-positive, alpha-beta T cell",67
+tabula_sapiens,TSP13+Smart-seq2,"CD8-positive, alpha-beta T cell",49
+tabula_sapiens,TSP13+Smart-seq2,common myeloid progenitor,8
+tabula_sapiens,TSP13+Smart-seq2,erythrocyte,1
+tabula_sapiens,TSP13+Smart-seq2,erythroid progenitor cell,49
+tabula_sapiens,TSP13+Smart-seq2,granulocyte,15
+tabula_sapiens,TSP13+Smart-seq2,hematopoietic stem cell,70
+tabula_sapiens,TSP13+Smart-seq2,mature NK T cell,2
+tabula_sapiens,TSP13+Smart-seq2,memory B cell,2
+tabula_sapiens,TSP13+Smart-seq2,monocyte,91
+tabula_sapiens,TSP13+Smart-seq2,naive B cell,4
+tabula_sapiens,TSP13+Smart-seq2,neutrophil,89
+tabula_sapiens,TSP13+Smart-seq2,plasma cell,89
+tabula_sapiens,TSP13+Smart-seq2,plasmablast,2
+tabula_sapiens,TSP14+10x 3' v3,B cell,5160
+tabula_sapiens,TSP14+10x 3' v3,CD1c-positive myeloid dendritic cell,26
+tabula_sapiens,TSP14+10x 3' v3,CD4-positive helper T cell,31
+tabula_sapiens,TSP14+10x 3' v3,"CD4-positive, alpha-beta T cell",8649
+tabula_sapiens,TSP14+10x 3' v3,"CD4-positive, alpha-beta memory T cell",829
+tabula_sapiens,TSP14+10x 3' v3,"CD8-positive, alpha-beta T cell",6321
+tabula_sapiens,TSP14+10x 3' v3,"CD8-positive, alpha-beta cytokine secreting effector T cell",12
+tabula_sapiens,TSP14+10x 3' v3,"CD8-positive, alpha-beta cytotoxic T cell",42
+tabula_sapiens,TSP14+10x 3' v3,"CD8-positive, alpha-beta memory T cell",1699
+tabula_sapiens,TSP14+10x 3' v3,CD141-positive myeloid dendritic cell,25
+tabula_sapiens,TSP14+10x 3' v3,DN1 thymic pro-T cell,985
+tabula_sapiens,TSP14+10x 3' v3,DN3 thymocyte,1788
+tabula_sapiens,TSP14+10x 3' v3,DN4 thymocyte,13
+tabula_sapiens,TSP14+10x 3' v3,Langerhans cell,17
+tabula_sapiens,TSP14+10x 3' v3,Schwann cell,10
+tabula_sapiens,TSP14+10x 3' v3,T cell,3908
+tabula_sapiens,TSP14+10x 3' v3,acinar cell of salivary gland,8346
+tabula_sapiens,TSP14+10x 3' v3,adventitial cell,138
+tabula_sapiens,TSP14+10x 3' v3,basal cell,1653
+tabula_sapiens,TSP14+10x 3' v3,basal cell of prostate epithelium,100
+tabula_sapiens,TSP14+10x 3' v3,basophil,5
+tabula_sapiens,TSP14+10x 3' v3,bladder urothelial cell,1278
+tabula_sapiens,TSP14+10x 3' v3,blood vessel endothelial cell,47
+tabula_sapiens,TSP14+10x 3' v3,capillary endothelial cell,655
+tabula_sapiens,TSP14+10x 3' v3,cell of skeletal muscle,10
+tabula_sapiens,TSP14+10x 3' v3,classical monocyte,3300
+tabula_sapiens,TSP14+10x 3' v3,club cell,788
+tabula_sapiens,TSP14+10x 3' v3,common myeloid progenitor,176
+tabula_sapiens,TSP14+10x 3' v3,duct epithelial cell,1572
+tabula_sapiens,TSP14+10x 3' v3,"effector CD4-positive, alpha-beta T cell",2933
+tabula_sapiens,TSP14+10x 3' v3,"effector CD8-positive, alpha-beta T cell",2756
+tabula_sapiens,TSP14+10x 3' v3,endothelial cell,3142
+tabula_sapiens,TSP14+10x 3' v3,endothelial cell of artery,352
+tabula_sapiens,TSP14+10x 3' v3,endothelial cell of hepatic sinusoid,80
+tabula_sapiens,TSP14+10x 3' v3,endothelial cell of lymphatic vessel,454
+tabula_sapiens,TSP14+10x 3' v3,endothelial cell of vascular tree,227
+tabula_sapiens,TSP14+10x 3' v3,enterocyte of epithelium of large intestine,2764
+tabula_sapiens,TSP14+10x 3' v3,enterocyte of epithelium of small intestine,1100
+tabula_sapiens,TSP14+10x 3' v3,epithelial cell,216
+tabula_sapiens,TSP14+10x 3' v3,erythrocyte,1241
+tabula_sapiens,TSP14+10x 3' v3,erythroid progenitor cell,185
+tabula_sapiens,TSP14+10x 3' v3,fast muscle cell,44
+tabula_sapiens,TSP14+10x 3' v3,fibroblast,9128
+tabula_sapiens,TSP14+10x 3' v3,granulocyte,307
+tabula_sapiens,TSP14+10x 3' v3,gut endothelial cell,46
+tabula_sapiens,TSP14+10x 3' v3,hematopoietic stem cell,131
+tabula_sapiens,TSP14+10x 3' v3,hepatocyte,1491
+tabula_sapiens,TSP14+10x 3' v3,innate lymphoid cell,3629
+tabula_sapiens,TSP14+10x 3' v3,intermediate monocyte,61
+tabula_sapiens,TSP14+10x 3' v3,intestinal crypt stem cell of large intestine,114
+tabula_sapiens,TSP14+10x 3' v3,intestinal crypt stem cell of small intestine,71
+tabula_sapiens,TSP14+10x 3' v3,intestinal enteroendocrine cell,31
+tabula_sapiens,TSP14+10x 3' v3,intestinal tuft cell,158
+tabula_sapiens,TSP14+10x 3' v3,intrahepatic cholangiocyte,31
+tabula_sapiens,TSP14+10x 3' v3,ionocyte,87
+tabula_sapiens,TSP14+10x 3' v3,keratinocyte,3648
+tabula_sapiens,TSP14+10x 3' v3,large intestine goblet cell,385
+tabula_sapiens,TSP14+10x 3' v3,leukocyte,497
+tabula_sapiens,TSP14+10x 3' v3,luminal cell of prostate epithelium,1032
+tabula_sapiens,TSP14+10x 3' v3,macrophage,5823
+tabula_sapiens,TSP14+10x 3' v3,mast cell,267
+tabula_sapiens,TSP14+10x 3' v3,mature NK T cell,1507
+tabula_sapiens,TSP14+10x 3' v3,mature conventional dendritic cell,7
+tabula_sapiens,TSP14+10x 3' v3,medullary thymic epithelial cell,59
+tabula_sapiens,TSP14+10x 3' v3,melanocyte,3
+tabula_sapiens,TSP14+10x 3' v3,memory B cell,1575
+tabula_sapiens,TSP14+10x 3' v3,mesenchymal stem cell,6158
+tabula_sapiens,TSP14+10x 3' v3,mesothelial cell,11
+tabula_sapiens,TSP14+10x 3' v3,monocyte,1351
+tabula_sapiens,TSP14+10x 3' v3,muscle cell,257
+tabula_sapiens,TSP14+10x 3' v3,myeloid cell,365
+tabula_sapiens,TSP14+10x 3' v3,myeloid dendritic cell,2
+tabula_sapiens,TSP14+10x 3' v3,myoepithelial cell,192
+tabula_sapiens,TSP14+10x 3' v3,myofibroblast cell,585
+tabula_sapiens,TSP14+10x 3' v3,naive B cell,78
+tabula_sapiens,TSP14+10x 3' v3,"naive thymus-derived CD4-positive, alpha-beta T cell",451
+tabula_sapiens,TSP14+10x 3' v3,"naive thymus-derived CD8-positive, alpha-beta T cell",74
+tabula_sapiens,TSP14+10x 3' v3,neutrophil,9683
+tabula_sapiens,TSP14+10x 3' v3,non-classical monocyte,8
+tabula_sapiens,TSP14+10x 3' v3,paneth cell of colon,831
+tabula_sapiens,TSP14+10x 3' v3,paneth cell of epithelium of small intestine,177
+tabula_sapiens,TSP14+10x 3' v3,pericyte,1499
+tabula_sapiens,TSP14+10x 3' v3,plasma cell,3713
+tabula_sapiens,TSP14+10x 3' v3,plasmacytoid dendritic cell,1
+tabula_sapiens,TSP14+10x 3' v3,platelet,55
+tabula_sapiens,TSP14+10x 3' v3,regulatory T cell,450
+tabula_sapiens,TSP14+10x 3' v3,respiratory goblet cell,8
+tabula_sapiens,TSP14+10x 3' v3,salivary gland cell,45
+tabula_sapiens,TSP14+10x 3' v3,skeletal muscle satellite stem cell,1648
+tabula_sapiens,TSP14+10x 3' v3,slow muscle cell,29
+tabula_sapiens,TSP14+10x 3' v3,small intestine goblet cell,300
+tabula_sapiens,TSP14+10x 3' v3,smooth muscle cell,1965
+tabula_sapiens,TSP14+10x 3' v3,sperm,11
+tabula_sapiens,TSP14+10x 3' v3,stromal cell,1486
+tabula_sapiens,TSP14+10x 3' v3,tendon cell,47
+tabula_sapiens,TSP14+10x 3' v3,tongue muscle cell,52
+tabula_sapiens,TSP14+10x 3' v3,transit amplifying cell of colon,52
+tabula_sapiens,TSP14+10x 3' v3,transit amplifying cell of small intestine,127
+tabula_sapiens,TSP14+10x 3' v3,type I NK T cell,2241
+tabula_sapiens,TSP14+10x 3' v3,type II pneumocyte,3864
+tabula_sapiens,TSP14+10x 3' v3,vascular associated smooth muscle cell,529
+tabula_sapiens,TSP14+10x 3' v3,vein endothelial cell,664
+tabula_sapiens,TSP14+10x 5' transcription profiling,B cell,5538
+tabula_sapiens,TSP14+10x 5' transcription profiling,CD1c-positive myeloid dendritic cell,30
+tabula_sapiens,TSP14+10x 5' transcription profiling,CD4-positive helper T cell,3356
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD4-positive, alpha-beta T cell",370
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD4-positive, alpha-beta memory T cell",518
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD8-positive, alpha-beta T cell",212
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD8-positive, alpha-beta cytokine secreting effector T cell",11
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD8-positive, alpha-beta cytotoxic T cell",501
+tabula_sapiens,TSP14+10x 5' transcription profiling,"CD8-positive, alpha-beta memory T cell",1331
+tabula_sapiens,TSP14+10x 5' transcription profiling,CD141-positive myeloid dendritic cell,17
+tabula_sapiens,TSP14+10x 5' transcription profiling,DN4 thymocyte,19
+tabula_sapiens,TSP14+10x 5' transcription profiling,T cell,1695
+tabula_sapiens,TSP14+10x 5' transcription profiling,T follicular helper cell,398
+tabula_sapiens,TSP14+10x 5' transcription profiling,basophil,4
+tabula_sapiens,TSP14+10x 5' transcription profiling,capillary endothelial cell,181
+tabula_sapiens,TSP14+10x 5' transcription profiling,classical monocyte,1590
+tabula_sapiens,TSP14+10x 5' transcription profiling,common myeloid progenitor,1
+tabula_sapiens,TSP14+10x 5' transcription profiling,"effector CD4-positive, alpha-beta T cell",2541
+tabula_sapiens,TSP14+10x 5' transcription profiling,"effector CD8-positive, alpha-beta T cell",2394
+tabula_sapiens,TSP14+10x 5' transcription profiling,endothelial cell,106
+tabula_sapiens,TSP14+10x 5' transcription profiling,endothelial cell of artery,205
+tabula_sapiens,TSP14+10x 5' transcription profiling,endothelial cell of lymphatic vessel,155
+tabula_sapiens,TSP14+10x 5' transcription profiling,erythrocyte,795
+tabula_sapiens,TSP14+10x 5' transcription profiling,erythroid progenitor cell,183
+tabula_sapiens,TSP14+10x 5' transcription profiling,fibroblast,2137
+tabula_sapiens,TSP14+10x 5' transcription profiling,granulocyte,147
+tabula_sapiens,TSP14+10x 5' transcription profiling,hematopoietic stem cell,124
+tabula_sapiens,TSP14+10x 5' transcription profiling,innate lymphoid cell,370
+tabula_sapiens,TSP14+10x 5' transcription profiling,intermediate monocyte,28
+tabula_sapiens,TSP14+10x 5' transcription profiling,macrophage,953
+tabula_sapiens,TSP14+10x 5' transcription profiling,mast cell,2
+tabula_sapiens,TSP14+10x 5' transcription profiling,mature NK T cell,812
+tabula_sapiens,TSP14+10x 5' transcription profiling,mature conventional dendritic cell,8
+tabula_sapiens,TSP14+10x 5' transcription profiling,medullary thymic epithelial cell,81
+tabula_sapiens,TSP14+10x 5' transcription profiling,memory B cell,1374
+tabula_sapiens,TSP14+10x 5' transcription profiling,monocyte,60
+tabula_sapiens,TSP14+10x 5' transcription profiling,myeloid dendritic cell,1
+tabula_sapiens,TSP14+10x 5' transcription profiling,naive B cell,16
+tabula_sapiens,TSP14+10x 5' transcription profiling,naive regulatory T cell,761
+tabula_sapiens,TSP14+10x 5' transcription profiling,"naive thymus-derived CD4-positive, alpha-beta T cell",275
+tabula_sapiens,TSP14+10x 5' transcription profiling,"naive thymus-derived CD8-positive, alpha-beta T cell",36
+tabula_sapiens,TSP14+10x 5' transcription profiling,neutrophil,3390
+tabula_sapiens,TSP14+10x 5' transcription profiling,non-classical monocyte,10
+tabula_sapiens,TSP14+10x 5' transcription profiling,plasma cell,2981
+tabula_sapiens,TSP14+10x 5' transcription profiling,plasmacytoid dendritic cell,37
+tabula_sapiens,TSP14+10x 5' transcription profiling,platelet,37
+tabula_sapiens,TSP14+10x 5' transcription profiling,regulatory T cell,466
+tabula_sapiens,TSP14+10x 5' transcription profiling,stromal cell,45
+tabula_sapiens,TSP14+10x 5' transcription profiling,type I NK T cell,1387
+tabula_sapiens,TSP14+10x 5' transcription profiling,vascular associated smooth muscle cell,910
+tabula_sapiens,TSP14+10x 5' transcription profiling,vein endothelial cell,946
+tabula_sapiens,TSP15+10x 3' v3,B cell,38
+tabula_sapiens,TSP15+10x 3' v3,"CD4-positive, alpha-beta T cell",9
+tabula_sapiens,TSP15+10x 3' v3,"CD8-positive, alpha-beta T cell",1
+tabula_sapiens,TSP15+10x 3' v3,Mueller cell,297
+tabula_sapiens,TSP15+10x 3' v3,T cell,47
+tabula_sapiens,TSP15+10x 3' v3,conjunctival epithelial cell,1339
+tabula_sapiens,TSP15+10x 3' v3,corneal epithelial cell,1445
+tabula_sapiens,TSP15+10x 3' v3,dendritic cell,124
+tabula_sapiens,TSP15+10x 3' v3,endothelial cell,98
+tabula_sapiens,TSP15+10x 3' v3,erythroid lineage cell,19
+tabula_sapiens,TSP15+10x 3' v3,eye photoreceptor cell,325
+tabula_sapiens,TSP15+10x 3' v3,fat cell,44
+tabula_sapiens,TSP15+10x 3' v3,fibroblast,79
+tabula_sapiens,TSP15+10x 3' v3,keratocyte,440
+tabula_sapiens,TSP15+10x 3' v3,macrophage,81
+tabula_sapiens,TSP15+10x 3' v3,mast cell,3
+tabula_sapiens,TSP15+10x 3' v3,melanocyte,84
+tabula_sapiens,TSP15+10x 3' v3,microglial cell,63
+tabula_sapiens,TSP15+10x 3' v3,monocyte,15
+tabula_sapiens,TSP15+10x 3' v3,pigmented ciliary epithelial cell,15
+tabula_sapiens,TSP15+10x 3' v3,plasma cell,41
+tabula_sapiens,TSP15+10x 3' v3,radial glial cell,180
+tabula_sapiens,TSP15+10x 3' v3,retina horizontal cell,3
+tabula_sapiens,TSP15+10x 3' v3,retinal bipolar neuron,16
+tabula_sapiens,TSP15+10x 3' v3,retinal blood vessel endothelial cell,442
+tabula_sapiens,TSP15+10x 3' v3,retinal ganglion cell,5
+tabula_sapiens,TSP15+10x 3' v3,stem cell,124
+tabula_sapiens,TSP15+10x 3' v3,stromal cell,186
+tabula_sapiens,TSP15+10x 3' v3,surface ectodermal cell,48

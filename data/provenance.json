@@ -1,0 +1,78 @@
+{
+  "generated_from_vm2": true,
+  "source_commit": "9cc7960d89d409d76715449e8f8a4f4860a5dfe7",
+  "experiment_path": "experiments/single_cell_paper_20261019",
+  "historical_fast9_path": "backups/openproblems_uniform_vae_off_20261013_211800/results.json",
+  "latest_metrics_report": "reports/mcc_and_integration_metrics_current.csv",
+  "matched_mcc_source": "reports/split_aligned_mcc_summary.csv (2026-10-21)",
+  "n_methods": 8,
+  "metrics": [
+    "asw_batch_sampled",
+    "ari",
+    "nmi",
+    "ilisi",
+    "clisi",
+    "pcr",
+    "graph_connectivity",
+    "cell_cycle_conservation",
+    "isolated_label_f1"
+  ],
+  "data": [
+    {
+      "dataset": "dkd",
+      "n_cells": 39176,
+      "n_batches": 11,
+      "n_types": 13,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/dkd/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 67119396
+    },
+    {
+      "dataset": "gtex_v9",
+      "n_cells": 209126,
+      "n_batches": 16,
+      "n_types": 53,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/gtex_v9/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 238490246
+    },
+    {
+      "dataset": "hypomap",
+      "n_cells": 384925,
+      "n_batches": 24,
+      "n_types": 13,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/hypomap/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 640362519
+    },
+    {
+      "dataset": "immune_cell_atlas",
+      "n_cells": 329762,
+      "n_batches": 12,
+      "n_types": 35,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/immune_cell_atlas/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 478845066
+    },
+    {
+      "dataset": "mouse_pancreas_atlas",
+      "n_cells": 301796,
+      "n_batches": 56,
+      "n_types": 13,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/mouse_pancreas_atlas/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 537662856
+    },
+    {
+      "dataset": "tabula_sapiens",
+      "n_cells": 483152,
+      "n_batches": 29,
+      "n_types": 160,
+      "source_relative_path": "resources_full/task_batch_integration/datasets/cellxgene_census/tabula_sapiens/log_cp10k/dataset.h5ad",
+      "source_size_bytes": 801251701
+    }
+  ],
+  "caveat": "The historical BERNN is a full-label in-sample integration, unlike train-batch BERNN in the matched experiment. 8 methods x 6 datasets in matched seed42; DKD isolated F1 is undefined.",
+  "asw": "Sampled ASW on fixed stratified cells, not exact full-cell ASW",
+  "benchmark_clustering": "clustering_overlap based on seven resolutions 0.2 through 0.8",
+  "fit_scope": {
+    "bernn": "inductive train batches only",
+    "scanvi": "transductive unlabeled expression for train+validation+test, training-batch labels only",
+    "others": "transductive unsupervised expression from entire dataset"
+  }
+}

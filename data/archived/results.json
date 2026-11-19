@@ -1,0 +1,6180 @@
+[
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.894,
+      "cell_cycle_conservation": 0.8574,
+      "ari": 0.7599,
+      "nmi": 0.829,
+      "graph_connectivity": 0.9745,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.272,
+      "clisi": 1,
+      "pcr": 0.5339
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7394,
+      "cell_cycle_conservation": 0.9955,
+      "ari": 0.7599,
+      "nmi": 0.8287,
+      "graph_connectivity": 0.966,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.5619,
+      "clisi": 1.0,
+      "pcr": 0.5339
+    },
+    "mean_score": 0.7094777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:13:33",
+      "exit_code": 0,
+      "duration_sec": 89,
+      "cpu_pct": 116.1,
+      "peak_memory_mb": 7168,
+      "disk_read_mb": 117,
+      "disk_write_mb": 16
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": 0.799,
+      "cell_cycle_conservation": 0.8692,
+      "ari": 0.757,
+      "nmi": 0.8248,
+      "graph_connectivity": 0.9696,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.2893,
+      "clisi": 1,
+      "pcr": 0.5344
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3605,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.757,
+      "nmi": 0.8245,
+      "graph_connectivity": 0.9596,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.5986,
+      "clisi": 1.0,
+      "pcr": 0.5344
+    },
+    "mean_score": 0.6705111111111112,
+    "resources": {
+      "submit": "2025-01-23 17:13:34",
+      "exit_code": 0,
+      "duration_sec": 15708,
+      "cpu_pct": 99.7,
+      "peak_memory_mb": 8909,
+      "disk_read_mb": 116,
+      "disk_write_mb": 624
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.7666,
+      "nmi": 0.8228,
+      "graph_connectivity": 0.984,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.3526,
+      "clisi": 0.9622,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.7666,
+      "nmi": 0.8226,
+      "graph_connectivity": 0.9787,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.733,
+      "clisi": 0.8598,
+      "pcr": 0.0
+    },
+    "mean_score": 0.46230000000000004,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 104,
+      "cpu_pct": 835.6,
+      "peak_memory_mb": 12084,
+      "disk_read_mb": 75,
+      "disk_write_mb": 22
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.9123,
+      "cell_cycle_conservation": 0.7925,
+      "ari": 0.7673,
+      "nmi": 0.8306,
+      "graph_connectivity": 0.9728,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.1644,
+      "clisi": 0.9997,
+      "pcr": 0.9998
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8122,
+      "cell_cycle_conservation": 0.9138,
+      "ari": 0.7674,
+      "nmi": 0.8304,
+      "graph_connectivity": 0.9638,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.3332,
+      "clisi": 0.999,
+      "pcr": 0.9998
+    },
+    "mean_score": 0.7355111111111109,
+    "resources": {
+      "submit": "2025-01-23 17:13:30",
+      "exit_code": 0,
+      "duration_sec": 127,
+      "cpu_pct": 252.9,
+      "peak_memory_mb": 8909,
+      "disk_read_mb": 68,
+      "disk_write_mb": 178
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.9593,
+      "cell_cycle_conservation": 0.8104,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4348,
+      "clisi": 1,
+      "pcr": 0.5898
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.9363,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.9077,
+      "clisi": 1.0,
+      "pcr": 0.5898
+    },
+    "mean_score": 0.8259777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:13:34",
+      "exit_code": 0,
+      "duration_sec": 12.2,
+      "cpu_pct": 126.9,
+      "peak_memory_mb": 5530,
+      "disk_read_mb": 30,
+      "disk_write_mb": 5
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.9573,
+      "cell_cycle_conservation": 0.8099,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4305,
+      "clisi": 1,
+      "pcr": 0.5896
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9919,
+      "cell_cycle_conservation": 0.9357,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.8987,
+      "clisi": 1.0,
+      "pcr": 0.5896
+    },
+    "mean_score": 0.8239888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 8.3,
+      "cpu_pct": 62.1,
+      "peak_memory_mb": 1536,
+      "disk_read_mb": 30,
+      "disk_write_mb": 5
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": 0.4736,
+      "cell_cycle_conservation": 0.0527,
+      "ari": 0.0024,
+      "nmi": 0.0315,
+      "graph_connectivity": 0.0109,
+      "isolated_label_f1": "NA",
+      "ilisi": 0,
+      "clisi": 0.7461,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0024,
+      "nmi": 0.0302,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0594,
+      "pcr": 0.0
+    },
+    "mean_score": 0.010222222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 617,
+      "cpu_pct": 123.4,
+      "peak_memory_mb": 3040871,
+      "disk_read_mb": 12288,
+      "disk_write_mb": 12288
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.9066,
+      "cell_cycle_conservation": 0.8495,
+      "ari": 0.7867,
+      "nmi": 0.8322,
+      "graph_connectivity": 0.977,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.333,
+      "clisi": 1,
+      "pcr": 0.6805
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7898,
+      "cell_cycle_conservation": 0.9856,
+      "ari": 0.7867,
+      "nmi": 0.832,
+      "graph_connectivity": 0.9694,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6914,
+      "clisi": 1.0,
+      "pcr": 0.6805
+    },
+    "mean_score": 0.7483777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:13:32",
+      "exit_code": 0,
+      "duration_sec": 111,
+      "cpu_pct": 104.2,
+      "peak_memory_mb": 6452,
+      "disk_read_mb": 97,
+      "disk_write_mb": 16
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.905,
+      "cell_cycle_conservation": 0.8466,
+      "ari": 0.7655,
+      "nmi": 0.8233,
+      "graph_connectivity": 0.9765,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.3319,
+      "clisi": 1,
+      "pcr": 0.6897
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7832,
+      "cell_cycle_conservation": 0.9819,
+      "ari": 0.7656,
+      "nmi": 0.823,
+      "graph_connectivity": 0.9687,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6892,
+      "clisi": 1.0,
+      "pcr": 0.6897
+    },
+    "mean_score": 0.7445888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:13:33",
+      "exit_code": 0,
+      "duration_sec": 229,
+      "cpu_pct": 2039,
+      "peak_memory_mb": 9216,
+      "disk_read_mb": 41,
+      "disk_write_mb": 9
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.8743,
+      "cell_cycle_conservation": 0.6013,
+      "ari": 0.7463,
+      "nmi": 0.8002,
+      "graph_connectivity": 0.9628,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4223,
+      "clisi": 0.9991,
+      "pcr": 0.8142
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6606,
+      "cell_cycle_conservation": 0.6731,
+      "ari": 0.7463,
+      "nmi": 0.8,
+      "graph_connectivity": 0.9505,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.8813,
+      "clisi": 0.9965,
+      "pcr": 0.8142
+    },
+    "mean_score": 0.7247222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 68,
+      "cpu_pct": 160.3,
+      "peak_memory_mb": 4301,
+      "disk_read_mb": 100,
+      "disk_write_mb": 5
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": 0.8846,
+      "cell_cycle_conservation": 0.3797,
+      "ari": 0.1674,
+      "nmi": 0.2288,
+      "graph_connectivity": 0.5458,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.1732,
+      "clisi": 0.8921,
+      "pcr": 0.6494
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7019,
+      "cell_cycle_conservation": 0.394,
+      "ari": 0.1675,
+      "nmi": 0.2277,
+      "graph_connectivity": 0.3953,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.3519,
+      "clisi": 0.6003,
+      "pcr": 0.6494
+    },
+    "mean_score": 0.3875555555555555,
+    "resources": {
+      "submit": "2025-01-23 17:13:31",
+      "exit_code": 0,
+      "duration_sec": 2815,
+      "cpu_pct": 1618.1,
+      "peak_memory_mb": 334439,
+      "disk_read_mb": 1844,
+      "disk_write_mb": 2048
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8913,
+      "cell_cycle_conservation": 0.8248,
+      "ari": 0.5999,
+      "nmi": 0.7735,
+      "graph_connectivity": 0.9701,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.0754,
+      "clisi": 0.9998,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7286,
+      "cell_cycle_conservation": 0.9545,
+      "ari": 0.6,
+      "nmi": 0.7732,
+      "graph_connectivity": 0.9602,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.144,
+      "clisi": 0.9994,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5733222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:13:30",
+      "exit_code": 0,
+      "duration_sec": 38.9,
+      "cpu_pct": 53.8,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 83,
+      "disk_write_mb": 27
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.7086,
+      "cell_cycle_conservation": 0.8609,
+      "ari": 0.2884,
+      "nmi": 0.5322,
+      "graph_connectivity": 0.5229,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.0076,
+      "clisi": 0.9968,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.2885,
+      "nmi": 0.5316,
+      "graph_connectivity": 0.3649,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.9881,
+      "pcr": 1.0
+    },
+    "mean_score": 0.46367777777777774,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 41.4,
+      "cpu_pct": 555.2,
+      "peak_memory_mb": 10650,
+      "disk_read_mb": 73,
+      "disk_write_mb": 31
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.8876,
+      "cell_cycle_conservation": 0.4286,
+      "ari": 0.6633,
+      "nmi": 0.7619,
+      "graph_connectivity": 0.968,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4235,
+      "clisi": 0.9995,
+      "pcr": 0.7925
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7139,
+      "cell_cycle_conservation": 0.4557,
+      "ari": 0.6634,
+      "nmi": 0.7616,
+      "graph_connectivity": 0.9574,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.8838,
+      "clisi": 0.9982,
+      "pcr": 0.7925
+    },
+    "mean_score": 0.6918333333333333,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 906,
+      "cpu_pct": 4316.8,
+      "peak_memory_mb": 8704,
+      "disk_read_mb": 118,
+      "disk_write_mb": 6
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.8582,
+      "cell_cycle_conservation": 0.3481,
+      "ari": 0.6177,
+      "nmi": 0.6992,
+      "graph_connectivity": 0.9278,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.3097,
+      "clisi": 0.9939,
+      "pcr": 0.9998
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5966,
+      "cell_cycle_conservation": 0.3543,
+      "ari": 0.6177,
+      "nmi": 0.6988,
+      "graph_connectivity": 0.9039,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6419,
+      "clisi": 0.9773,
+      "pcr": 0.9998
+    },
+    "mean_score": 0.6433666666666666,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 1438,
+      "cpu_pct": 1082.6,
+      "peak_memory_mb": 42394,
+      "disk_read_mb": 100,
+      "disk_write_mb": 316
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.9048,
+      "cell_cycle_conservation": 0.3818,
+      "ari": 0.2302,
+      "nmi": 0.2268,
+      "graph_connectivity": 0.5459,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.2657,
+      "clisi": 0.8857,
+      "pcr": 0.5585
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7825,
+      "cell_cycle_conservation": 0.3967,
+      "ari": 0.2302,
+      "nmi": 0.2258,
+      "graph_connectivity": 0.3955,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.5484,
+      "clisi": 0.5764,
+      "pcr": 0.5585
+    },
+    "mean_score": 0.4126666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:13:34",
+      "exit_code": 0,
+      "duration_sec": 419,
+      "cpu_pct": 801.3,
+      "peak_memory_mb": 9524,
+      "disk_read_mb": 65,
+      "disk_write_mb": 663
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.9099,
+      "cell_cycle_conservation": 0.6302,
+      "ari": 0.7806,
+      "nmi": 0.8646,
+      "graph_connectivity": 0.9962,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.3153,
+      "clisi": 1,
+      "pcr": 0.6277
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8028,
+      "cell_cycle_conservation": 0.7095,
+      "ari": 0.7806,
+      "nmi": 0.8644,
+      "graph_connectivity": 0.9949,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6538,
+      "clisi": 1.0,
+      "pcr": 0.6277
+    },
+    "mean_score": 0.7148555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:13:31",
+      "exit_code": 0,
+      "duration_sec": 716,
+      "cpu_pct": 112.4,
+      "peak_memory_mb": 17101,
+      "disk_read_mb": 107,
+      "disk_write_mb": 6
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": 0.8888,
+      "cell_cycle_conservation": 0.7563,
+      "ari": 0.7597,
+      "nmi": 0.7909,
+      "graph_connectivity": 0.9631,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.2272,
+      "clisi": 0.9994,
+      "pcr": 0.19
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7187,
+      "cell_cycle_conservation": 0.8683,
+      "ari": 0.7597,
+      "nmi": 0.7906,
+      "graph_connectivity": 0.9509,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.4667,
+      "clisi": 0.9976,
+      "pcr": 0.19
+    },
+    "mean_score": 0.6380555555555557,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 175,
+      "cpu_pct": 136.9,
+      "peak_memory_mb": 1027175,
+      "disk_read_mb": 473,
+      "disk_write_mb": 270
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": 0.8264,
+      "cell_cycle_conservation": 0.6936,
+      "ari": 0.7103,
+      "nmi": 0.7877,
+      "graph_connectivity": 0.971,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.2297,
+      "clisi": 0.9997,
+      "pcr": 0.1773
+    },
+    "scaled_scores": {
+      "asw_batch": 0.4699,
+      "cell_cycle_conservation": 0.7893,
+      "ari": 0.7104,
+      "nmi": 0.7874,
+      "graph_connectivity": 0.9613,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.4719,
+      "clisi": 0.9989,
+      "pcr": 0.1773
+    },
+    "mean_score": 0.5962666666666666,
+    "resources": {
+      "submit": "2025-01-23 17:13:33",
+      "exit_code": 0,
+      "duration_sec": 401,
+      "cpu_pct": 134.8,
+      "peak_memory_mb": 15872,
+      "disk_read_mb": 29082,
+      "disk_write_mb": 41984
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.9166,
+      "cell_cycle_conservation": 0.5349,
+      "ari": 0.8284,
+      "nmi": 0.8495,
+      "graph_connectivity": 0.9812,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.303,
+      "clisi": 0.9992,
+      "pcr": 0.6671
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8297,
+      "cell_cycle_conservation": 0.5894,
+      "ari": 0.8284,
+      "nmi": 0.8493,
+      "graph_connectivity": 0.975,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6276,
+      "clisi": 0.997,
+      "pcr": 0.6671
+    },
+    "mean_score": 0.7070555555555555,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 693,
+      "cpu_pct": 130.5,
+      "peak_memory_mb": 17306,
+      "disk_read_mb": 108,
+      "disk_write_mb": 6
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.9426,
+      "cell_cycle_conservation": 0.0667,
+      "ari": -0.0001,
+      "nmi": 0.0013,
+      "graph_connectivity": 0.2488,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4782,
+      "clisi": 0.7301,
+      "pcr": 0.9975
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9333,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9975
+    },
+    "mean_score": 0.32564444444444446,
+    "resources": {
+      "submit": "2025-01-23 17:13:34",
+      "exit_code": 0,
+      "duration_sec": 20.2,
+      "cpu_pct": 121.8,
+      "peak_memory_mb": 6964,
+      "disk_read_mb": 83,
+      "disk_write_mb": 35
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.9005,
+      "cell_cycle_conservation": 0.0726,
+      "ari": 0.0069,
+      "nmi": 0.015,
+      "graph_connectivity": 0.2596,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.0755,
+      "clisi": 0.7424,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7654,
+      "cell_cycle_conservation": 0.0074,
+      "ari": 0.007,
+      "nmi": 0.0137,
+      "graph_connectivity": 0.0144,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.1443,
+      "clisi": 0.0455,
+      "pcr": 0.0
+    },
+    "mean_score": 0.11085555555555554,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 26.2,
+      "cpu_pct": 112.4,
+      "peak_memory_mb": 6144,
+      "disk_read_mb": 83,
+      "disk_write_mb": 34
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.9328,
+      "cell_cycle_conservation": 0.7069,
+      "ari": 0.5604,
+      "nmi": 0.761,
+      "graph_connectivity": 0.9703,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.4322,
+      "clisi": 0.9998,
+      "pcr": 0.7788
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8939,
+      "cell_cycle_conservation": 0.8061,
+      "ari": 0.5604,
+      "nmi": 0.7607,
+      "graph_connectivity": 0.9605,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.9023,
+      "clisi": 0.9993,
+      "pcr": 0.7788
+    },
+    "mean_score": 0.7402222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:13:35",
+      "exit_code": 0,
+      "duration_sec": 22.4,
+      "cpu_pct": 125,
+      "peak_memory_mb": 6144,
+      "disk_read_mb": 83,
+      "disk_write_mb": 33
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.9286,
+      "cell_cycle_conservation": 0.8451,
+      "ari": 0.508,
+      "nmi": 0.7228,
+      "graph_connectivity": 0.9568,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.2298,
+      "clisi": 0.999,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8773,
+      "cell_cycle_conservation": 0.98,
+      "ari": 0.508,
+      "nmi": 0.7224,
+      "graph_connectivity": 0.9425,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.472,
+      "clisi": 0.9963,
+      "pcr": 0.0
+    },
+    "mean_score": 0.6109444444444444,
+    "resources": {
+      "submit": "2025-01-23 17:13:34",
+      "exit_code": 0,
+      "duration_sec": 1543,
+      "cpu_pct": 114.8,
+      "peak_memory_mb": 468583,
+      "disk_read_mb": 28775,
+      "disk_write_mb": 17613
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.8696,
+      "cell_cycle_conservation": 0.8279,
+      "ari": 0.6342,
+      "nmi": 0.7879,
+      "graph_connectivity": 0.8969,
+      "isolated_label_f1": 0.018,
+      "ilisi": 0.0737,
+      "clisi": 0.9981,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6047,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.6342,
+      "nmi": 0.7876,
+      "graph_connectivity": 0.8911,
+      "isolated_label_f1": 0.015,
+      "ilisi": 0.2393,
+      "clisi": 0.9861,
+      "pcr": 0.0
+    },
+    "mean_score": 0.573111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 1476,
+      "cpu_pct": 101.1,
+      "peak_memory_mb": 9012,
+      "disk_read_mb": 280,
+      "disk_write_mb": 82
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:13:14",
+      "exit_code": 143,
+      "duration_sec": 31253,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.6331,
+      "nmi": 0.7754,
+      "graph_connectivity": 0.9546,
+      "isolated_label_f1": 0.0142,
+      "ilisi": 0.2703,
+      "clisi": 0.9412,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.6331,
+      "nmi": 0.7751,
+      "graph_connectivity": 0.9521,
+      "isolated_label_f1": 0.0112,
+      "ilisi": 0.8818,
+      "clisi": 0.5742,
+      "pcr": 0.0
+    },
+    "mean_score": 0.42527777777777775,
+    "resources": {
+      "submit": "2025-01-23 17:13:10",
+      "exit_code": 0,
+      "duration_sec": 216,
+      "cpu_pct": 641.5,
+      "peak_memory_mb": 15360,
+      "disk_read_mb": 110,
+      "disk_write_mb": 118
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.8584,
+      "cell_cycle_conservation": 0.8044,
+      "ari": 0.5976,
+      "nmi": 0.7829,
+      "graph_connectivity": 0.9436,
+      "isolated_label_f1": 0.1021,
+      "ilisi": 0.0129,
+      "clisi": 0.9993,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.566,
+      "cell_cycle_conservation": 0.9768,
+      "ari": 0.5976,
+      "nmi": 0.7826,
+      "graph_connectivity": 0.9405,
+      "isolated_label_f1": 0.0994,
+      "ilisi": 0.0408,
+      "clisi": 0.9946,
+      "pcr": 1.0
+    },
+    "mean_score": 0.6664777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 477,
+      "cpu_pct": 193,
+      "peak_memory_mb": 21812,
+      "disk_read_mb": 103,
+      "disk_write_mb": 575
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.984,
+      "cell_cycle_conservation": 0.6453,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.116,
+      "clisi": 1,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.7436,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.3776,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.7912444444444444,
+    "resources": {
+      "submit": "2025-01-23 17:13:12",
+      "exit_code": 0,
+      "duration_sec": 21.8,
+      "cpu_pct": 95.1,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 34,
+      "disk_write_mb": 87
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.9827,
+      "cell_cycle_conservation": 0.6441,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.1162,
+      "clisi": 1,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9954,
+      "cell_cycle_conservation": 0.7419,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.3782,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.790611111111111,
+    "resources": {
+      "submit": "2025-01-23 17:13:13",
+      "exit_code": 0,
+      "duration_sec": 21.9,
+      "cpu_pct": 94.2,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 34,
+      "disk_write_mb": 87
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": 0.4056,
+      "cell_cycle_conservation": 0.3616,
+      "ari": 0.0561,
+      "nmi": 0.3951,
+      "graph_connectivity": 0.081,
+      "isolated_label_f1": 0.0802,
+      "ilisi": 0,
+      "clisi": 0.9645,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.3278,
+      "ari": 0.0562,
+      "nmi": 0.3942,
+      "graph_connectivity": 0.0299,
+      "isolated_label_f1": 0.0774,
+      "ilisi": 0.0,
+      "clisi": 0.7428,
+      "pcr": 0.0
+    },
+    "mean_score": 0.18092222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 2370,
+      "cpu_pct": 33.5,
+      "peak_memory_mb": 1572864,
+      "disk_read_mb": 19456,
+      "disk_write_mb": 20173
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.8814,
+      "cell_cycle_conservation": 0.7507,
+      "ari": 0.6101,
+      "nmi": 0.729,
+      "graph_connectivity": 0.8829,
+      "isolated_label_f1": 0.0256,
+      "ilisi": 0.1194,
+      "clisi": 0.9959,
+      "pcr": 0.6824
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6455,
+      "cell_cycle_conservation": 0.898,
+      "ari": 0.6102,
+      "nmi": 0.7286,
+      "graph_connectivity": 0.8764,
+      "isolated_label_f1": 0.0226,
+      "ilisi": 0.3886,
+      "clisi": 0.9702,
+      "pcr": 0.6824
+    },
+    "mean_score": 0.6469444444444445,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 328,
+      "cpu_pct": 96.4,
+      "peak_memory_mb": 8602,
+      "disk_read_mb": 261,
+      "disk_write_mb": 83
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.8795,
+      "cell_cycle_conservation": 0.7525,
+      "ari": 0.6272,
+      "nmi": 0.7592,
+      "graph_connectivity": 0.8815,
+      "isolated_label_f1": 0.0737,
+      "ilisi": 0.0986,
+      "clisi": 0.9975,
+      "pcr": 0.6853
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6388,
+      "cell_cycle_conservation": 0.9007,
+      "ari": 0.6272,
+      "nmi": 0.7588,
+      "graph_connectivity": 0.8749,
+      "isolated_label_f1": 0.0709,
+      "ilisi": 0.3206,
+      "clisi": 0.9822,
+      "pcr": 0.6853
+    },
+    "mean_score": 0.6510444444444443,
+    "resources": {
+      "submit": "2025-01-23 17:13:14",
+      "exit_code": 0,
+      "duration_sec": 845,
+      "cpu_pct": 1276.6,
+      "peak_memory_mb": 11879,
+      "disk_read_mb": 75,
+      "disk_write_mb": 43
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.7698,
+      "cell_cycle_conservation": 0.5948,
+      "ari": 0.4991,
+      "nmi": 0.6448,
+      "graph_connectivity": 0.6349,
+      "isolated_label_f1": 0.0741,
+      "ilisi": 0.193,
+      "clisi": 0.9867,
+      "pcr": 0.6183
+    },
+    "scaled_scores": {
+      "asw_batch": 0.2596,
+      "cell_cycle_conservation": 0.6695,
+      "ari": 0.4991,
+      "nmi": 0.6443,
+      "graph_connectivity": 0.6146,
+      "isolated_label_f1": 0.0713,
+      "ilisi": 0.6294,
+      "clisi": 0.9036,
+      "pcr": 0.6183
+    },
+    "mean_score": 0.5455222222222221,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 242,
+      "cpu_pct": 162.6,
+      "peak_memory_mb": 10855,
+      "disk_read_mb": 264,
+      "disk_write_mb": 20
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 143,
+      "duration_sec": 30853,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8521,
+      "cell_cycle_conservation": 0.8202,
+      "ari": 0.6958,
+      "nmi": 0.8293,
+      "graph_connectivity": 0.9502,
+      "isolated_label_f1": 0.0896,
+      "ilisi": 0.0317,
+      "clisi": 0.9996,
+      "pcr": 1.5372e-07
+    },
+    "scaled_scores": {
+      "asw_batch": 0.544,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.6958,
+      "nmi": 0.8291,
+      "graph_connectivity": 0.9474,
+      "isolated_label_f1": 0.0868,
+      "ilisi": 0.1019,
+      "clisi": 0.997,
+      "pcr": 1.5372e-07
+    },
+    "mean_score": 0.5780000170799999,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 61,
+      "cpu_pct": 40,
+      "peak_memory_mb": 6144,
+      "disk_read_mb": 246,
+      "disk_write_mb": 89
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.6947,
+      "cell_cycle_conservation": 0.8171,
+      "ari": 0.288,
+      "nmi": 0.6689,
+      "graph_connectivity": 0.7334,
+      "isolated_label_f1": 0.0888,
+      "ilisi": 0.0005,
+      "clisi": 0.999,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.9954,
+      "ari": 0.2881,
+      "nmi": 0.6684,
+      "graph_connectivity": 0.7185,
+      "isolated_label_f1": 0.086,
+      "ilisi": 0.0,
+      "clisi": 0.9931,
+      "pcr": 1.0
+    },
+    "mean_score": 0.5277222222222222,
+    "resources": {
+      "submit": "2025-01-23 17:13:13",
+      "exit_code": 0,
+      "duration_sec": 137,
+      "cpu_pct": 1726.9,
+      "peak_memory_mb": 13722,
+      "disk_read_mb": 108,
+      "disk_write_mb": 103
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.7818,
+      "cell_cycle_conservation": 0.6675,
+      "ari": 0.54,
+      "nmi": 0.6385,
+      "graph_connectivity": 0.639,
+      "isolated_label_f1": 0.0448,
+      "ilisi": 0.2059,
+      "clisi": 0.9836,
+      "pcr": 0.6502
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3013,
+      "cell_cycle_conservation": 0.7762,
+      "ari": 0.54,
+      "nmi": 0.638,
+      "graph_connectivity": 0.6189,
+      "isolated_label_f1": 0.0419,
+      "ilisi": 0.6712,
+      "clisi": 0.8813,
+      "pcr": 0.6502
+    },
+    "mean_score": 0.5687777777777777,
+    "resources": {
+      "submit": "2025-01-23 17:13:12",
+      "exit_code": 0,
+      "duration_sec": 4820,
+      "cpu_pct": 2092.3,
+      "peak_memory_mb": 16487,
+      "disk_read_mb": 181,
+      "disk_write_mb": 21
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.8226,
+      "cell_cycle_conservation": 0.5774,
+      "ari": 0.5312,
+      "nmi": 0.6388,
+      "graph_connectivity": 0.7367,
+      "isolated_label_f1": 0.0137,
+      "ilisi": 0.0704,
+      "clisi": 0.9903,
+      "pcr": 0.9987
+    },
+    "scaled_scores": {
+      "asw_batch": 0.4422,
+      "cell_cycle_conservation": 0.6441,
+      "ari": 0.5312,
+      "nmi": 0.6383,
+      "graph_connectivity": 0.7221,
+      "isolated_label_f1": 0.0107,
+      "ilisi": 0.2287,
+      "clisi": 0.9294,
+      "pcr": 0.9987
+    },
+    "mean_score": 0.5717111111111112,
+    "resources": {
+      "submit": "2025-01-23 17:13:12",
+      "exit_code": 0,
+      "duration_sec": 7281,
+      "cpu_pct": 1153.2,
+      "peak_memory_mb": 43111,
+      "disk_read_mb": 138,
+      "disk_write_mb": 1639
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.9097,
+      "cell_cycle_conservation": 0.1637,
+      "ari": 0.0517,
+      "nmi": 0.1834,
+      "graph_connectivity": 0.244,
+      "isolated_label_f1": 0.0114,
+      "ilisi": 0.0905,
+      "clisi": 0.9249,
+      "pcr": 0.0279
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7433,
+      "cell_cycle_conservation": 0.0378,
+      "ari": 0.0518,
+      "nmi": 0.1823,
+      "graph_connectivity": 0.202,
+      "isolated_label_f1": 0.0084,
+      "ilisi": 0.2943,
+      "clisi": 0.4554,
+      "pcr": 0.0279
+    },
+    "mean_score": 0.22257777777777774,
+    "resources": {
+      "submit": "2025-01-23 17:13:10",
+      "exit_code": 0,
+      "duration_sec": 7328,
+      "cpu_pct": 1984.9,
+      "peak_memory_mb": 46080,
+      "disk_read_mb": 99,
+      "disk_write_mb": 3380
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.873,
+      "cell_cycle_conservation": 0.7464,
+      "ari": 0.8327,
+      "nmi": 0.8958,
+      "graph_connectivity": 0.985,
+      "isolated_label_f1": 0.0908,
+      "ilisi": 0.0586,
+      "clisi": 1,
+      "pcr": 0.1043
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6163,
+      "cell_cycle_conservation": 0.8919,
+      "ari": 0.8327,
+      "nmi": 0.8956,
+      "graph_connectivity": 0.9842,
+      "isolated_label_f1": 0.088,
+      "ilisi": 0.1901,
+      "clisi": 0.9998,
+      "pcr": 0.1043
+    },
+    "mean_score": 0.6225444444444445,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 995,
+      "cpu_pct": 102.9,
+      "peak_memory_mb": 18944,
+      "disk_read_mb": 139,
+      "disk_write_mb": 28
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": 0.906,
+      "cell_cycle_conservation": 0.7409,
+      "ari": 0.6689,
+      "nmi": 0.7884,
+      "graph_connectivity": 0.9051,
+      "isolated_label_f1": 0.0213,
+      "ilisi": 0.0819,
+      "clisi": 0.9975,
+      "pcr": 0.0445
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7304,
+      "cell_cycle_conservation": 0.8838,
+      "ari": 0.6689,
+      "nmi": 0.7881,
+      "graph_connectivity": 0.8999,
+      "isolated_label_f1": 0.0183,
+      "ilisi": 0.2661,
+      "clisi": 0.9821,
+      "pcr": 0.0445
+    },
+    "mean_score": 0.5869000000000001,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 345,
+      "cpu_pct": 139.2,
+      "peak_memory_mb": 1153434,
+      "disk_read_mb": 508,
+      "disk_write_mb": 585
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": 0.8628,
+      "cell_cycle_conservation": 0.6673,
+      "ari": 0.677,
+      "nmi": 0.7977,
+      "graph_connectivity": 0.9155,
+      "isolated_label_f1": 0.0164,
+      "ilisi": 0.078,
+      "clisi": 0.9988,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5812,
+      "cell_cycle_conservation": 0.7758,
+      "ari": 0.677,
+      "nmi": 0.7974,
+      "graph_connectivity": 0.9108,
+      "isolated_label_f1": 0.0134,
+      "ilisi": 0.2533,
+      "clisi": 0.9915,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5556000000000001,
+    "resources": {
+      "submit": "2025-01-23 17:13:12",
+      "exit_code": 0,
+      "duration_sec": 710,
+      "cpu_pct": 234.3,
+      "peak_memory_mb": 17613,
+      "disk_read_mb": 29082,
+      "disk_write_mb": 41984
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.8991,
+      "cell_cycle_conservation": 0.6278,
+      "ari": 0.7046,
+      "nmi": 0.8414,
+      "graph_connectivity": 0.966,
+      "isolated_label_f1": 0.1041,
+      "ilisi": 0.0497,
+      "clisi": 0.9995,
+      "pcr": 0.4756
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7066,
+      "cell_cycle_conservation": 0.718,
+      "ari": 0.7046,
+      "nmi": 0.8412,
+      "graph_connectivity": 0.9641,
+      "isolated_label_f1": 0.1014,
+      "ilisi": 0.1611,
+      "clisi": 0.9962,
+      "pcr": 0.4756
+    },
+    "mean_score": 0.6298666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:13:10",
+      "exit_code": 0,
+      "duration_sec": 643,
+      "cpu_pct": 108.3,
+      "peak_memory_mb": 17716,
+      "disk_read_mb": 140,
+      "disk_write_mb": 28
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.9496,
+      "cell_cycle_conservation": 0.1379,
+      "ari": -0.0001,
+      "nmi": 0.0014,
+      "graph_connectivity": 0.0526,
+      "isolated_label_f1": 0.003,
+      "ilisi": 0.3065,
+      "clisi": 0.862,
+      "pcr": 0.9993
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8811,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9993
+    },
+    "mean_score": 0.3200444444444444,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 77,
+      "cpu_pct": 70.3,
+      "peak_memory_mb": 12084,
+      "disk_read_mb": 246,
+      "disk_write_mb": 103
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.8948,
+      "cell_cycle_conservation": 0.154,
+      "ari": 0.0415,
+      "nmi": 0.1438,
+      "graph_connectivity": 0.1922,
+      "isolated_label_f1": 0.0075,
+      "ilisi": 0.032,
+      "clisi": 0.9106,
+      "pcr": 1.0923e-07
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6918,
+      "cell_cycle_conservation": 0.0236,
+      "ari": 0.0416,
+      "nmi": 0.1426,
+      "graph_connectivity": 0.1474,
+      "isolated_label_f1": 0.0045,
+      "ilisi": 0.1031,
+      "clisi": 0.3523,
+      "pcr": 1.0923e-07
+    },
+    "mean_score": 0.16743334547,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 100,
+      "cpu_pct": 59.7,
+      "peak_memory_mb": 7885,
+      "disk_read_mb": 246,
+      "disk_write_mb": 99
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.9323,
+      "cell_cycle_conservation": 0.5617,
+      "ari": 0.697,
+      "nmi": 0.8289,
+      "graph_connectivity": 0.9512,
+      "isolated_label_f1": 0.0895,
+      "ilisi": 0.1237,
+      "clisi": 0.9996,
+      "pcr": 0.2343
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8214,
+      "cell_cycle_conservation": 0.6211,
+      "ari": 0.697,
+      "nmi": 0.8287,
+      "graph_connectivity": 0.9485,
+      "isolated_label_f1": 0.0868,
+      "ilisi": 0.4026,
+      "clisi": 0.997,
+      "pcr": 0.2343
+    },
+    "mean_score": 0.6263777777777777,
+    "resources": {
+      "submit": "2025-01-23 17:13:10",
+      "exit_code": 0,
+      "duration_sec": 107,
+      "cpu_pct": 73.1,
+      "peak_memory_mb": 7066,
+      "disk_read_mb": 246,
+      "disk_write_mb": 92
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.9509,
+      "cell_cycle_conservation": 0.6976,
+      "ari": 0.6864,
+      "nmi": 0.8201,
+      "graph_connectivity": 0.9507,
+      "isolated_label_f1": 0.0242,
+      "ilisi": 0.0648,
+      "clisi": 0.999,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8858,
+      "cell_cycle_conservation": 0.8202,
+      "ari": 0.6864,
+      "nmi": 0.8198,
+      "graph_connectivity": 0.9479,
+      "isolated_label_f1": 0.0213,
+      "ilisi": 0.2104,
+      "clisi": 0.993,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5983111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:13:11",
+      "exit_code": 0,
+      "duration_sec": 7410,
+      "cpu_pct": 108.9,
+      "peak_memory_mb": 399668,
+      "disk_read_mb": 29901,
+      "disk_write_mb": 19559
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.8452,
+      "cell_cycle_conservation": 0.7325,
+      "ari": 0.3749,
+      "nmi": 0.6712,
+      "graph_connectivity": 0.8986,
+      "isolated_label_f1": 0.0028,
+      "ilisi": 0.0005,
+      "clisi": 1,
+      "pcr": 0.2967
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8894,
+      "cell_cycle_conservation": 0.9932,
+      "ari": 0.3749,
+      "nmi": 0.6711,
+      "graph_connectivity": 0.8734,
+      "isolated_label_f1": 0.0011,
+      "ilisi": 0.104,
+      "clisi": 1.0,
+      "pcr": 0.2967
+    },
+    "mean_score": 0.5782000000000002,
+    "resources": {
+      "submit": "2025-01-23 17:15:15",
+      "exit_code": 0,
+      "duration_sec": 1827,
+      "cpu_pct": 100.5,
+      "peak_memory_mb": 15156,
+      "disk_read_mb": 663,
+      "disk_write_mb": 151
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:15",
+      "exit_code": 143,
+      "duration_sec": 46164,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.7918,
+      "nmi": 0.8152,
+      "graph_connectivity": 0.8943,
+      "isolated_label_f1": 0.0034,
+      "ilisi": 0.182,
+      "clisi": 1,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.7918,
+      "nmi": 0.8151,
+      "graph_connectivity": 0.8681,
+      "isolated_label_f1": 0.0018,
+      "ilisi": 1.0,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.4974222222222222,
+    "resources": {
+      "submit": "2025-01-23 17:15:14",
+      "exit_code": 0,
+      "duration_sec": 553,
+      "cpu_pct": 245.5,
+      "peak_memory_mb": 12698,
+      "disk_read_mb": 251,
+      "disk_write_mb": 253
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.8688,
+      "cell_cycle_conservation": 0.7374,
+      "ari": 0.2244,
+      "nmi": 0.5945,
+      "graph_connectivity": 0.9141,
+      "isolated_label_f1": 0.0043,
+      "ilisi": 9.6541e-18,
+      "clisi": 1,
+      "pcr": 0.9996
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.2244,
+      "nmi": 0.5943,
+      "graph_connectivity": 0.8928,
+      "isolated_label_f1": 0.0027,
+      "ilisi": 1.858e-15,
+      "clisi": 1.0,
+      "pcr": 0.9996
+    },
+    "mean_score": 0.6348666666666669,
+    "resources": {
+      "submit": "2025-01-23 17:15:19",
+      "exit_code": 0,
+      "duration_sec": 390,
+      "cpu_pct": 329.6,
+      "peak_memory_mb": 44032,
+      "disk_read_mb": 244,
+      "disk_write_mb": 1639
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.8566,
+      "cell_cycle_conservation": 0.4873,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.0048,
+      "clisi": 1,
+      "pcr": 0.4985
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9551,
+      "cell_cycle_conservation": 0.6237,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.9312,
+      "clisi": 1.0,
+      "pcr": 0.4985
+    },
+    "mean_score": 0.8898333333333333,
+    "resources": {
+      "submit": "2025-01-23 17:15:15",
+      "exit_code": 0,
+      "duration_sec": 10.6,
+      "cpu_pct": 84.2,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 39,
+      "disk_write_mb": 47
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.8644,
+      "cell_cycle_conservation": 0.4859,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.0048,
+      "clisi": 1,
+      "pcr": 0.4985
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.6216,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.9156,
+      "clisi": 1.0,
+      "pcr": 0.4985
+    },
+    "mean_score": 0.8928555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:15:03",
+      "exit_code": 0,
+      "duration_sec": 12,
+      "cpu_pct": 64.7,
+      "peak_memory_mb": 1639,
+      "disk_read_mb": 39,
+      "disk_write_mb": 47
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:15",
+      "exit_code": 99,
+      "duration_sec": 31.3,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.8009,
+      "cell_cycle_conservation": 0.6202,
+      "ari": 0.458,
+      "nmi": 0.6795,
+      "graph_connectivity": 0.9123,
+      "isolated_label_f1": 0.0042,
+      "ilisi": 0.0007,
+      "clisi": 1,
+      "pcr": 0.5585
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6331,
+      "cell_cycle_conservation": 0.8241,
+      "ari": 0.458,
+      "nmi": 0.6794,
+      "graph_connectivity": 0.8905,
+      "isolated_label_f1": 0.0026,
+      "ilisi": 0.138,
+      "clisi": 1.0,
+      "pcr": 0.5585
+    },
+    "mean_score": 0.5760222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:15:13",
+      "exit_code": 0,
+      "duration_sec": 808,
+      "cpu_pct": 99.9,
+      "peak_memory_mb": 11572,
+      "disk_read_mb": 644,
+      "disk_write_mb": 151
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.8001,
+      "cell_cycle_conservation": 0.6187,
+      "ari": 0.4706,
+      "nmi": 0.6687,
+      "graph_connectivity": 0.9145,
+      "isolated_label_f1": 0.0041,
+      "ilisi": 0.0006,
+      "clisi": 1,
+      "pcr": 0.5733
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6283,
+      "cell_cycle_conservation": 0.8217,
+      "ari": 0.4706,
+      "nmi": 0.6687,
+      "graph_connectivity": 0.8933,
+      "isolated_label_f1": 0.0024,
+      "ilisi": 0.1233,
+      "clisi": 1.0,
+      "pcr": 0.5733
+    },
+    "mean_score": 0.5757333333333333,
+    "resources": {
+      "submit": "2025-01-23 17:15:18",
+      "exit_code": 0,
+      "duration_sec": 1057,
+      "cpu_pct": 1346,
+      "peak_memory_mb": 9012,
+      "disk_read_mb": 110,
+      "disk_write_mb": 78
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.7331,
+      "cell_cycle_conservation": 0.6155,
+      "ari": 0.3257,
+      "nmi": 0.6595,
+      "graph_connectivity": 0.8795,
+      "isolated_label_f1": 0.0038,
+      "ilisi": 0.0023,
+      "clisi": 1,
+      "pcr": 0.77
+    },
+    "scaled_scores": {
+      "asw_batch": 0.2409,
+      "cell_cycle_conservation": 0.8168,
+      "ari": 0.3258,
+      "nmi": 0.6594,
+      "graph_connectivity": 0.8496,
+      "isolated_label_f1": 0.0022,
+      "ilisi": 0.4504,
+      "clisi": 1.0,
+      "pcr": 0.77
+    },
+    "mean_score": 0.5683444444444444,
+    "resources": {
+      "submit": "2025-01-23 17:15:13",
+      "exit_code": 0,
+      "duration_sec": 1051,
+      "cpu_pct": 142.2,
+      "peak_memory_mb": 21607,
+      "disk_read_mb": 647,
+      "disk_write_mb": 41
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:17",
+      "exit_code": 143,
+      "duration_sec": 32033,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8535,
+      "cell_cycle_conservation": 0.6014,
+      "ari": 0.2567,
+      "nmi": 0.6018,
+      "graph_connectivity": 0.9053,
+      "isolated_label_f1": 0.004,
+      "ilisi": 9.6541e-18,
+      "clisi": 1,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9368,
+      "cell_cycle_conservation": 0.7956,
+      "ari": 0.2567,
+      "nmi": 0.6017,
+      "graph_connectivity": 0.8819,
+      "isolated_label_f1": 0.0024,
+      "ilisi": 1.858e-15,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.49723333333333347,
+    "resources": {
+      "submit": "2025-01-23 17:15:09",
+      "exit_code": 0,
+      "duration_sec": 42.3,
+      "cpu_pct": 118.5,
+      "peak_memory_mb": 7271,
+      "disk_read_mb": 629,
+      "disk_write_mb": 252
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.6914,
+      "cell_cycle_conservation": 0.737,
+      "ari": 0.2262,
+      "nmi": 0.5812,
+      "graph_connectivity": 0.8672,
+      "isolated_label_f1": 0.0039,
+      "ilisi": 0,
+      "clisi": 1,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.2262,
+      "nmi": 0.5811,
+      "graph_connectivity": 0.8342,
+      "isolated_label_f1": 0.0022,
+      "ilisi": 0.0,
+      "clisi": 1.0,
+      "pcr": 1.0
+    },
+    "mean_score": 0.5159666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:15:13",
+      "exit_code": 0,
+      "duration_sec": 165,
+      "cpu_pct": 776.3,
+      "peak_memory_mb": 11162,
+      "disk_read_mb": 249,
+      "disk_write_mb": 282
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.6985,
+      "cell_cycle_conservation": 0.5898,
+      "ari": 0.3098,
+      "nmi": 0.6606,
+      "graph_connectivity": 0.8826,
+      "isolated_label_f1": 0.0036,
+      "ilisi": 0.0024,
+      "clisi": 1,
+      "pcr": 0.7805
+    },
+    "scaled_scores": {
+      "asw_batch": 0.041,
+      "cell_cycle_conservation": 0.7782,
+      "ari": 0.3098,
+      "nmi": 0.6605,
+      "graph_connectivity": 0.8534,
+      "isolated_label_f1": 0.002,
+      "ilisi": 0.4533,
+      "clisi": 1.0,
+      "pcr": 0.7805
+    },
+    "mean_score": 0.5420777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:15:07",
+      "exit_code": 0,
+      "duration_sec": 17834,
+      "cpu_pct": 681,
+      "peak_memory_mb": 36455,
+      "disk_read_mb": 449,
+      "disk_write_mb": 41
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.8106,
+      "cell_cycle_conservation": 0.4224,
+      "ari": 0.4355,
+      "nmi": 0.6884,
+      "graph_connectivity": 0.8135,
+      "isolated_label_f1": 0.0011,
+      "ilisi": 1.9308e-17,
+      "clisi": 1,
+      "pcr": 0.9959
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6891,
+      "cell_cycle_conservation": 0.526,
+      "ari": 0.4355,
+      "nmi": 0.6883,
+      "graph_connectivity": 0.7672,
+      "isolated_label_f1": 0.0,
+      "ilisi": 3.716e-15,
+      "clisi": 1.0,
+      "pcr": 0.9959
+    },
+    "mean_score": 0.5668888888888892,
+    "resources": {
+      "submit": "2025-01-23 17:15:19",
+      "exit_code": 0,
+      "duration_sec": 965,
+      "cpu_pct": 338.7,
+      "peak_memory_mb": 25396,
+      "disk_read_mb": 282,
+      "disk_write_mb": 3072
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.8273,
+      "cell_cycle_conservation": 0.1102,
+      "ari": 0.0199,
+      "nmi": 0.0614,
+      "graph_connectivity": 0.3444,
+      "isolated_label_f1": 0.0033,
+      "ilisi": 9.6541e-18,
+      "clisi": 0.8977,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7858,
+      "cell_cycle_conservation": 0.0556,
+      "ari": 0.0199,
+      "nmi": 0.0611,
+      "graph_connectivity": 0.1816,
+      "isolated_label_f1": 0.0017,
+      "ilisi": 1.858e-15,
+      "clisi": 0.1964,
+      "pcr": 0.0
+    },
+    "mean_score": 0.144677777777778,
+    "resources": {
+      "submit": "2025-01-23 17:15:14",
+      "exit_code": 0,
+      "duration_sec": 6932,
+      "cpu_pct": 923.1,
+      "peak_memory_mb": 74240,
+      "disk_read_mb": 241,
+      "disk_write_mb": 6452
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.8037,
+      "cell_cycle_conservation": 0.7304,
+      "ari": 0.2298,
+      "nmi": 0.6006,
+      "graph_connectivity": 0.8955,
+      "isolated_label_f1": 0.0045,
+      "ilisi": 1.9308e-17,
+      "clisi": 1,
+      "pcr": 0.2969
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6494,
+      "cell_cycle_conservation": 0.99,
+      "ari": 0.2298,
+      "nmi": 0.6004,
+      "graph_connectivity": 0.8695,
+      "isolated_label_f1": 0.0029,
+      "ilisi": 3.716e-15,
+      "clisi": 1.0,
+      "pcr": 0.2969
+    },
+    "mean_score": 0.5154333333333336,
+    "resources": {
+      "submit": "2025-01-23 17:15:16",
+      "exit_code": 0,
+      "duration_sec": 1121,
+      "cpu_pct": 101.5,
+      "peak_memory_mb": 21095,
+      "disk_read_mb": 270,
+      "disk_write_mb": 50
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:17",
+      "exit_code": 99,
+      "duration_sec": 28.5,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:15",
+      "exit_code": 99,
+      "duration_sec": 310,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.8482,
+      "cell_cycle_conservation": 0.6671,
+      "ari": 0.2436,
+      "nmi": 0.6006,
+      "graph_connectivity": 0.9156,
+      "isolated_label_f1": 0.0046,
+      "ilisi": 1.9308e-17,
+      "clisi": 1,
+      "pcr": 0.2713
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9067,
+      "cell_cycle_conservation": 0.8946,
+      "ari": 0.2436,
+      "nmi": 0.6005,
+      "graph_connectivity": 0.8947,
+      "isolated_label_f1": 0.0029,
+      "ilisi": 3.716e-15,
+      "clisi": 1.0,
+      "pcr": 0.2713
+    },
+    "mean_score": 0.5349222222222225,
+    "resources": {
+      "submit": "2025-01-23 17:15:05",
+      "exit_code": 0,
+      "duration_sec": 704,
+      "cpu_pct": 98,
+      "peak_memory_mb": 18535,
+      "disk_read_mb": 271,
+      "disk_write_mb": 51
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.7499,
+      "cell_cycle_conservation": 0.1001,
+      "ari": 0.0002,
+      "nmi": 0.0003,
+      "graph_connectivity": 0.2086,
+      "isolated_label_f1": 0.0016,
+      "ilisi": 0.0052,
+      "clisi": 0.8727,
+      "pcr": 0.9961
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3384,
+      "cell_cycle_conservation": 0.0404,
+      "ari": 0.0003,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0122,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9961
+    },
+    "mean_score": 0.26526666666666665,
+    "resources": {
+      "submit": "2025-01-23 17:15:11",
+      "exit_code": 0,
+      "duration_sec": 128,
+      "cpu_pct": 96.8,
+      "peak_memory_mb": 19559,
+      "disk_read_mb": 629,
+      "disk_write_mb": 323
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.7426,
+      "cell_cycle_conservation": 0.0734,
+      "ari": 0,
+      "nmi": 0.0032,
+      "graph_connectivity": 0.1989,
+      "isolated_label_f1": 0.0036,
+      "ilisi": 9.6541e-18,
+      "clisi": 0.8735,
+      "pcr": 2.9263e-06
+    },
+    "scaled_scores": {
+      "asw_batch": 0.2959,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.003,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0019,
+      "ilisi": 1.858e-15,
+      "clisi": 0.0063,
+      "pcr": 2.9263e-06
+    },
+    "mean_score": 0.03412254736666687,
+    "resources": {
+      "submit": "2025-01-23 17:15:01",
+      "exit_code": 0,
+      "duration_sec": 162,
+      "cpu_pct": 99.7,
+      "peak_memory_mb": 14644,
+      "disk_read_mb": 629,
+      "disk_write_mb": 322
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.7863,
+      "cell_cycle_conservation": 0.7099,
+      "ari": 0.2725,
+      "nmi": 0.6087,
+      "graph_connectivity": 0.9052,
+      "isolated_label_f1": 0.0046,
+      "ilisi": 0.0048,
+      "clisi": 1,
+      "pcr": 0.6321
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5487,
+      "cell_cycle_conservation": 0.9591,
+      "ari": 0.2725,
+      "nmi": 0.6086,
+      "graph_connectivity": 0.8817,
+      "isolated_label_f1": 0.0029,
+      "ilisi": 0.9186,
+      "clisi": 1.0,
+      "pcr": 0.6321
+    },
+    "mean_score": 0.6471333333333333,
+    "resources": {
+      "submit": "2025-01-23 17:15:14",
+      "exit_code": 0,
+      "duration_sec": 146,
+      "cpu_pct": 98.3,
+      "peak_memory_mb": 14439,
+      "disk_read_mb": 629,
+      "disk_write_mb": 307
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.9197,
+      "cell_cycle_conservation": 0.673,
+      "ari": 0.4152,
+      "nmi": 0.6924,
+      "graph_connectivity": 0.8987,
+      "isolated_label_f1": 0.0041,
+      "ilisi": 3.8616e-17,
+      "clisi": 1,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.9035,
+      "ari": 0.4152,
+      "nmi": 0.6923,
+      "graph_connectivity": 0.8735,
+      "isolated_label_f1": 0.0025,
+      "ilisi": 7.4321e-15,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5430000000000008,
+    "resources": {
+      "submit": "2025-01-23 17:15:14",
+      "exit_code": 0,
+      "duration_sec": 13155,
+      "cpu_pct": 121.9,
+      "peak_memory_mb": 473191,
+      "disk_read_mb": 31949,
+      "disk_write_mb": 22733
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.9133,
+      "cell_cycle_conservation": 0.6545,
+      "ari": 0.6117,
+      "nmi": 0.7425,
+      "graph_connectivity": 0.9701,
+      "isolated_label_f1": 0.0049,
+      "ilisi": 0.1583,
+      "clisi": 0.9955,
+      "pcr": 0.4152
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7616,
+      "cell_cycle_conservation": 0.8934,
+      "ari": 0.6117,
+      "nmi": 0.7423,
+      "graph_connectivity": 0.9674,
+      "isolated_label_f1": 0.0035,
+      "ilisi": 0.4701,
+      "clisi": 0.9787,
+      "pcr": 0.4152
+    },
+    "mean_score": 0.6493222222222221,
+    "resources": {
+      "submit": "2025-01-23 17:16:00",
+      "exit_code": 0,
+      "duration_sec": 2574,
+      "cpu_pct": 100.1,
+      "peak_memory_mb": 10138,
+      "disk_read_mb": 509,
+      "disk_write_mb": 129
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 143,
+      "duration_sec": 46154,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.6115,
+      "nmi": 0.7427,
+      "graph_connectivity": 0.9879,
+      "isolated_label_f1": 0.005,
+      "ilisi": 0.3142,
+      "clisi": 0.9529,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.6116,
+      "nmi": 0.7425,
+      "graph_connectivity": 0.9868,
+      "isolated_label_f1": 0.0036,
+      "ilisi": 0.9341,
+      "clisi": 0.7785,
+      "pcr": 0.0
+    },
+    "mean_score": 0.4507888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:15:57",
+      "exit_code": 0,
+      "duration_sec": 265,
+      "cpu_pct": 449.8,
+      "peak_memory_mb": 15360,
+      "disk_read_mb": 189,
+      "disk_write_mb": 178
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.8977,
+      "cell_cycle_conservation": 0.723,
+      "ari": 0.3945,
+      "nmi": 0.6905,
+      "graph_connectivity": 0.9692,
+      "isolated_label_f1": 0.0283,
+      "ilisi": 0.0334,
+      "clisi": 0.9949,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6985,
+      "cell_cycle_conservation": 0.9883,
+      "ari": 0.3946,
+      "nmi": 0.6903,
+      "graph_connectivity": 0.9663,
+      "isolated_label_f1": 0.027,
+      "ilisi": 0.0987,
+      "clisi": 0.9761,
+      "pcr": 1.0
+    },
+    "mean_score": 0.6488666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:15:59",
+      "exit_code": 0,
+      "duration_sec": 314,
+      "cpu_pct": 1130.2,
+      "peak_memory_mb": 31540,
+      "disk_read_mb": 181,
+      "disk_write_mb": 1229
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.9721,
+      "cell_cycle_conservation": 0.4328,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.2599,
+      "clisi": 1,
+      "pcr": 0.7116
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.5864,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.7723,
+      "clisi": 1.0,
+      "pcr": 0.7116
+    },
+    "mean_score": 0.8967000000000002,
+    "resources": {
+      "submit": "2025-01-23 17:16:09",
+      "exit_code": 0,
+      "duration_sec": 40.9,
+      "cpu_pct": 53.1,
+      "peak_memory_mb": 5837,
+      "disk_read_mb": 37,
+      "disk_write_mb": 93
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.9703,
+      "cell_cycle_conservation": 0.4324,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.2595,
+      "clisi": 1,
+      "pcr": 0.7115
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9928,
+      "cell_cycle_conservation": 0.5859,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.7712,
+      "clisi": 1.0,
+      "pcr": 0.7115
+    },
+    "mean_score": 0.895711111111111,
+    "resources": {
+      "submit": "2025-01-23 17:16:02",
+      "exit_code": 0,
+      "duration_sec": 17.9,
+      "cpu_pct": 109.4,
+      "peak_memory_mb": 5837,
+      "disk_read_mb": 37,
+      "disk_write_mb": 93
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": 0.5615,
+      "cell_cycle_conservation": 0.2273,
+      "ari": 0.0073,
+      "nmi": 0.1023,
+      "graph_connectivity": 0.0186,
+      "isolated_label_f1": 0.0236,
+      "ilisi": 0,
+      "clisi": 0.8267,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.3019,
+      "ari": 0.0074,
+      "nmi": 0.1018,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0223,
+      "ilisi": 0.0,
+      "clisi": 0.1849,
+      "pcr": 0.0
+    },
+    "mean_score": 0.06870000000000001,
+    "resources": {
+      "submit": "2025-01-23 17:16:03",
+      "exit_code": 0,
+      "duration_sec": 888,
+      "cpu_pct": 119,
+      "peak_memory_mb": 1363149,
+      "disk_read_mb": 30004,
+      "disk_write_mb": 31130
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.9174,
+      "cell_cycle_conservation": 0.7062,
+      "ari": 0.5973,
+      "nmi": 0.7323,
+      "graph_connectivity": 0.9683,
+      "isolated_label_f1": 0.0044,
+      "ilisi": 0.1623,
+      "clisi": 0.993,
+      "pcr": 0.6422
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7781,
+      "cell_cycle_conservation": 0.965,
+      "ari": 0.5974,
+      "nmi": 0.7321,
+      "graph_connectivity": 0.9654,
+      "isolated_label_f1": 0.003,
+      "ilisi": 0.4821,
+      "clisi": 0.9673,
+      "pcr": 0.6422
+    },
+    "mean_score": 0.6814,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 660,
+      "cpu_pct": 101.7,
+      "peak_memory_mb": 10240,
+      "disk_read_mb": 490,
+      "disk_write_mb": 130
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.921,
+      "cell_cycle_conservation": 0.7035,
+      "ari": 0.583,
+      "nmi": 0.7439,
+      "graph_connectivity": 0.9671,
+      "isolated_label_f1": 0.0047,
+      "ilisi": 0.1614,
+      "clisi": 0.9931,
+      "pcr": 0.6481
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7929,
+      "cell_cycle_conservation": 0.9612,
+      "ari": 0.583,
+      "nmi": 0.7437,
+      "graph_connectivity": 0.964,
+      "isolated_label_f1": 0.0033,
+      "ilisi": 0.4795,
+      "clisi": 0.9677,
+      "pcr": 0.6481
+    },
+    "mean_score": 0.6826000000000001,
+    "resources": {
+      "submit": "2025-01-23 17:15:53",
+      "exit_code": 0,
+      "duration_sec": 1004,
+      "cpu_pct": 1544.9,
+      "peak_memory_mb": 10855,
+      "disk_read_mb": 99,
+      "disk_write_mb": 67
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.822,
+      "cell_cycle_conservation": 0.5401,
+      "ari": 0.5232,
+      "nmi": 0.6809,
+      "graph_connectivity": 0.8912,
+      "isolated_label_f1": 0.0571,
+      "ilisi": 0.2619,
+      "clisi": 0.984,
+      "pcr": 0.7355
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3915,
+      "cell_cycle_conservation": 0.735,
+      "ari": 0.5233,
+      "nmi": 0.6808,
+      "graph_connectivity": 0.8812,
+      "isolated_label_f1": 0.0558,
+      "ilisi": 0.7785,
+      "clisi": 0.9246,
+      "pcr": 0.7355
+    },
+    "mean_score": 0.6340222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 468,
+      "cpu_pct": 170.8,
+      "peak_memory_mb": 16077,
+      "disk_read_mb": 493,
+      "disk_write_mb": 32
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:16:05",
+      "exit_code": 143,
+      "duration_sec": 31143,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8878,
+      "cell_cycle_conservation": 0.7315,
+      "ari": 0.3965,
+      "nmi": 0.6611,
+      "graph_connectivity": 0.9776,
+      "isolated_label_f1": 0.007,
+      "ilisi": 0.022,
+      "clisi": 0.9955,
+      "pcr": 5.5861e-07
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6581,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.3966,
+      "nmi": 0.6609,
+      "graph_connectivity": 0.9756,
+      "isolated_label_f1": 0.0056,
+      "ilisi": 0.0647,
+      "clisi": 0.9787,
+      "pcr": 5.5861e-07
+    },
+    "mean_score": 0.5266889509566668,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 33.6,
+      "cpu_pct": 111.9,
+      "peak_memory_mb": 6759,
+      "disk_read_mb": 475,
+      "disk_write_mb": 180
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.7254,
+      "cell_cycle_conservation": 0.7177,
+      "ari": 0.2334,
+      "nmi": 0.5214,
+      "graph_connectivity": 0.6178,
+      "isolated_label_f1": 0.0091,
+      "ilisi": 0.0002,
+      "clisi": 0.9942,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.9809,
+      "ari": 0.2335,
+      "nmi": 0.5211,
+      "graph_connectivity": 0.5825,
+      "isolated_label_f1": 0.0077,
+      "ilisi": 0.0,
+      "clisi": 0.9726,
+      "pcr": 1.0
+    },
+    "mean_score": 0.47758888888888884,
+    "resources": {
+      "submit": "2025-01-23 17:16:03",
+      "exit_code": 0,
+      "duration_sec": 172,
+      "cpu_pct": 2581.6,
+      "peak_memory_mb": 11776,
+      "disk_read_mb": 186,
+      "disk_write_mb": 208
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.8189,
+      "cell_cycle_conservation": 0.7629,
+      "ari": 0.5119,
+      "nmi": 0.6637,
+      "graph_connectivity": 0.8958,
+      "isolated_label_f1": 0.0388,
+      "ilisi": 0.2644,
+      "clisi": 0.9862,
+      "pcr": 0.7164
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3788,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.512,
+      "nmi": 0.6635,
+      "graph_connectivity": 0.8861,
+      "isolated_label_f1": 0.0374,
+      "ilisi": 0.7857,
+      "clisi": 0.935,
+      "pcr": 0.7164
+    },
+    "mean_score": 0.6572111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 7711,
+      "cpu_pct": 1602.3,
+      "peak_memory_mb": 22733,
+      "disk_read_mb": 326,
+      "disk_write_mb": 33
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.8625,
+      "cell_cycle_conservation": 0.6424,
+      "ari": 0.4016,
+      "nmi": 0.641,
+      "graph_connectivity": 0.8921,
+      "isolated_label_f1": 0.002,
+      "ilisi": 0.0847,
+      "clisi": 0.9776,
+      "pcr": 0.9961
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5559,
+      "cell_cycle_conservation": 0.8767,
+      "ari": 0.4016,
+      "nmi": 0.6408,
+      "graph_connectivity": 0.8821,
+      "isolated_label_f1": 0.0006,
+      "ilisi": 0.2512,
+      "clisi": 0.8948,
+      "pcr": 0.9961
+    },
+    "mean_score": 0.6110888888888888,
+    "resources": {
+      "submit": "2025-01-23 17:16:05",
+      "exit_code": 0,
+      "duration_sec": 1417,
+      "cpu_pct": 1034.8,
+      "peak_memory_mb": 43316,
+      "disk_read_mb": 219,
+      "disk_write_mb": 2663
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.8631,
+      "cell_cycle_conservation": 0.0139,
+      "ari": 0.0022,
+      "nmi": 0.0102,
+      "graph_connectivity": 0.1452,
+      "isolated_label_f1": 0.0033,
+      "ilisi": 0.189,
+      "clisi": 0.8049,
+      "pcr": 0.536
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5581,
+      "cell_cycle_conservation": 0.0064,
+      "ari": 0.0024,
+      "nmi": 0.0096,
+      "graph_connectivity": 0.0661,
+      "isolated_label_f1": 0.0019,
+      "ilisi": 0.5615,
+      "clisi": 0.0823,
+      "pcr": 0.536
+    },
+    "mean_score": 0.2027,
+    "resources": {
+      "submit": "2025-01-23 17:15:55",
+      "exit_code": 0,
+      "duration_sec": 8954,
+      "cpu_pct": 1641.9,
+      "peak_memory_mb": 69018,
+      "disk_read_mb": 178,
+      "disk_write_mb": 5428
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.8915,
+      "cell_cycle_conservation": 0.847,
+      "ari": 0.8306,
+      "nmi": 0.859,
+      "graph_connectivity": 0.9934,
+      "isolated_label_f1": 0.125,
+      "ilisi": 0.1252,
+      "clisi": 0.9997,
+      "pcr": 0.5572
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6732,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.8306,
+      "nmi": 0.8589,
+      "graph_connectivity": 0.9927,
+      "isolated_label_f1": 0.1238,
+      "ilisi": 0.3717,
+      "clisi": 0.9986,
+      "pcr": 0.5572
+    },
+    "mean_score": 0.7118555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:16:07",
+      "exit_code": 0,
+      "duration_sec": 1161,
+      "cpu_pct": 98,
+      "peak_memory_mb": 20480,
+      "disk_read_mb": 209,
+      "disk_write_mb": 44
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": 0.9055,
+      "cell_cycle_conservation": 0.7228,
+      "ari": 0.4126,
+      "nmi": 0.6781,
+      "graph_connectivity": 0.9714,
+      "isolated_label_f1": 0.0803,
+      "ilisi": 0.0929,
+      "clisi": 0.9856,
+      "pcr": 0.0674
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7299,
+      "cell_cycle_conservation": 0.9879,
+      "ari": 0.4127,
+      "nmi": 0.6779,
+      "graph_connectivity": 0.9687,
+      "isolated_label_f1": 0.079,
+      "ilisi": 0.2756,
+      "clisi": 0.9321,
+      "pcr": 0.0674
+    },
+    "mean_score": 0.5701333333333334,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 2205,
+      "cpu_pct": 64.5,
+      "peak_memory_mb": 1258292,
+      "disk_read_mb": 581,
+      "disk_write_mb": 809
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": 0.857,
+      "cell_cycle_conservation": 0.5783,
+      "ari": 0.5998,
+      "nmi": 0.7504,
+      "graph_connectivity": 0.9725,
+      "isolated_label_f1": 0.8421,
+      "ilisi": 0.0927,
+      "clisi": 0.9975,
+      "pcr": 0.3969
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5335,
+      "cell_cycle_conservation": 0.7879,
+      "ari": 0.5999,
+      "nmi": 0.7502,
+      "graph_connectivity": 0.97,
+      "isolated_label_f1": 0.8419,
+      "ilisi": 0.2752,
+      "clisi": 0.9881,
+      "pcr": 0.3969
+    },
+    "mean_score": 0.6826222222222221,
+    "resources": {
+      "submit": "2025-01-23 17:16:03",
+      "exit_code": 0,
+      "duration_sec": 678,
+      "cpu_pct": 294.2,
+      "peak_memory_mb": 17408,
+      "disk_read_mb": 29184,
+      "disk_write_mb": 42087
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.9137,
+      "cell_cycle_conservation": 0.738,
+      "ari": 0.6943,
+      "nmi": 0.7907,
+      "graph_connectivity": 0.984,
+      "isolated_label_f1": 0.0236,
+      "ilisi": 0.1067,
+      "clisi": 0.9968,
+      "pcr": 0.6121
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7634,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.6943,
+      "nmi": 0.7906,
+      "graph_connectivity": 0.9825,
+      "isolated_label_f1": 0.0223,
+      "ilisi": 0.3168,
+      "clisi": 0.9849,
+      "pcr": 0.6121
+    },
+    "mean_score": 0.6852111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:15:51",
+      "exit_code": 0,
+      "duration_sec": 710,
+      "cpu_pct": 97,
+      "peak_memory_mb": 18330,
+      "disk_read_mb": 210,
+      "disk_write_mb": 44
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.9219,
+      "cell_cycle_conservation": 0.0092,
+      "ari": -0.0001,
+      "nmi": 0.0006,
+      "graph_connectivity": 0.0847,
+      "isolated_label_f1": 0.0014,
+      "ilisi": 0.3364,
+      "clisi": 0.7874,
+      "pcr": 0.9998
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7964,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9998
+    },
+    "mean_score": 0.31068888888888885,
+    "resources": {
+      "submit": "2025-01-23 17:16:01",
+      "exit_code": 0,
+      "duration_sec": 134,
+      "cpu_pct": 90.5,
+      "peak_memory_mb": 16692,
+      "disk_read_mb": 475,
+      "disk_write_mb": 215
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.8913,
+      "cell_cycle_conservation": 0.0104,
+      "ari": 0.011,
+      "nmi": 0.0417,
+      "graph_connectivity": 0.1501,
+      "isolated_label_f1": 0.0019,
+      "ilisi": 0.0222,
+      "clisi": 0.8139,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6724,
+      "cell_cycle_conservation": 0.0016,
+      "ari": 0.0111,
+      "nmi": 0.0411,
+      "graph_connectivity": 0.0714,
+      "isolated_label_f1": 0.0005,
+      "ilisi": 0.0654,
+      "clisi": 0.1244,
+      "pcr": 0.0
+    },
+    "mean_score": 0.10976666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:16:05",
+      "exit_code": 0,
+      "duration_sec": 107,
+      "cpu_pct": 97.8,
+      "peak_memory_mb": 9933,
+      "disk_read_mb": 475,
+      "disk_write_mb": 209
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.9292,
+      "cell_cycle_conservation": 0.508,
+      "ari": 0.3962,
+      "nmi": 0.659,
+      "graph_connectivity": 0.9775,
+      "isolated_label_f1": 0.007,
+      "ilisi": 0.276,
+      "clisi": 0.9956,
+      "pcr": 0.621
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8259,
+      "cell_cycle_conservation": 0.6906,
+      "ari": 0.3962,
+      "nmi": 0.6588,
+      "graph_connectivity": 0.9754,
+      "isolated_label_f1": 0.0056,
+      "ilisi": 0.8205,
+      "clisi": 0.9791,
+      "pcr": 0.621
+    },
+    "mean_score": 0.6636777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:16:01",
+      "exit_code": 0,
+      "duration_sec": 138,
+      "cpu_pct": 105,
+      "peak_memory_mb": 8500,
+      "disk_read_mb": 475,
+      "disk_write_mb": 197
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.962,
+      "cell_cycle_conservation": 0.5114,
+      "ari": 0.5138,
+      "nmi": 0.717,
+      "graph_connectivity": 0.9706,
+      "isolated_label_f1": 0.0051,
+      "ilisi": 0.0945,
+      "clisi": 0.9921,
+      "pcr": 0.1322
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9589,
+      "cell_cycle_conservation": 0.6953,
+      "ari": 0.5139,
+      "nmi": 0.7169,
+      "graph_connectivity": 0.9678,
+      "isolated_label_f1": 0.0037,
+      "ilisi": 0.2805,
+      "clisi": 0.963,
+      "pcr": 0.1322
+    },
+    "mean_score": 0.5813555555555555,
+    "resources": {
+      "submit": "2025-01-23 17:16:04",
+      "exit_code": 0,
+      "duration_sec": 11613,
+      "cpu_pct": 121.2,
+      "peak_memory_mb": 471245,
+      "disk_read_mb": 31028,
+      "disk_write_mb": 21504
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.8708,
+      "cell_cycle_conservation": 0.8459,
+      "ari": 0.565,
+      "nmi": 0.7877,
+      "graph_connectivity": 0.9719,
+      "isolated_label_f1": 0.8543,
+      "ilisi": 0.0605,
+      "clisi": 1,
+      "pcr": 0.2749
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8973,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.565,
+      "nmi": 0.7876,
+      "graph_connectivity": 0.9613,
+      "isolated_label_f1": 0.8535,
+      "ilisi": 0.3306,
+      "clisi": 1.0,
+      "pcr": 0.2749
+    },
+    "mean_score": 0.7411333333333334,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 5713,
+      "cpu_pct": 100.2,
+      "peak_memory_mb": 13415,
+      "disk_read_mb": 565,
+      "disk_write_mb": 118
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 143,
+      "duration_sec": 31864,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.7124,
+      "nmi": 0.8116,
+      "graph_connectivity": 0.9981,
+      "isolated_label_f1": 0.0779,
+      "ilisi": 0.1819,
+      "clisi": 0.8328,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.7125,
+      "nmi": 0.8115,
+      "graph_connectivity": 0.9974,
+      "isolated_label_f1": 0.0729,
+      "ilisi": 1.0,
+      "clisi": 0.4262,
+      "pcr": 0.0
+    },
+    "mean_score": 0.44672222222222224,
+    "resources": {
+      "submit": "2025-01-23 17:17:42",
+      "exit_code": 0,
+      "duration_sec": 1062,
+      "cpu_pct": 183.8,
+      "peak_memory_mb": 19354,
+      "disk_read_mb": 223,
+      "disk_write_mb": 692
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.9096,
+      "cell_cycle_conservation": 0.7324,
+      "ari": 0.565,
+      "nmi": 0.7488,
+      "graph_connectivity": 0.9465,
+      "isolated_label_f1": 0.7642,
+      "ilisi": 0.032,
+      "clisi": 1,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.8964,
+      "ari": 0.5651,
+      "nmi": 0.7487,
+      "graph_connectivity": 0.9265,
+      "isolated_label_f1": 0.7629,
+      "ilisi": 0.1692,
+      "clisi": 1.0,
+      "pcr": 1.0
+    },
+    "mean_score": 0.7854222222222222,
+    "resources": {
+      "submit": "2025-01-23 17:17:42",
+      "exit_code": 0,
+      "duration_sec": 472,
+      "cpu_pct": 701.8,
+      "peak_memory_mb": 27546,
+      "disk_read_mb": 216,
+      "disk_write_mb": 4301
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.8347,
+      "cell_cycle_conservation": 0.6823,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.1427,
+      "clisi": 1,
+      "pcr": 0.0865
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7057,
+      "cell_cycle_conservation": 0.8329,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.7971,
+      "clisi": 1.0,
+      "pcr": 0.0865
+    },
+    "mean_score": 0.8246888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 13,
+      "cpu_pct": 123.7,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 37,
+      "disk_write_mb": 37
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.8404,
+      "cell_cycle_conservation": 0.6818,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 1,
+      "isolated_label_f1": 1,
+      "ilisi": 0.1426,
+      "clisi": 1,
+      "pcr": 0.0864
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7359,
+      "cell_cycle_conservation": 0.8322,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.7969,
+      "clisi": 1.0,
+      "pcr": 0.0864
+    },
+    "mean_score": 0.8279333333333334,
+    "resources": {
+      "submit": "2025-01-23 17:17:36",
+      "exit_code": 0,
+      "duration_sec": 11.7,
+      "cpu_pct": 62.5,
+      "peak_memory_mb": 5735,
+      "disk_read_mb": 37,
+      "disk_write_mb": 37
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 99,
+      "duration_sec": 122,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.8238,
+      "cell_cycle_conservation": 0.7815,
+      "ari": 0.8176,
+      "nmi": 0.788,
+      "graph_connectivity": 0.952,
+      "isolated_label_f1": 0.0681,
+      "ilisi": 0.0883,
+      "clisi": 0.9998,
+      "pcr": 0.4449
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6479,
+      "cell_cycle_conservation": 0.9588,
+      "ari": 0.8176,
+      "nmi": 0.7879,
+      "graph_connectivity": 0.934,
+      "isolated_label_f1": 0.063,
+      "ilisi": 0.4884,
+      "clisi": 0.9993,
+      "pcr": 0.4449
+    },
+    "mean_score": 0.6824222222222223,
+    "resources": {
+      "submit": "2025-01-23 17:17:46",
+      "exit_code": 0,
+      "duration_sec": 560,
+      "cpu_pct": 102.2,
+      "peak_memory_mb": 10138,
+      "disk_read_mb": 546,
+      "disk_write_mb": 119
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.8291,
+      "cell_cycle_conservation": 0.7782,
+      "ari": 0.8158,
+      "nmi": 0.7867,
+      "graph_connectivity": 0.9236,
+      "isolated_label_f1": 0.0715,
+      "ilisi": 0.0882,
+      "clisi": 0.9997,
+      "pcr": 0.4441
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6758,
+      "cell_cycle_conservation": 0.9547,
+      "ari": 0.8158,
+      "nmi": 0.7866,
+      "graph_connectivity": 0.895,
+      "isolated_label_f1": 0.0664,
+      "ilisi": 0.4882,
+      "clisi": 0.9989,
+      "pcr": 0.4441
+    },
+    "mean_score": 0.6806111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 1907,
+      "cpu_pct": 2647.1,
+      "peak_memory_mb": 10957,
+      "disk_read_mb": 94,
+      "disk_write_mb": 62
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.6526,
+      "cell_cycle_conservation": 0.5842,
+      "ari": 0.6645,
+      "nmi": 0.6231,
+      "graph_connectivity": 0.8309,
+      "isolated_label_f1": 0.1243,
+      "ilisi": 0.1339,
+      "clisi": 0.9883,
+      "pcr": 0.8296
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.7082,
+      "ari": 0.6645,
+      "nmi": 0.623,
+      "graph_connectivity": 0.7675,
+      "isolated_label_f1": 0.1195,
+      "ilisi": 0.7474,
+      "clisi": 0.9597,
+      "pcr": 0.8296
+    },
+    "mean_score": 0.6021555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:17:32",
+      "exit_code": 0,
+      "duration_sec": 608,
+      "cpu_pct": 148.8,
+      "peak_memory_mb": 16896,
+      "disk_read_mb": 549,
+      "disk_write_mb": 28
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 143,
+      "duration_sec": 31951,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8901,
+      "cell_cycle_conservation": 0.8139,
+      "ari": 0.3403,
+      "nmi": 0.693,
+      "graph_connectivity": 0.9547,
+      "isolated_label_f1": 0.8937,
+      "ilisi": 0.0208,
+      "clisi": 1,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.3404,
+      "nmi": 0.6929,
+      "graph_connectivity": 0.9377,
+      "isolated_label_f1": 0.8931,
+      "ilisi": 0.1055,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.6632888888888888,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 51.9,
+      "cpu_pct": 103.8,
+      "peak_memory_mb": 6861,
+      "disk_read_mb": 531,
+      "disk_write_mb": 207
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.7835,
+      "cell_cycle_conservation": 0.7687,
+      "ari": 0.1028,
+      "nmi": 0.3922,
+      "graph_connectivity": 0.6426,
+      "isolated_label_f1": 0.2244,
+      "ilisi": 0.0022,
+      "clisi": 0.9948,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.4337,
+      "cell_cycle_conservation": 0.9426,
+      "ari": 0.1029,
+      "nmi": 0.392,
+      "graph_connectivity": 0.5086,
+      "isolated_label_f1": 0.2202,
+      "ilisi": 0.0,
+      "clisi": 0.982,
+      "pcr": 1.0
+    },
+    "mean_score": 0.5091111111111111,
+    "resources": {
+      "submit": "2025-01-23 17:17:34",
+      "exit_code": 0,
+      "duration_sec": 241,
+      "cpu_pct": 599.8,
+      "peak_memory_mb": 3789,
+      "disk_read_mb": 221,
+      "disk_write_mb": 237
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.6841,
+      "cell_cycle_conservation": 0.5892,
+      "ari": 0.6615,
+      "nmi": 0.6538,
+      "graph_connectivity": 0.818,
+      "isolated_label_f1": 0.1312,
+      "ilisi": 0.1279,
+      "clisi": 0.9934,
+      "pcr": 0.8038
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.7146,
+      "ari": 0.6615,
+      "nmi": 0.6537,
+      "graph_connectivity": 0.7497,
+      "isolated_label_f1": 0.1265,
+      "ilisi": 0.7132,
+      "clisi": 0.9772,
+      "pcr": 0.8038
+    },
+    "mean_score": 0.6000222222222222,
+    "resources": {
+      "submit": "2025-01-23 17:17:40",
+      "exit_code": 0,
+      "duration_sec": 7319,
+      "cpu_pct": 2597.3,
+      "peak_memory_mb": 23348,
+      "disk_read_mb": 393,
+      "disk_write_mb": 29
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.8145,
+      "cell_cycle_conservation": 0.6208,
+      "ari": 0.3068,
+      "nmi": 0.5388,
+      "graph_connectivity": 0.9215,
+      "isolated_label_f1": 0.072,
+      "ilisi": 0.063,
+      "clisi": 0.9905,
+      "pcr": 0.9784
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5984,
+      "cell_cycle_conservation": 0.7547,
+      "ari": 0.3069,
+      "nmi": 0.5386,
+      "graph_connectivity": 0.892,
+      "isolated_label_f1": 0.067,
+      "ilisi": 0.3448,
+      "clisi": 0.9674,
+      "pcr": 0.9784
+    },
+    "mean_score": 0.6053555555555554,
+    "resources": {
+      "submit": "2025-01-23 17:17:48",
+      "exit_code": 0,
+      "duration_sec": 572,
+      "cpu_pct": 350.6,
+      "peak_memory_mb": 24576,
+      "disk_read_mb": 253,
+      "disk_write_mb": 2356
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.7713,
+      "cell_cycle_conservation": 0.0266,
+      "ari": -0.0002,
+      "nmi": 0.0004,
+      "graph_connectivity": 0.262,
+      "isolated_label_f1": 0.0054,
+      "ilisi": 0.1735,
+      "clisi": 0.7129,
+      "pcr": 0.9994
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3694,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.9721,
+      "clisi": 0.0144,
+      "pcr": 0.9994
+    },
+    "mean_score": 0.2617,
+    "resources": {
+      "submit": "2025-01-23 17:17:38",
+      "exit_code": 0,
+      "duration_sec": 3734,
+      "cpu_pct": 844.7,
+      "peak_memory_mb": 28877,
+      "disk_read_mb": 213,
+      "disk_write_mb": 4813
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.845,
+      "cell_cycle_conservation": 0.8139,
+      "ari": 0.8781,
+      "nmi": 0.8649,
+      "graph_connectivity": 0.9922,
+      "isolated_label_f1": 0.9733,
+      "ilisi": 0.06,
+      "clisi": 1,
+      "pcr": 0.4547
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7606,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.8781,
+      "nmi": 0.8648,
+      "graph_connectivity": 0.9893,
+      "isolated_label_f1": 0.9731,
+      "ilisi": 0.3277,
+      "clisi": 1.0,
+      "pcr": 0.4547
+    },
+    "mean_score": 0.8053666666666666,
+    "resources": {
+      "submit": "2025-01-23 17:17:42",
+      "exit_code": 0,
+      "duration_sec": 1289,
+      "cpu_pct": 93.2,
+      "peak_memory_mb": 20788,
+      "disk_read_mb": 242,
+      "disk_write_mb": 40
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:42",
+      "exit_code": 99,
+      "duration_sec": 62,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 99,
+      "duration_sec": 520,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.885,
+      "cell_cycle_conservation": 0.7189,
+      "ari": 0.86,
+      "nmi": 0.8483,
+      "graph_connectivity": 0.9757,
+      "isolated_label_f1": 0.9101,
+      "ilisi": 0.0443,
+      "clisi": 1,
+      "pcr": 0.5076
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9728,
+      "cell_cycle_conservation": 0.8793,
+      "ari": 0.86,
+      "nmi": 0.8482,
+      "graph_connectivity": 0.9665,
+      "isolated_label_f1": 0.9097,
+      "ilisi": 0.2387,
+      "clisi": 1.0,
+      "pcr": 0.5076
+    },
+    "mean_score": 0.7980888888888888,
+    "resources": {
+      "submit": "2025-01-23 17:17:44",
+      "exit_code": 0,
+      "duration_sec": 861,
+      "cpu_pct": 82.1,
+      "peak_memory_mb": 18330,
+      "disk_read_mb": 242,
+      "disk_write_mb": 40
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.7018,
+      "cell_cycle_conservation": 0.0267,
+      "ari": -0.0001,
+      "nmi": 0.0004,
+      "graph_connectivity": 0.2728,
+      "isolated_label_f1": 0.0054,
+      "ilisi": 0.1784,
+      "clisi": 0.7087,
+      "pcr": 0.9994
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9994
+    },
+    "mean_score": 0.22215555555555555,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 101,
+      "cpu_pct": 105.9,
+      "peak_memory_mb": 16487,
+      "disk_read_mb": 531,
+      "disk_write_mb": 252
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.7816,
+      "cell_cycle_conservation": 0.0279,
+      "ari": 0.1204,
+      "nmi": 0.2085,
+      "graph_connectivity": 0.4329,
+      "isolated_label_f1": 0.014,
+      "ilisi": 0.0208,
+      "clisi": 0.8334,
+      "pcr": 4.6777e-08
+    },
+    "scaled_scores": {
+      "asw_batch": 0.4237,
+      "cell_cycle_conservation": 0.0015,
+      "ari": 0.1205,
+      "nmi": 0.2082,
+      "graph_connectivity": 0.2202,
+      "isolated_label_f1": 0.0087,
+      "ilisi": 0.1057,
+      "clisi": 0.4282,
+      "pcr": 4.6777e-08
+    },
+    "mean_score": 0.1685222274196667,
+    "resources": {
+      "submit": "2025-01-23 17:17:43",
+      "exit_code": 0,
+      "duration_sec": 205,
+      "cpu_pct": 101.2,
+      "peak_memory_mb": 8704,
+      "disk_read_mb": 531,
+      "disk_write_mb": 245
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.7641,
+      "cell_cycle_conservation": 0.514,
+      "ari": 0.3283,
+      "nmi": 0.6831,
+      "graph_connectivity": 0.9546,
+      "isolated_label_f1": 0.8948,
+      "ilisi": 0.142,
+      "clisi": 1,
+      "pcr": 0.3692
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3312,
+      "cell_cycle_conservation": 0.6191,
+      "ari": 0.3284,
+      "nmi": 0.683,
+      "graph_connectivity": 0.9376,
+      "isolated_label_f1": 0.8942,
+      "ilisi": 0.7935,
+      "clisi": 1.0,
+      "pcr": 0.3692
+    },
+    "mean_score": 0.6618,
+    "resources": {
+      "submit": "2025-01-23 17:17:42",
+      "exit_code": 0,
+      "duration_sec": 112,
+      "cpu_pct": 99.3,
+      "peak_memory_mb": 6656,
+      "disk_read_mb": 531,
+      "disk_write_mb": 238
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.9369,
+      "cell_cycle_conservation": 0.7246,
+      "ari": 0.6389,
+      "nmi": 0.7811,
+      "graph_connectivity": 0.9762,
+      "isolated_label_f1": 0.0933,
+      "ilisi": 0.0451,
+      "clisi": 0.9994,
+      "pcr": 0.0183
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.8865,
+      "ari": 0.6389,
+      "nmi": 0.781,
+      "graph_connectivity": 0.9673,
+      "isolated_label_f1": 0.0884,
+      "ilisi": 0.2432,
+      "clisi": 0.9978,
+      "pcr": 0.0183
+    },
+    "mean_score": 0.6245999999999999,
+    "resources": {
+      "submit": "2025-01-23 17:17:44",
+      "exit_code": 0,
+      "duration_sec": 10683,
+      "cpu_pct": 120.9,
+      "peak_memory_mb": 471348,
+      "disk_read_mb": 31130,
+      "disk_write_mb": 21504
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "batchelor_fastmnn",
+    "metric_values": {
+      "asw_batch": 0.853,
+      "cell_cycle_conservation": 0.7692,
+      "ari": 0.4406,
+      "nmi": 0.7331,
+      "graph_connectivity": 0.8072,
+      "isolated_label_f1": 0.0364,
+      "ilisi": 0.039,
+      "clisi": 0.9972,
+      "pcr": 0.2365
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7105,
+      "cell_cycle_conservation": 0.9683,
+      "ari": 0.4405,
+      "nmi": 0.7323,
+      "graph_connectivity": 0.8056,
+      "isolated_label_f1": 0.0325,
+      "ilisi": 0.2769,
+      "clisi": 0.9543,
+      "pcr": 0.2365
+    },
+    "mean_score": 0.5730444444444446,
+    "resources": {
+      "submit": "2025-01-23 17:16:32",
+      "exit_code": 0,
+      "duration_sec": 3880,
+      "cpu_pct": 100.1,
+      "peak_memory_mb": 11879,
+      "disk_read_mb": 817,
+      "disk_write_mb": 188
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "batchelor_mnn_correct",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 143,
+      "duration_sec": 31923,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "bbknn",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": 0.4526,
+      "nmi": 0.7223,
+      "graph_connectivity": 0.8418,
+      "isolated_label_f1": 0.0293,
+      "ilisi": 0.136,
+      "clisi": 0.9808,
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.4526,
+      "nmi": 0.7214,
+      "graph_connectivity": 0.8409,
+      "isolated_label_f1": 0.0254,
+      "ilisi": 0.9644,
+      "clisi": 0.6885,
+      "pcr": 0.0
+    },
+    "mean_score": 0.41035555555555553,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 798,
+      "cpu_pct": 195.2,
+      "peak_memory_mb": 17408,
+      "disk_read_mb": 313,
+      "disk_write_mb": 421
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "combat",
+    "metric_values": {
+      "asw_batch": 0.7978,
+      "cell_cycle_conservation": 0.7141,
+      "ari": 0.3682,
+      "nmi": 0.7249,
+      "graph_connectivity": 0.8764,
+      "isolated_label_f1": 0.077,
+      "ilisi": 0.001,
+      "clisi": 0.9994,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5877,
+      "cell_cycle_conservation": 0.8907,
+      "ari": 0.3682,
+      "nmi": 0.724,
+      "graph_connectivity": 0.8761,
+      "isolated_label_f1": 0.0733,
+      "ilisi": 0.0072,
+      "clisi": 0.9911,
+      "pcr": 1.0
+    },
+    "mean_score": 0.6131444444444445,
+    "resources": {
+      "submit": "2025-01-23 17:16:40",
+      "exit_code": 0,
+      "duration_sec": 488,
+      "cpu_pct": 1513.6,
+      "peak_memory_mb": 42804,
+      "disk_read_mb": 305,
+      "disk_write_mb": 1844
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "embed_cell_types",
+    "metric_values": {
+      "asw_batch": 0.983,
+      "cell_cycle_conservation": 0.6108,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 0.9962,
+      "isolated_label_f1": 0.9566,
+      "ilisi": 0.063,
+      "clisi": 1,
+      "pcr": 0.3556
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9996,
+      "cell_cycle_conservation": 0.7452,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 0.9983,
+      "isolated_label_f1": 0.9564,
+      "ilisi": 0.447,
+      "clisi": 1.0,
+      "pcr": 0.3556
+    },
+    "mean_score": 0.8335666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:16:36",
+      "exit_code": 0,
+      "duration_sec": 58.7,
+      "cpu_pct": 98.9,
+      "peak_memory_mb": 6861,
+      "disk_read_mb": 41,
+      "disk_write_mb": 577
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "embed_cell_types_jittered",
+    "metric_values": {
+      "asw_batch": 0.9832,
+      "cell_cycle_conservation": 0.6102,
+      "ari": 1,
+      "nmi": 1,
+      "graph_connectivity": 0.9979,
+      "isolated_label_f1": 1,
+      "ilisi": 0.0628,
+      "clisi": 1,
+      "pcr": 0.3556
+    },
+    "scaled_scores": {
+      "asw_batch": 1.0,
+      "cell_cycle_conservation": 0.7443,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "graph_connectivity": 1.0,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.4451,
+      "clisi": 1.0,
+      "pcr": 0.3556
+    },
+    "mean_score": 0.8383333333333334,
+    "resources": {
+      "submit": "2025-01-23 17:16:36",
+      "exit_code": 0,
+      "duration_sec": 47.3,
+      "cpu_pct": 91.6,
+      "peak_memory_mb": 6861,
+      "disk_read_mb": 41,
+      "disk_write_mb": 577
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "geneformer",
+    "metric_values": {
+      "asw_batch": 0.2435,
+      "cell_cycle_conservation": 0.3547,
+      "ari": 0.0736,
+      "nmi": 0.4701,
+      "graph_connectivity": 0.0981,
+      "isolated_label_f1": 0.1005,
+      "ilisi": 0,
+      "clisi": 0.9851,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.3842,
+      "ari": 0.0735,
+      "nmi": 0.4684,
+      "graph_connectivity": 0.0827,
+      "isolated_label_f1": 0.0969,
+      "ilisi": 0.0,
+      "clisi": 0.759,
+      "pcr": 0.0
+    },
+    "mean_score": 0.2071888888888889,
+    "resources": {
+      "submit": "2025-01-25 05:58:04",
+      "exit_code": 0,
+      "duration_sec": 1556,
+      "cpu_pct": 123.1,
+      "peak_memory_mb": 1363149,
+      "disk_read_mb": 57652,
+      "disk_write_mb": 59597
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "harmony",
+    "metric_values": {
+      "asw_batch": 0.8436,
+      "cell_cycle_conservation": 0.7018,
+      "ari": 0.3849,
+      "nmi": 0.6987,
+      "graph_connectivity": 0.8356,
+      "isolated_label_f1": 0.0448,
+      "ilisi": 0.0264,
+      "clisi": 0.9973,
+      "pcr": 0.5411
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6897,
+      "cell_cycle_conservation": 0.8733,
+      "ari": 0.3849,
+      "nmi": 0.6977,
+      "graph_connectivity": 0.8345,
+      "isolated_label_f1": 0.0409,
+      "ilisi": 0.187,
+      "clisi": 0.957,
+      "pcr": 0.5411
+    },
+    "mean_score": 0.5784555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:16:35",
+      "exit_code": 0,
+      "duration_sec": 674,
+      "cpu_pct": 99.8,
+      "peak_memory_mb": 12903,
+      "disk_read_mb": 797,
+      "disk_write_mb": 190
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "harmonypy",
+    "metric_values": {
+      "asw_batch": 0.8463,
+      "cell_cycle_conservation": 0.7043,
+      "ari": 0.3812,
+      "nmi": 0.6974,
+      "graph_connectivity": 0.8333,
+      "isolated_label_f1": 0.0884,
+      "ilisi": 0.0286,
+      "clisi": 0.9972,
+      "pcr": 0.5376
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6957,
+      "cell_cycle_conservation": 0.8769,
+      "ari": 0.3812,
+      "nmi": 0.6964,
+      "graph_connectivity": 0.8322,
+      "isolated_label_f1": 0.0847,
+      "ilisi": 0.2028,
+      "clisi": 0.9538,
+      "pcr": 0.5376
+    },
+    "mean_score": 0.5845888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:16:38",
+      "exit_code": 0,
+      "duration_sec": 1299,
+      "cpu_pct": 1038.4,
+      "peak_memory_mb": 9728,
+      "disk_read_mb": 130,
+      "disk_write_mb": 98
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "liger",
+    "metric_values": {
+      "asw_batch": 0.7096,
+      "cell_cycle_conservation": 0.6807,
+      "ari": 0.3691,
+      "nmi": 0.6398,
+      "graph_connectivity": 0.5319,
+      "isolated_label_f1": 0.0263,
+      "ilisi": 0.0859,
+      "clisi": 0.9913,
+      "pcr": 0.4518
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3915,
+      "cell_cycle_conservation": 0.8436,
+      "ari": 0.3691,
+      "nmi": 0.6386,
+      "graph_connectivity": 0.5249,
+      "isolated_label_f1": 0.0223,
+      "ilisi": 0.6093,
+      "clisi": 0.8594,
+      "pcr": 0.4518
+    },
+    "mean_score": 0.5233888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 810,
+      "cpu_pct": 150.8,
+      "peak_memory_mb": 22733,
+      "disk_read_mb": 801,
+      "disk_write_mb": 42
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "mnnpy",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:16:38",
+      "exit_code": 143,
+      "duration_sec": 31992,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "no_integration",
+    "metric_values": {
+      "asw_batch": 0.8112,
+      "cell_cycle_conservation": 0.7249,
+      "ari": 0.4224,
+      "nmi": 0.7449,
+      "graph_connectivity": 0.8774,
+      "isolated_label_f1": 0.0575,
+      "ilisi": 0.0048,
+      "clisi": 0.9994,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6176,
+      "cell_cycle_conservation": 0.9059,
+      "ari": 0.4224,
+      "nmi": 0.7441,
+      "graph_connectivity": 0.8772,
+      "isolated_label_f1": 0.0536,
+      "ilisi": 0.0342,
+      "clisi": 0.9897,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5160777777777777,
+    "resources": {
+      "submit": "2025-01-23 17:16:36",
+      "exit_code": 0,
+      "duration_sec": 64,
+      "cpu_pct": 93.5,
+      "peak_memory_mb": 7680,
+      "disk_read_mb": 783,
+      "disk_write_mb": 314
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "no_integration_batch",
+    "metric_values": {
+      "asw_batch": 0.5335,
+      "cell_cycle_conservation": 0.7917,
+      "ari": 0.2869,
+      "nmi": 0.6873,
+      "graph_connectivity": 0.6435,
+      "isolated_label_f1": 0.1507,
+      "ilisi": 7.9302e-18,
+      "clisi": 0.9997,
+      "pcr": 1
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.2869,
+      "nmi": 0.6862,
+      "graph_connectivity": 0.6387,
+      "isolated_label_f1": 0.1472,
+      "ilisi": 0.0,
+      "clisi": 0.9956,
+      "pcr": 1.0
+    },
+    "mean_score": 0.5282888888888889,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 272,
+      "cpu_pct": 2034,
+      "peak_memory_mb": 15053,
+      "disk_read_mb": 310,
+      "disk_write_mb": 365
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "pyliger",
+    "metric_values": {
+      "asw_batch": 0.7013,
+      "cell_cycle_conservation": 0.6891,
+      "ari": 0.356,
+      "nmi": 0.6342,
+      "graph_connectivity": 0.5031,
+      "isolated_label_f1": 0.0312,
+      "ilisi": 0.0848,
+      "clisi": 0.9909,
+      "pcr": 0.5255
+    },
+    "scaled_scores": {
+      "asw_batch": 0.3731,
+      "cell_cycle_conservation": 0.8554,
+      "ari": 0.356,
+      "nmi": 0.633,
+      "graph_connectivity": 0.4955,
+      "isolated_label_f1": 0.0273,
+      "ilisi": 0.6012,
+      "clisi": 0.8531,
+      "pcr": 0.5255
+    },
+    "mean_score": 0.5244555555555555,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 5437,
+      "cpu_pct": 1760,
+      "peak_memory_mb": 34100,
+      "disk_read_mb": 553,
+      "disk_write_mb": 43
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scalex",
+    "metric_values": {
+      "asw_batch": 0.7872,
+      "cell_cycle_conservation": 0.6498,
+      "ari": 0.3406,
+      "nmi": 0.6771,
+      "graph_connectivity": 0.7295,
+      "isolated_label_f1": 0.0283,
+      "ilisi": 0.0146,
+      "clisi": 0.996,
+      "pcr": 0.998
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5643,
+      "cell_cycle_conservation": 0.8,
+      "ari": 0.3406,
+      "nmi": 0.676,
+      "graph_connectivity": 0.7263,
+      "isolated_label_f1": 0.0244,
+      "ilisi": 0.1036,
+      "clisi": 0.9358,
+      "pcr": 0.998
+    },
+    "mean_score": 0.5743333333333333,
+    "resources": {
+      "submit": "2025-01-23 17:16:34",
+      "exit_code": 0,
+      "duration_sec": 1202,
+      "cpu_pct": 340.5,
+      "peak_memory_mb": 26215,
+      "disk_read_mb": 346,
+      "disk_write_mb": 3789
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scanorama",
+    "metric_values": {
+      "asw_batch": 0.7971,
+      "cell_cycle_conservation": 0.1381,
+      "ari": 0.0344,
+      "nmi": 0.2169,
+      "graph_connectivity": 0.1425,
+      "isolated_label_f1": 0.0423,
+      "ilisi": 0.0304,
+      "clisi": 0.9679,
+      "pcr": 0.2619
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5861,
+      "cell_cycle_conservation": 0.079,
+      "ari": 0.0344,
+      "nmi": 0.2143,
+      "graph_connectivity": 0.128,
+      "isolated_label_f1": 0.0384,
+      "ilisi": 0.2159,
+      "clisi": 0.4787,
+      "pcr": 0.2619
+    },
+    "mean_score": 0.22629999999999997,
+    "resources": {
+      "submit": "2025-01-23 17:16:33",
+      "exit_code": 0,
+      "duration_sec": 20476,
+      "cpu_pct": 1836.6,
+      "peak_memory_mb": 96256,
+      "disk_read_mb": 302,
+      "disk_write_mb": 7988
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scanvi",
+    "metric_values": {
+      "asw_batch": 0.8101,
+      "cell_cycle_conservation": 0.8075,
+      "ari": 0.5213,
+      "nmi": 0.7951,
+      "graph_connectivity": 0.9248,
+      "isolated_label_f1": 0.0948,
+      "ilisi": 0.0077,
+      "clisi": 0.9999,
+      "pcr": 0.319
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6151,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.5212,
+      "nmi": 0.7944,
+      "graph_connectivity": 0.9255,
+      "isolated_label_f1": 0.0911,
+      "ilisi": 0.0543,
+      "clisi": 0.9984,
+      "pcr": 0.319
+    },
+    "mean_score": 0.591,
+    "resources": {
+      "submit": "2025-01-23 17:16:38",
+      "exit_code": 0,
+      "duration_sec": 1429,
+      "cpu_pct": 86.3,
+      "peak_memory_mb": 23040,
+      "disk_read_mb": 316,
+      "disk_write_mb": 63
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scgpt_zeroshot",
+    "metric_values": {
+      "asw_batch": 0.8543,
+      "cell_cycle_conservation": 0.8268,
+      "ari": 0.452,
+      "nmi": 0.7407,
+      "graph_connectivity": 0.8585,
+      "isolated_label_f1": 0.0511,
+      "ilisi": 0.018,
+      "clisi": 0.9983,
+      "pcr": 0.107
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7134,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.452,
+      "nmi": 0.7398,
+      "graph_connectivity": 0.8578,
+      "isolated_label_f1": 0.0473,
+      "ilisi": 0.1278,
+      "clisi": 0.972,
+      "pcr": 0.107
+    },
+    "mean_score": 0.5574555555555556,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 2015,
+      "cpu_pct": 110.8,
+      "peak_memory_mb": 1363149,
+      "disk_read_mb": 689,
+      "disk_write_mb": 1127
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scimilarity",
+    "metric_values": {
+      "asw_batch": 0.8018,
+      "cell_cycle_conservation": 0.5569,
+      "ari": 0.4809,
+      "nmi": 0.7533,
+      "graph_connectivity": 0.8576,
+      "isolated_label_f1": 0.0515,
+      "ilisi": 0.0194,
+      "clisi": 0.9987,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5966,
+      "cell_cycle_conservation": 0.6691,
+      "ari": 0.4809,
+      "nmi": 0.7525,
+      "graph_connectivity": 0.8569,
+      "isolated_label_f1": 0.0476,
+      "ilisi": 0.1376,
+      "clisi": 0.9786,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5022,
+    "resources": {
+      "submit": "2025-01-23 17:16:36",
+      "exit_code": 0,
+      "duration_sec": 1043,
+      "cpu_pct": 390.1,
+      "peak_memory_mb": 20378,
+      "disk_read_mb": 29287,
+      "disk_write_mb": 42189
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scvi",
+    "metric_values": {
+      "asw_batch": 0.8225,
+      "cell_cycle_conservation": 0.7966,
+      "ari": 0.4372,
+      "nmi": 0.7561,
+      "graph_connectivity": 0.8966,
+      "isolated_label_f1": 0.0837,
+      "ilisi": 0.0138,
+      "clisi": 0.9993,
+      "pcr": 0.4153
+    },
+    "scaled_scores": {
+      "asw_batch": 0.6426,
+      "cell_cycle_conservation": 1.0,
+      "ari": 0.4372,
+      "nmi": 0.7553,
+      "graph_connectivity": 0.8967,
+      "isolated_label_f1": 0.08,
+      "ilisi": 0.0979,
+      "clisi": 0.9884,
+      "pcr": 0.4153
+    },
+    "mean_score": 0.5903777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:16:37",
+      "exit_code": 0,
+      "duration_sec": 796,
+      "cpu_pct": 91.5,
+      "peak_memory_mb": 19047,
+      "disk_read_mb": 316,
+      "disk_write_mb": 63
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "shuffle_integration",
+    "metric_values": {
+      "asw_batch": 0.9107,
+      "cell_cycle_conservation": 0.0821,
+      "ari": 0,
+      "nmi": 0.0033,
+      "graph_connectivity": 0.017,
+      "isolated_label_f1": 0.004,
+      "ilisi": 0.141,
+      "clisi": 0.9384,
+      "pcr": 0.9995
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8388,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 1.0,
+      "clisi": 0.0,
+      "pcr": 0.9995
+    },
+    "mean_score": 0.3153666666666667,
+    "resources": {
+      "submit": "2025-01-23 17:16:36",
+      "exit_code": 0,
+      "duration_sec": 169,
+      "cpu_pct": 99.1,
+      "peak_memory_mb": 23040,
+      "disk_read_mb": 783,
+      "disk_write_mb": 425
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "shuffle_integration_by_batch",
+    "metric_values": {
+      "asw_batch": 0.8592,
+      "cell_cycle_conservation": 0.1063,
+      "ari": 0.0213,
+      "nmi": 0.1346,
+      "graph_connectivity": 0.0784,
+      "isolated_label_f1": 0.016,
+      "ilisi": 0.0048,
+      "clisi": 0.9515,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7243,
+      "cell_cycle_conservation": 0.0342,
+      "ari": 0.0212,
+      "nmi": 0.1318,
+      "graph_connectivity": 0.0627,
+      "isolated_label_f1": 0.012,
+      "ilisi": 0.0339,
+      "clisi": 0.2128,
+      "pcr": 0.0
+    },
+    "mean_score": 0.13698888888888888,
+    "resources": {
+      "submit": "2025-01-23 17:16:35",
+      "exit_code": 0,
+      "duration_sec": 227,
+      "cpu_pct": 102.8,
+      "peak_memory_mb": 12596,
+      "disk_read_mb": 783,
+      "disk_write_mb": 408
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "shuffle_integration_by_cell_type",
+    "metric_values": {
+      "asw_batch": 0.8966,
+      "cell_cycle_conservation": 0.689,
+      "ari": 0.4527,
+      "nmi": 0.7472,
+      "graph_connectivity": 0.8794,
+      "isolated_label_f1": 0.0593,
+      "ilisi": 0.0745,
+      "clisi": 0.9994,
+      "pcr": 0.295
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8076,
+      "cell_cycle_conservation": 0.8553,
+      "ari": 0.4526,
+      "nmi": 0.7464,
+      "graph_connectivity": 0.8791,
+      "isolated_label_f1": 0.0555,
+      "ilisi": 0.5281,
+      "clisi": 0.9899,
+      "pcr": 0.295
+    },
+    "mean_score": 0.6232777777777776,
+    "resources": {
+      "submit": "2025-01-23 17:16:41",
+      "exit_code": 0,
+      "duration_sec": 795,
+      "cpu_pct": 100.6,
+      "peak_memory_mb": 10548,
+      "disk_read_mb": 783,
+      "disk_write_mb": 352
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "uce",
+    "metric_values": {
+      "asw_batch": 0.9314,
+      "cell_cycle_conservation": 0.7682,
+      "ari": 0.4592,
+      "nmi": 0.7594,
+      "graph_connectivity": 0.8911,
+      "isolated_label_f1": 0.0532,
+      "ilisi": 0.0222,
+      "clisi": 0.9983,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8848,
+      "cell_cycle_conservation": 0.9669,
+      "ari": 0.4592,
+      "nmi": 0.7586,
+      "graph_connectivity": 0.8911,
+      "isolated_label_f1": 0.0493,
+      "ilisi": 0.1576,
+      "clisi": 0.9722,
+      "pcr": 0.0
+    },
+    "mean_score": 0.5710777777777778,
+    "resources": {
+      "submit": "2025-01-23 17:16:38",
+      "exit_code": 0,
+      "duration_sec": 17049,
+      "cpu_pct": 121.1,
+      "peak_memory_mb": 476980,
+      "disk_read_mb": 32666,
+      "disk_write_mb": 24167
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:26:40",
+      "exit_code": 1,
+      "duration_sec": 41.4,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-25 04:52:35",
+      "exit_code": 1,
+      "duration_sec": 15222,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:26:21",
+      "exit_code": 1,
+      "duration_sec": 30,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-25 06:14:36",
+      "exit_code": 1,
+      "duration_sec": 6212,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:15:12",
+      "exit_code": 99,
+      "duration_sec": 20.1,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-24 07:56:22",
+      "exit_code": 1,
+      "duration_sec": 52,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:29:19",
+      "exit_code": 1,
+      "duration_sec": 150,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-25 06:14:36",
+      "exit_code": 1,
+      "duration_sec": 14012,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:17:40",
+      "exit_code": 99,
+      "duration_sec": 29.9,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-25 04:06:54",
+      "exit_code": 1,
+      "duration_sec": 52,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scgpt_finetuned",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-23 17:33:20",
+      "exit_code": 1,
+      "duration_sec": 209,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "scprint",
+    "metric_values": {
+      "asw_batch": "NA",
+      "cell_cycle_conservation": "NA",
+      "ari": "NA",
+      "nmi": "NA",
+      "graph_connectivity": "NA",
+      "isolated_label_f1": "NA",
+      "ilisi": "NA",
+      "clisi": "NA",
+      "pcr": "NA"
+    },
+    "scaled_scores": {
+      "asw_batch": 0.0,
+      "cell_cycle_conservation": 0.0,
+      "ari": 0.0,
+      "nmi": 0.0,
+      "graph_connectivity": 0.0,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.0,
+      "clisi": 0.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.0,
+    "resources": {
+      "submit": "2025-01-24 08:10:23",
+      "exit_code": 1,
+      "duration_sec": 17012,
+      "cpu_pct": "NA",
+      "peak_memory_mb": "NA",
+      "disk_read_mb": "NA",
+      "disk_write_mb": "NA"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "official_public_leaderboard_snapshot"
+  },
+  {
+    "dataset_id": "cellxgene_census/dkd",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.9408577680587769,
+      "cell_cycle_conservation": 0.8148863378122857,
+      "ari": 0.953025378813986,
+      "nmi": 0.9348482576859596,
+      "graph_connectivity": 0.989848830266602,
+      "isolated_label_f1": "NA",
+      "ilisi": 0.33545200789526247,
+      "clisi": 1.0,
+      "pcr": 0.8515303373752633
+    },
+    "scaled_scores": {
+      "asw_batch": 0.9264370484993092,
+      "cell_cycle_conservation": 0.9420628781318128,
+      "ari": 0.9530300758064053,
+      "nmi": 0.9347634501711821,
+      "graph_connectivity": 0.9864867282569248,
+      "isolated_label_f1": 0.0,
+      "ilisi": 0.6966681000749309,
+      "clisi": 1.0,
+      "pcr": 0.8515303373752633
+    },
+    "mean_score": 0.8101087353684254,
+    "resources": {
+      "submit": "2026-10-06 18:05:44",
+      "exit_code": 0,
+      "duration_sec": "completed_hpo_trial",
+      "source_trial": 31,
+      "selected_checkpoint": "after_warmup",
+      "wandb_url": "https://wandb.ai/adlab/BERNN_OpenProblems_batch_integration/runs/dkdgkf1vaeoff_fresh20261002a",
+      "result_json": "/home/simonp/task_batch_integration_hpo_scorer/optuna_dkd_openproblems_grouped_vae_off_joint_supervised_dual_checkpoint_fresh20261002a/trials/trial_031/result.json",
+      "source_study": "/home/simonp/task_batch_integration_hpo_scorer/optuna_dkd_openproblems_grouped_vae_off_joint_supervised_dual_checkpoint_fresh20261002a",
+      "normalization_release": "official-public-13metric-reference-20261005",
+      "scoring_release": "v2.1.0-rc3",
+      "scoring_release_commit": null,
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)",
+      "historical_trial_objective": 0.6209416664010826,
+      "selected_run": "previous_website_bernn"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  },
+  {
+    "dataset_id": "cellxgene_census/gtex_v9",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.9362159967422485,
+      "cell_cycle_conservation": 0.6343406770804777,
+      "ari": 0.988742362335346,
+      "nmi": 0.9887382016023674,
+      "graph_connectivity": 0.9998159383421354,
+      "isolated_label_f1": 0.9990439770554493,
+      "ilisi": 0.08872462576450797,
+      "clisi": 1.0,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8348932352553793,
+      "cell_cycle_conservation": 0.7275597445626677,
+      "ari": 0.9887132329699456,
+      "nmi": 0.988713485622839,
+      "graph_connectivity": 0.9997984198097616,
+      "isolated_label_f1": 0.9990415042421669,
+      "ilisi": 0.28843913986426606,
+      "clisi": 1.0,
+      "pcr": 0.0
+    },
+    "mean_score": 0.7585731958141141,
+    "resources": {
+      "submit": "2026-10-10T02:22:06",
+      "exit_code": 0,
+      "duration_sec": null,
+      "cpu_pct": null,
+      "peak_memory_mb": null,
+      "source_study": "/home/simonp/task_batch_integration_bernn/resources/results/bernn_vae_off_trainafterwarmup_20261009",
+      "selected_checkpoint": "recorded score_uns.yaml",
+      "normalization_release": "public per-dataset 13-metric scaling reference",
+      "selected_run": "bernn_vae_off_trainafterwarmup_20261009",
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  },
+  {
+    "dataset_id": "cellxgene_census/hypomap",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.8370161652565002,
+      "cell_cycle_conservation": 0.6154727923719525,
+      "ari": 0.9895407808924944,
+      "nmi": 0.9741972317865057,
+      "graph_connectivity": 0.999927461339768,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.0013577692029727705,
+      "clisi": 1.0,
+      "pcr": 0.5456262461246394
+    },
+    "scaled_scores": {
+      "asw_batch": 0.8418313036667513,
+      "cell_cycle_conservation": 0.8168519780985685,
+      "ari": 0.9895341042891843,
+      "nmi": 0.9741773685596037,
+      "graph_connectivity": 0.9999126401006934,
+      "isolated_label_f1": 0.9999998922145414,
+      "ilisi": 0.26194841370307176,
+      "clisi": 1.0,
+      "pcr": 0.5456262461246394
+    },
+    "mean_score": 0.8255424385285616,
+    "resources": {
+      "submit": "2026-10-10T02:22:06",
+      "exit_code": 0,
+      "duration_sec": null,
+      "cpu_pct": null,
+      "peak_memory_mb": null,
+      "source_study": "/home/simonp/task_batch_integration_bernn/resources/results/bernn_vae_off_trainafterwarmup_20261009",
+      "selected_checkpoint": "recorded score_uns.yaml",
+      "normalization_release": "public per-dataset 13-metric scaling reference",
+      "selected_run": "bernn_vae_off_trainafterwarmup_20261009",
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  },
+  {
+    "dataset_id": "cellxgene_census/immune_cell_atlas",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.9144100546836853,
+      "cell_cycle_conservation": 0.5444283915338389,
+      "ari": 0.9867041035975721,
+      "nmi": 0.9863688837855474,
+      "graph_connectivity": 0.9998910775051568,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.208761541740106,
+      "clisi": 1.0,
+      "pcr": 0.6840479514057328
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7661061295813956,
+      "cell_cycle_conservation": 0.7409991999356308,
+      "ari": 0.9867075647814139,
+      "nmi": 0.9863547494990583,
+      "graph_connectivity": 0.9998751251120118,
+      "isolated_label_f1": 1.0,
+      "ilisi": 0.6203272759843088,
+      "clisi": 0.9999814857529263,
+      "pcr": 0.6840479514057328
+    },
+    "mean_score": 0.8649332757836087,
+    "resources": {
+      "submit": "2026-10-11T21:55:27",
+      "exit_code": 0,
+      "duration_sec": null,
+      "cpu_pct": null,
+      "peak_memory_mb": null,
+      "source_study": "/home/simonp/task_batch_integration_bernn/resources/results/bernn_vae_on_standard_20261010",
+      "selected_checkpoint": "recorded score_uns.yaml",
+      "normalization_release": "public per-dataset 13-metric scaling reference",
+      "selected_run": "bernn_vae_on_standard_20261010",
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  },
+  {
+    "dataset_id": "cellxgene_census/mouse_pancreas_atlas",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.8072039484977722,
+      "cell_cycle_conservation": 0.6862288560191834,
+      "ari": 0.9942837920120738,
+      "nmi": 0.9912764771255295,
+      "graph_connectivity": 0.99987942221627,
+      "isolated_label_f1": 0.9989594172736732,
+      "ilisi": 0.10347249853684602,
+      "clisi": 1.0,
+      "pcr": 0.27479472316915343
+    },
+    "scaled_scores": {
+      "asw_batch": 0.5597341500662019,
+      "cell_cycle_conservation": 0.837815521854428,
+      "ari": 0.9942679111236135,
+      "nmi": 0.9912728153152969,
+      "graph_connectivity": 0.9998401316505463,
+      "isolated_label_f1": 0.9989470660034647,
+      "ilisi": 0.5746621403356322,
+      "clisi": 0.9999644004821566,
+      "pcr": 0.27479472316915343
+    },
+    "mean_score": 0.8034776511111661,
+    "resources": {
+      "submit": "2026-10-11T21:55:27",
+      "exit_code": 0,
+      "duration_sec": null,
+      "cpu_pct": null,
+      "peak_memory_mb": null,
+      "source_study": "/home/simonp/task_batch_integration_bernn/resources/results/bernn_vae_on_standard_20261010",
+      "selected_checkpoint": "recorded score_uns.yaml",
+      "normalization_release": "public per-dataset 13-metric scaling reference",
+      "selected_run": "bernn_vae_on_standard_20261010",
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  },
+  {
+    "dataset_id": "cellxgene_census/tabula_sapiens",
+    "method_id": "bernn",
+    "metric_values": {
+      "asw_batch": 0.8929896950721741,
+      "cell_cycle_conservation": 0.6570326833631136,
+      "ari": 0.7055175883739419,
+      "nmi": 0.8759102920339888,
+      "graph_connectivity": 0.9971138024978728,
+      "isolated_label_f1": 0.4061671278876386,
+      "ilisi": 0.021051241435922154,
+      "clisi": 0.9999479877628084,
+      "pcr": 0
+    },
+    "scaled_scores": {
+      "asw_batch": 0.7994405476563153,
+      "cell_cycle_conservation": 0.8102504198321201,
+      "ari": 0.7055059722957914,
+      "nmi": 0.8755016664396086,
+      "graph_connectivity": 0.9991712060552354,
+      "isolated_label_f1": 0.4037516920702124,
+      "ilisi": 0.14931140252125796,
+      "clisi": 0.9992474177459414,
+      "pcr": 0.0
+    },
+    "mean_score": 0.638020036068498,
+    "resources": {
+      "submit": "2026-10-11T21:55:27",
+      "exit_code": 0,
+      "duration_sec": null,
+      "cpu_pct": null,
+      "peak_memory_mb": null,
+      "source_study": "/home/simonp/task_batch_integration_bernn/resources/results/bernn_vae_on_standard_20261010",
+      "selected_checkpoint": "recorded score_uns.yaml",
+      "normalization_release": "public per-dataset 13-metric scaling reference",
+      "selected_run": "bernn_vae_on_standard_20261010",
+      "selection_metric": "fast-9 mean, best-of-available per dataset (not independent test)"
+    },
+    "comparison_contract": "local_fast9_public_reference_clip01_na0_20261013",
+    "comparison_source": "local_best_of_available_bernn_runs"
+  }
+]
