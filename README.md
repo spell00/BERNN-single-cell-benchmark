@@ -18,6 +18,7 @@ pip install -r requirements.txt
 python scripts/verify_results.py
 python scripts/plot_fig1_full.py
 python scripts/plot_figures.py --figure all
+python scripts/plot_fast8_without_pcr.py
 python scripts/plot_gtex_umap.py
 ```
 
@@ -29,6 +30,7 @@ Results appear in `figures/`, including vector PDFs. `make all` runs the same co
 | --- | --- | --- |
 | `Figure1_dataset_composition_full.pdf` | Original cell-type-by-batch counts from six atlases | Batch imbalance and cell-weighted total variation; no integration performed |
 | `Figure2_fast9_seed42_raw_audited.pdf` | **Seed 42** matching method/dataset entries | 8 methods × 6 datasets × 9 metrics, primarily OpenProblems metrics (with an explicit sampled batch ASW variant). **One fitted representation** per method/dataset, **not five splits**. |
+| `Figure2_fast8_without_PCR_seed42_raw_audited.pdf` | Same seed-42 matched metric panel with PCR excluded | Eight metrics; dataset and overall raw means are recalculated, rather than copying the nine-metric averages |
 | `Figure3_MCC_five_splits.pdf` | 21 Oct 2026 matched predictive report | Mean ± SD test MCC across five batch-disjoint splits, 9 entries including no integration |
 | `Figure4_GTEx_raw_vs_BERNN_UMAP.pdf` | Saved **full-data** GTEx embeddings, 10k common display sample | Descriptive visualization only; no held-out inference |
 | `Supplement_Isolated_F1_five_splits.pdf` | Saved five models, seeds 42–46, for BERNN and scANVI | Variation in isolated-label F1; **not** a zero-shot classification experiment |
