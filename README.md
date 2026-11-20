@@ -89,3 +89,6 @@ The `scripts/source_*.py` files are **archived reference scripts** from the orig
 This repository separates **archive** from **matched experiment** to prevent silent mixing. If additional metrics or methods are computed, save a new versioned raw output CSV with the same `dataset,method,seed,metric,raw_score,state,metric_variant,fit_scope` schema and rerun `scripts/verify_results.py` before merging into the main comparison. Figure 2's descriptive composite intentionally does not use cross-method min-max normalization.
 
 For paper submission, audit any differences in model fit scope, label visibility, dataset eligibility and test-time expression access. Match all comparisons on frozen batch splits. Report both MCC and biological-conservation metrics, without claiming either alone proves full preservation of within-type biology.
+
+
+For the restored original-score fast-eight (with oracle, No integration and the complete 27-entry supplementary comparison), see [FAST8_ORIGINAL_ARCHIVE_NOTES.md](FAST8_ORIGINAL_ARCHIVE_NOTES.md).

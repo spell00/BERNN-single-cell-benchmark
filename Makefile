@@ -10,3 +10,6 @@ figures:
 	python scripts/plot_figures.py --figure all
 	python scripts/plot_fast8_without_pcr.py
 	python scripts/plot_gtex_umap.py
+
+fast8-original:
+	python scripts/plot_fast8_original_archive_without_pcr.py
