@@ -3,8 +3,8 @@
 
 Source code and saved figure snapshots are never overwritten. Use --prepare
 first. Each method/dataset/fold is trained freshly, with label-disjoint outer
-test groups. scANVI sees unlabeled target expression (transductive); BERNN is
-inductive. This distinction is recorded in the results.
+test groups. BERNN and scANVI see unlabeled target expression; only training
+batch labels are used for supervised learning. This distinction is recorded in the results.
 """
 from __future__ import annotations
 import argparse
@@ -42,6 +42,14 @@ def prepare(workspace,source_data):
         if src.is_file():
             dest=folder/src.relative_to(CODE);dest.parent.mkdir(parents=True,exist_ok=True)
             shutil.copy2(src,dest)
+    # The BERNN GKF1 adapter was untracked in the historic source commit.
+    # Package the exact archived adapter in this benchmark companion repo.
+    patch=HERE/"training/source_patch"
+    for src in patch.rglob("*"):
+        if src.is_file():
+            dest=workspace/src.relative_to(patch)
+            dest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(src,dest)
     # Host-side wrapper paths must point to this isolated workspace, not vm2's
     # original source checkout. The scientific method code is unchanged.
     f=folder/"comparators.py";s=f.read_text()
@@ -54,8 +62,12 @@ def prepare(workspace,source_data):
     patched=f.read_text()
     before='cmd+=["-e","PYTHONUNBUFFERED=1","-v",str(ROOT)+":/repo","-w",'
     after='cmd+=["-e","PYTHONUNBUFFERED=1","-v",str(ROOT)+":/repo","-v",os.environ["BERNN_CV_DATA_ROOT"]+":/repo/resources_full/task_batch_integration/datasets/cellxgene_census:ro","-w",'
-    if before not in patched:raise RuntimeError("Comparator Docker mount contract changed")
-    f.write_text(patched.replace(before,after))
+    if before in patched:
+        f.write_text(patched.replace(before,after))
+    elif after in patched:
+        pass  # Re-preparation is safe and preserves earlier fitted models.
+    else:
+        raise RuntimeError("Comparator Docker mount contract changed")
     manifests=exp/"cv_manifests";manifests.mkdir(exist_ok=True)
     for item in MANIFESTS.glob("*.json"):shutil.copy2(item,manifests/item.name)
     # Files stay outside the publication Git clone (symlinked, not copied).
@@ -74,7 +86,7 @@ def prepare(workspace,source_data):
     shutil.copy2(HERE/"training/cv/fixed_hpo_config.json",exp/"cv_hpo_config.json")
     provenance={"source_commit":SOURCE_REV,"code_snapshot":"Oct 19 research experimental scripts",
       "outer_cv":"Three disjoint batch folds, complete test coverage; nested separate validation batches",
-      "methods":{"bernn":"Inductive: train-batch expression and labels; validation for selection",
+      "methods":{"bernn":"Transductive: all-batch expression; train labels only for classification; validation labels for checkpoint selection",
                  "scanvi":"Transductive: full dataset expression, labels masked outside training batches"},
       "source_dataset_dir":str(source_data.resolve())}
     (exp/"cv_provenance.json").write_text(json.dumps(provenance,indent=2))
@@ -91,7 +103,11 @@ def fit(workspace,ds,fold,method,bernn_image,scanvi_image,data_dir):
             print("Already trained:",b);return
         name=f"bernn-cv-{ds}-{fold}".replace("_","-")
         logs=exp/"cv_logs";logs.mkdir(exist_ok=True)
-        cmd=["docker","run","--rm","--gpus","all","--ipc=host",
+        cmd=["docker","run","--rm","--device=/dev/nvidia0","--device=/dev/nvidiactl",
+             "--device=/dev/nvidia-uvm","--device=/dev/nvidia-uvm-tools",
+             "-v","/lib/x86_64-linux-gnu/libcuda.so.1:/usr/lib/x86_64-linux-gnu/libcuda.so.1:ro",
+             "-v","/lib/x86_64-linux-gnu/libnvidia-ml.so.1:/usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1:ro",
+             "--ipc=host","--cpus=5","--memory=160g",
              "--name",name,"-e","PYTHONUNBUFFERED=1",
              "-e","CUDA_VISIBLE_DEVICES=0",
              "-v",f"{workspace}:/repo",

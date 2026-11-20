@@ -58,6 +58,12 @@ The fixed parameter file `training/cv/fixed_hpo_config.json` uses BERNN's docume
 
 The five preprocessed datasets must exist as `dataset.h5ad` and `solution.h5ad` under `<data-dir>/<dataset>/log_cp10k/`. They originate from the OpenProblems dataset-processing workflow; raw CELLxGENE download/normalization has not yet been packaged into this repository.
 
+On vm2 the launcher uses explicit NVIDIA character devices and CUDA library mounts rather than Docker `--gpus`, because that daemon has no NVIDIA container runtime registered for `--gpus`. The training allocation is GPU 0; an unrelated existing container uses GPU 1.
+
 The original local BERNN Docker image on vm2 is tagged `bernn-openproblems-vm2:cu121-fast-644b5a9` (image ID `sha256:28f55482de9d0297ffa76bffcf2104510492108132018bc7f039e5c4ea598ff3`). This local image is not available automatically on a fresh machine. Similarly the scANVI CUDA 12.1 compatibility image `sc-paper-scvi-cu121:20261020` must be built or loaded separately. The source scripts preserve the exact requested tags and source commit; the existing upstream `:test` Docker tags are mutable, so these are **not yet bitwise portable**.
 
 The source OpenProblems task is pinned at commit `9cc7960d89d409d76715449e8f8a4f4860a5dfe7`. The original experiment scripts are in `training/experiment_code`, including the frozen transductive BERNN implementation. Generated artifacts under the workspace are intentionally not committed.
+
+## Live vm2 launch
+
+The original workspace clone at `/home/simonp/bernn_single_cell_cv_workspace` is using the frozen source revision and this CV3 protocol. Its detached queue is controlled by `cv3_master.pid`, and the log is `cv3_master.log`. Per-fit logs are in `experiments/single_cell_paper_20261019/cv_logs/`. The queue runs BERNN then scANVI per fold sequentially on GPU 0; never confuse its first live losses with completed fold scores. The repository includes the historical untracked `bernn_gkf1` adapter source in `training/source_patch/` so a fresh source checkout can reproduce the training code.
