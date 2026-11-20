@@ -121,9 +121,24 @@ def audit(raw,keyed):
     result.to_csv(OUT/"Fast8_original_archive_score_audit_without_PCR.csv",index=False)
     return result
 
+def score_circle(ax, x, y, value, cmap, *, big=False, bold=False):
+    """A uniformly readable numeric bubble for metrics AND dataset summaries."""
+    v=float(value)
+    size=(260 + 220*v) if big else (610 + 300*v)
+    ax.scatter(x,y,s=size,c=[v],cmap=cmap,vmin=0,vmax=1,
+               edgecolors="white",linewidths=.6 if big else .85,
+               alpha=.97,zorder=4)
+    # YlGnBu switches from a light yellow to dark blue; adapt text contrast.
+    ink="white" if v>=.52 else "#173349"
+    ax.text(x,y,f"{v:.2f}",ha="center",va="center",
+            fontsize=5.6 if big else 8.2,
+            fontweight="bold" if bold else "medium",
+            color=ink,zorder=5)
+
+
 def draw(metrics, summary, selected, filename, big=False):
     n=len(selected); cols_metric=len(METRICS)
-    # 8 bubble columns + 6 numeric per dataset + summary
+    # 8 numeric bubble metrics + 6 numeric bubble datasets + numeric bubble summary
     width=18.4 if not big else 17.5
     height=9.0 if not big else 14.4
     fig,ax=plt.subplots(figsize=(width,height))
@@ -149,9 +164,7 @@ def draw(metrics, summary, selected, filename, big=False):
                 continue
             # Historical score contract: NA contributes zero.
             value=float(vals.score_historical_na0.mean())
-            ax.scatter(j,i,s=(26+410*value) if not big else (12+205*value),
-                       c=[value],vmin=0,vmax=1,cmap=cmap,edgecolors="white",
-                       linewidths=.45,alpha=.96,zorder=4)
+            score_circle(ax,j,i,value,cmap,big=big)
             if nvalid<6:
                 ax.text(j+.25,i-.27,f"{nvalid}/6",fontsize=7.0 if not big else 5.4,
                         color="#9d6250",ha="center")
@@ -159,17 +172,13 @@ def draw(metrics, summary, selected, filename, big=False):
         for k,ds in enumerate(DSETS):
             v=record[f"{ds}_na0"]
             if math.isfinite(v):
-                ax.text(8.1+k,i,f"{v:.2f}" if not big else f"{v:.2f}",
-                        ha="center",va="center",color="#203f5d",
-                        fontsize=10.2 if not big else 8)
+                score_circle(ax,8.1+k,i,v,cmap,big=big)
             else:
                 ax.text(8.1+k,i,"N/A",fontsize=9 if not big else 7,
                         ha="center",va="center",color="#af6c5c")
         v=record["fast8_archive_na0"]
         if math.isfinite(v):
-            ax.text(14.55,i,f"{v:.3f}",ha="center",va="center",
-                    color="#132d46",fontweight="bold",
-                    fontsize=11.6 if not big else 8.5)
+            score_circle(ax,14.55,i,v,cmap,big=big,bold=True)
         else:
             ax.text(14.55,i,"N/A",ha="center",va="center",
                     color="#b46459",fontsize=8.5)
@@ -201,7 +210,7 @@ def draw(metrics, summary, selected, filename, big=False):
              "Batch integration | Original-score fast-8 (PCR excluded)",
              fontsize=20 if not big else 17,fontweight="bold",color="#17334e")
     fig.text(.10 if not big else .115,.934 if not big else .956,
-             "13 Oct 2026 archived scaled scores | Six single-cell atlases | One fit per method/dataset",
+             "13 Oct 2026 archived scaled scores | Numeric bubbles for all 15 columns | One fit per method/dataset",
              fontsize=10 if not big else 8.7,color="#526e7d")
     fig.text(.10 if not big else .115,.115 if not big else .054,
              "Historical score convention: scaled metric values, N/A scored as 0 in the composite. "

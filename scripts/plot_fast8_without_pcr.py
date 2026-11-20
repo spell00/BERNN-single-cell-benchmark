@@ -17,6 +17,15 @@ from plot_figures import (
     METRICS, METRIC_LABELS, load_fast9
 )
 
+def score_circle(ax, x, y, value, *, bold=False):
+    v=float(value)
+    ax.scatter(x,y,s=610+300*v,c=[v],cmap=plt.colormaps["viridis"],
+               vmin=0,vmax=1,linewidth=.85,edgecolor="white",zorder=3)
+    ax.text(x,y,f"{v:.2f}",ha="center",va="center",fontsize=8.1,
+            color="white" if v<.67 else "#193343",
+            fontweight="bold" if bold else "medium",zorder=4)
+
+
 def main():
     full, valid = load_fast9()
     included = [m for m in METRICS if m != "pcr"]
@@ -45,19 +54,15 @@ def main():
     for yi, method in enumerate(METHODS):
         for xi, metric in enumerate(included):
             value = float(metric_mean[(method, metric)])
-            ax.scatter(xi, yi, s=55 + 490 * value, c=[value], cmap=cmap,
-                       vmin=0, vmax=1, linewidth=.8, edgecolor="white", zorder=3)
+            score_circle(ax,xi,yi,value)
             n = int(((valid.method == method) & (valid.metric == metric)).sum())
             if n != len(DATASETS):
                 ax.text(xi + .31, yi - .27, f"{n}/6", fontsize=7.5,
                         ha="center", color="#aa5d42")
         for di, dataset in enumerate(DATASETS):
             value = float(dataset_mean[(method, dataset)])
-            ax.text(8 + di, yi, f"{value:.2f}", fontsize=10.3, ha="center",
-                    va="center", fontweight="bold" if method == "bernn" else "normal",
-                    color="#263d50")
-        ax.text(14.4, yi, f"{score_by_method[method]:.3f}", fontsize=11.3,
-                ha="center", va="center", fontweight="bold", color="#183e5b")
+            score_circle(ax,8+di,yi,value,bold=method=="bernn")
+        score_circle(ax,14.4,yi,score_by_method[method],bold=True)
 
     ax.set_xlim(-.6, 15.1)
     ax.set_ylim(-.75, len(METHODS) - .4)
@@ -81,7 +86,7 @@ def main():
     fig.text(.85, .878, "SUMMARY", fontsize=11, weight="bold", color="#174c6f")
     fig.text(.095, .965, "Single-cell integration | Matched fast-8 audit (PCR excluded)",
              fontsize=20, weight="bold", color="#133553")
-    fig.text(.095, .925, "One common seed (42) per method and dataset, derived from persisted trained embeddings",
+    fig.text(.095, .925, "One fit (seed 42) per method/dataset | 8 metrics + 6 atlases + mean, all displayed as numeric bubbles",
              fontsize=11, color="#42647a")
 
     sm = ScalarMappable(norm=Normalize(0, 1), cmap=cmap)

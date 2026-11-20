@@ -107,4 +107,6 @@ This repository separates **archive** from **matched experiment** to prevent sil
 For paper submission, audit any differences in model fit scope, label visibility, dataset eligibility and test-time expression access. Match all comparisons on frozen batch splits. Report both MCC and biological-conservation metrics, without claiming either alone proves full preservation of within-type biology.
 
 
+The **Fast-8 circle-with-number presentation** now uses numeric bubbles for the eight metrics, **all six datasets**, and the overall score (15 circles per method). Both the historical normalized-score archive with Oracle and No integration and the separate matched seed-42 raw-score figure use this presentation. The historical and matched results have different model-fit scopes; their numerical scores must not be mixed.
+
 For the restored original-score fast-eight (with oracle, No integration and the complete 27-entry supplementary comparison), see [FAST8_ORIGINAL_ARCHIVE_NOTES.md](FAST8_ORIGINAL_ARCHIVE_NOTES.md).
