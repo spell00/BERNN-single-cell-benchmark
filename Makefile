@@ -13,3 +13,8 @@ figures:
 
 fast8-original:
 	python scripts/plot_fast8_original_archive_without_pcr.py
+
+.PHONY: cv3-check
+cv3-check:
+	python training/cv/create_folds.py
+	python training/cv/verify_manifests.py

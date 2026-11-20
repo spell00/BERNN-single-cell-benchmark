@@ -1,0 +1,37 @@
+{
+  "dataset": "immune_cell_atlas",
+  "fold": 1,
+  "seed": 43,
+  "batch_lists": {
+    "train": [
+      "582C",
+      "621B",
+      "637C",
+      "A31",
+      "A36",
+      "D496"
+    ],
+    "valid": [
+      "640C",
+      "A37"
+    ],
+    "test": [
+      "A29",
+      "A35",
+      "A52",
+      "D503"
+    ]
+  },
+  "n_batches": {
+    "train": 6,
+    "valid": 2,
+    "test": 4
+  },
+  "n_cells": {
+    "train": 172673,
+    "valid": 45333,
+    "test": 111756
+  },
+  "split_policy": "Grouped 3-fold outer CV; each batch is test once. Inner validation batches disjoint, chosen from remaining groups by cell count only.",
+  "test_fraction": 0.3388989634948842
+}

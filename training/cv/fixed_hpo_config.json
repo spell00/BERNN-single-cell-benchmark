@@ -1,0 +1,22 @@
+{
+  "sampler_mode": "class",
+  "class_triplet": false,
+  "class_triplet_w": 0.0,
+  "warmup": 50,
+  "lr": 0.001,
+  "wd": 1e-05,
+  "dropout": 0.0,
+  "gamma": 0.1,
+  "beta": 0.0,
+  "margin": 1.0,
+  "smoothing": 0.1,
+  "layer1": 512,
+  "layer2": 256,
+  "n_layers": 2,
+  "batch_size": 1024,
+  "variational": false,
+  "dloss": "inverseTriplet",
+  "scaler": "robust",
+  "kan": false,
+  "nu": 1.0
+}

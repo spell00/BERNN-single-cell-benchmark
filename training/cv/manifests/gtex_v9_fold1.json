@@ -1,0 +1,41 @@
+{
+  "dataset": "gtex_v9",
+  "fold": 1,
+  "seed": 43,
+  "batch_lists": {
+    "train": [
+      "GTEX-144GM",
+      "GTEX-15CHR",
+      "GTEX-15RIE",
+      "GTEX-1HSMQ",
+      "GTEX-1I1GU",
+      "GTEX-1R9PN"
+    ],
+    "valid": [
+      "GTEX-12BJ1",
+      "GTEX-1ICG6"
+    ],
+    "test": [
+      "GTEX-13N11",
+      "GTEX-145ME",
+      "GTEX-15EOM",
+      "GTEX-15SB6",
+      "GTEX-16BQI",
+      "GTEX-1CAMR",
+      "GTEX-1CAMS",
+      "GTEX-1MCC2"
+    ]
+  },
+  "n_batches": {
+    "train": 6,
+    "valid": 2,
+    "test": 8
+  },
+  "n_cells": {
+    "train": 113079,
+    "valid": 27242,
+    "test": 68805
+  },
+  "split_policy": "Grouped 3-fold outer CV; each batch is test once. Inner validation batches disjoint, chosen from remaining groups by cell count only.",
+  "test_fraction": 0.32901217447854403
+}

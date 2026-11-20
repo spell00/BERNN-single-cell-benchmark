@@ -1,0 +1,36 @@
+{
+  "dataset": "dkd",
+  "fold": 0,
+  "seed": 42,
+  "batch_lists": {
+    "train": [
+      "control_1",
+      "control_2",
+      "diabetic_1",
+      "diabetic_4",
+      "diabetic_5",
+      "healthy_4",
+      "healthy_5"
+    ],
+    "valid": [
+      "control_3"
+    ],
+    "test": [
+      "diabetic_2",
+      "diabetic_3",
+      "healthy_6"
+    ]
+  },
+  "n_batches": {
+    "train": 7,
+    "valid": 1,
+    "test": 3
+  },
+  "n_cells": {
+    "train": 20137,
+    "valid": 5278,
+    "test": 13761
+  },
+  "split_policy": "Grouped 3-fold outer CV; each batch is test once. Inner validation batches disjoint, chosen from remaining groups by cell count only.",
+  "test_fraction": 0.3512609761078211
+}

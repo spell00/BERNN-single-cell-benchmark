@@ -1,0 +1,54 @@
+{
+  "dataset": "tabula_sapiens",
+  "fold": 1,
+  "seed": 43,
+  "batch_lists": {
+    "train": [
+      "TSP1+10x 3' v3",
+      "TSP1+Smart-seq2",
+      "TSP10+Smart-seq2",
+      "TSP13+Smart-seq2",
+      "TSP14+10x 3' v3",
+      "TSP14+10x 5' transcription profiling",
+      "TSP15+10x 3' v3",
+      "TSP2+10x 5' transcription profiling",
+      "TSP2+Smart-seq2",
+      "TSP3+10x 3' v3",
+      "TSP3+Smart-seq2",
+      "TSP5+10x 3' v3",
+      "TSP5+Smart-seq2",
+      "TSP8+10x 3' v3",
+      "TSP8+Smart-seq2",
+      "TSP9+10x 3' v3",
+      "TSP9+Smart-seq2"
+    ],
+    "valid": [
+      "TSP11+Smart-seq2",
+      "TSP12+10x 3' v3",
+      "TSP7+10x 3' v3"
+    ],
+    "test": [
+      "TSP10+10x 3' v3",
+      "TSP11+10x 5' transcription profiling",
+      "TSP12+Smart-seq2",
+      "TSP2+10x 3' v3",
+      "TSP4+10x 3' v3",
+      "TSP4+Smart-seq2",
+      "TSP6+10x 3' v3",
+      "TSP6+Smart-seq2",
+      "TSP7+Smart-seq2"
+    ]
+  },
+  "n_batches": {
+    "train": 17,
+    "valid": 3,
+    "test": 9
+  },
+  "n_cells": {
+    "train": 257745,
+    "valid": 64408,
+    "test": 160999
+  },
+  "split_policy": "Grouped 3-fold outer CV; each batch is test once. Inner validation batches disjoint, chosen from remaining groups by cell count only.",
+  "test_fraction": 0.33322639666192005
+}

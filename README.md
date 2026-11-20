@@ -7,6 +7,22 @@
 - **OpenProblems source/benchmark fork:** https://github.com/spell00/task_batch_integration_clean
 - **Reference scIB/OpenProblems benchmark:** https://openproblems.bio/benchmarks/batch_integration/
 
+## NEW: BERNN/scANVI transductive three-fold batch CV (experimental)
+
+The proposed 2026-11-20 **CV3** study is in [training/cv/PROTOCOL.md](training/cv/PROTOCOL.md). It has three disjoint outer test folds on five atlases (HypoMap excluded because a single batch represents ~92% of its cells), uses **all expression data without validation/test cell-type labels** for unsupervised integration, and trains supervision from **train-batch labels only**. The full transductive BERNN source-based trainer and masked scANVI runner are in `training/experiment_code/` and `training/cv/run_cv.py`.
+
+The previous nine-/eight-metric plots are archived and are NOT claimed as CV3 results. **The CV3 models and test-only scIB metrics have not yet been computed or validated end-to-end.** Before publishing a new figure, compute isolated-label eligibility on each test fold and report missing values as N/A.
+
+```bash
+python training/cv/create_folds.py
+python training/cv/verify_manifests.py
+python training/cv/run_cv.py --prepare --workspace ~/bernn_single_cell_cv_workspace --data-dir /path/to/preprocessed/cellxgene_census
+# With an available local BERNN Docker image, test the first fold:
+python training/cv/run_cv.py --run --dataset dkd --fold 0 --method bernn --workspace ~/bernn_single_cell_cv_workspace --data-dir /path/to/preprocessed/cellxgene_census
+```
+
+See the protocol for exact model images, scANVI command, provenance and limitations.
+
 ## Reproduce all existing plots (no training)
 
 From a fresh checkout:

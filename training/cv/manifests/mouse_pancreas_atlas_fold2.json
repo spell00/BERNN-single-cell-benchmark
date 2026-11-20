@@ -1,0 +1,81 @@
+{
+  "dataset": "mouse_pancreas_atlas",
+  "fold": 2,
+  "seed": 44,
+  "batch_lists": {
+    "train": [
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13974",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13975",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__146_mRFP",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__147_mTmG",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse3",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse4",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985097",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985098",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD__SRR10985099",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610295",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610297",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610298",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610299",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610300",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610302",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610303",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G1",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G3",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G6",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G8",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13639",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13641",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13642",
+      "mouse_pancreatic_islet_atlas_Hrovatin__embryo__E13_5",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751502",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751503",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751504",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751505",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751506",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751507",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751508",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751510",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751513",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751515"
+    ],
+    "valid": [
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_P16__145_mGFP",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13632",
+      "mouse_pancreatic_islet_atlas_Hrovatin__embryo__E15_5"
+    ],
+    "test": [
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_2y__MUC13976",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse1",
+      "mouse_pancreatic_islet_atlas_Hrovatin__Fltp_adult__mouse2",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610296",
+      "mouse_pancreatic_islet_atlas_Hrovatin__NOD_elimination__SRR7610301",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G2",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G4",
+      "mouse_pancreatic_islet_atlas_Hrovatin__STZ__G5",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13631",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13633",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13634",
+      "mouse_pancreatic_islet_atlas_Hrovatin__VSG__MUC13640",
+      "mouse_pancreatic_islet_atlas_Hrovatin__embryo__E12_5",
+      "mouse_pancreatic_islet_atlas_Hrovatin__embryo__E14_5",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751509",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751511",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751512",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751514",
+      "mouse_pancreatic_islet_atlas_Hrovatin__spikein_drug__SRR10751516"
+    ]
+  },
+  "n_batches": {
+    "train": 34,
+    "valid": 3,
+    "test": 19
+  },
+  "n_cells": {
+    "train": 160794,
+    "valid": 40447,
+    "test": 100555
+  },
+  "split_policy": "Grouped 3-fold outer CV; each batch is test once. Inner validation batches disjoint, chosen from remaining groups by cell count only.",
+  "test_fraction": 0.3331886439846784
+}

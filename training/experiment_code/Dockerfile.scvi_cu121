@@ -1,0 +1,7 @@
+FROM ghcr.io/openproblems-bio/task_batch_integration/methods/scvi:test
+# Compatible NVIDIA 535 driver (supports CUDA 12.2), preserve scVI implementation.
+RUN python -m pip install --no-cache-dir --force-reinstall 'torch==2.5.1+cu121' --index-url https://download.pytorch.org/whl/cu121
+# Remove NVIDIA 26.02 torchvision wheel compiled for torch 2.11, not needed for single-cell.
+RUN python -m pip uninstall -y torchvision torchaudio torchtext nvidia-modelopt lightning-thunder
+RUN python -m pip install --no-deps fsspec==2025.10.0
+RUN python -c 'import torch,scvi;print("scvi",scvi.__version__,"torch",torch.__version__,"CUDA",torch.version.cuda)'
