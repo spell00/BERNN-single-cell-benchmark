@@ -1,0 +1,23 @@
+{
+  "dataset": "dkd",
+  "fold": 1,
+  "seed": 43,
+  "fit_scope": "transductive expression from train+valid+test; supervised labels train only",
+  "native": {
+    "train": 0.9989011567023544,
+    "valid": 0.9001673353143067,
+    "test": 0.9461970513229822
+  },
+  "common_probe": {
+    "train": 0.9982290368240277,
+    "valid": 0.8253443926681414,
+    "test": 0.9080348472814723
+  },
+  "n_cells": {
+    "train": 20548,
+    "valid": 6287,
+    "test": 12341
+  },
+  "selected_on": "validation MCC only; test score computed after fitting",
+  "transductive_audit_file": "transductive_audit.json"
+}

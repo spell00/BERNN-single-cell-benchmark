@@ -1,0 +1,23 @@
+{
+  "dataset": "dkd",
+  "scope": "test",
+  "n_cells": 13074,
+  "n_batches": 4,
+  "metrics": {
+    "ari": 0.7808456678028824,
+    "nmi": 0.8292903893005964,
+    "ilisi": 0.4399373989206771,
+    "clisi": 0.9997393179688877,
+    "graph_connectivity": 0.9698866778698485,
+    "isolated_label_f1": null,
+    "cell_cycle_conservation": 0.8796833434268192,
+    "asw_batch_sampled": 0.8775646411455594
+  },
+  "raw_equal_weight_mean_eligible_only": 0.8252782052050387,
+  "n_eligible_metrics": 7,
+  "n_possible_metrics": 8,
+  "failures": {
+    "isolated_label_f1": "no eligible isolated label types, or component failed; inspect log"
+  },
+  "score_semantics": "Fast8 raw scores, graph/clustering reconstructed only on selected fold; NOT official OpenProblems scaled composite"
+}

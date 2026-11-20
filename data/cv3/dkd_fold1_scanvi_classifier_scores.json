@@ -1,0 +1,28 @@
+{
+  "method": "scanvi",
+  "dataset": "dkd",
+  "seed": 43,
+  "fit_scope": "transductive_unlabeled_target_expression; training_labels_only",
+  "probe_seconds": 1.9258003234863281,
+  "common_probe": {
+    "train": 0.9990839081183693,
+    "valid": 0.9092815472499662,
+    "test": 0.9532573349410604
+  },
+  "n_cells": {
+    "train": 20548,
+    "valid": 6287,
+    "test": 12341
+  },
+  "label_coverage": {
+    "train": 1.0,
+    "valid": 1.0,
+    "test": 1.0
+  },
+  "native": {
+    "train": 0.9993893421078865,
+    "valid": 0.9152653806088626,
+    "test": 0.9579014047630794
+  },
+  "native_predictor": "scANVI.predict; trained labels from train batches only; unsupervised expressions from all batches"
+}

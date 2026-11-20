@@ -1,6 +1,6 @@
 # CV3 single-cell Fast-8 test-only evaluation
 
-**Status (2026-11-20): pilot only, not the final 3-fold CV aggregate.**
+**Status (2026-11-20): all three DKD CV3 folds complete for BERNN and scANVI. Results for other atlases are still pending.**
 
 The source experiments are a distinct semi-supervised **transductive** CV3 protocol:
 - Five atlases (DKD, GTEx v9, Immune Cell Atlas, Mouse Pancreas Atlas, Tabula Sapiens).
@@ -10,6 +10,30 @@ The source experiments are a distinct semi-supervised **transductive** CV3 proto
 - Isolated-label F1 eligibility is recomputed separately for each held-out test fold. If no eligible isolated cell types exist, show N/A, not 0.
 - Report the mean and **SD across three fold scores** per metric, and the number of eligible folds. A per-fold composite (if shown) is the mean of applicable raw 0–1 metrics, **not** the official scaled OpenProblems composite, and is not necessarily comparable if eligible metric sets differ.
 - **Fast-8 only on TEST for main figures.** Validation metrics, if computed, are explicitly exploratory diagnostics because checkpoint selection depends on validation labels and because validation batches may be too few for batch-mixing metrics.
+
+## Figure: DKD all-three-fold mean ± SD
+
+Two publication-ready plots are available from the frozen raw inputs: 
+- [Fast-8 plus native MCC, two panels](../../figures/Figure_CV3_DKD_Fast8_and_MCC_bars.pdf) (also PNG).
+- [Stand-alone test-only Fast-8 bar plot](../../figures/Figure_CV3_DKD_Fast8_testonly_bars.pdf) (also PNG).
+- [Source table](../../figures/Figure_CV3_DKD_3fold_bars_data.csv).
+
+| Score | BERNN mean ± sample SD | scANVI mean ± sample SD |
+|---|---:|---:|
+| **Test Fast-8 raw mean (7 eligible metrics)** | 0.8021 ± 0.0082 | 0.8091 ± 0.0149 |
+| **Native MCC train** | 0.9792 ± 0.0236 | 0.9996 ± 0.0002 |
+| **Native MCC validation** | 0.9302 ± 0.0261 | 0.9398 ± 0.0218 |
+| **Native MCC test** | 0.9353 ± 0.0097 | 0.9463 ± 0.0103 |
+
+Note the striking between-fold iLISI variability, especially for BERNN. Report the fold SD, not a confidence interval; n=3 is too small for stable inference. Batch ASW is a bounded sampled approximation, not exact official OpenProblems ASW. The overall raw mean excludes DKD isolated F1 (N/A in all folds) and is not the scaled historical Fast-8 score.
+
+Recreate the figures from the committed JSON files without access to vm2:
+
+```bash
+python scripts/plot_cv3_dkd_bars.py --out figures
+```
+
+Or derive them from the primary workspace directly using `--workspace /home/simonp/bernn_single_cell_cv_workspace`.
 
 ## First DKD fold 0 results (raw values, seven applicable metrics)
 
