@@ -1,0 +1,24 @@
+{
+  "dataset": "dkd",
+  "scope": "valid",
+  "n_cells": 5278,
+  "n_batches": 1,
+  "metrics": {
+    "ari": 0.8153270515805469,
+    "nmi": 0.8787377230502357,
+    "ilisi": null,
+    "clisi": 1.0,
+    "graph_connectivity": 0.9887361745468348,
+    "isolated_label_f1": null,
+    "cell_cycle_conservation": 0.8079991426811264,
+    "asw_batch_sampled": null
+  },
+  "raw_equal_weight_mean_eligible_only": 0.8981600183717487,
+  "n_eligible_metrics": 5,
+  "n_possible_metrics": 8,
+  "failures": {
+    "batch_mixing": "one batch in this evaluation split; iLISI and batch ASW are undefined",
+    "isolated_label_f1": "no eligible isolated label types, or component failed; inspect log"
+  },
+  "score_semantics": "Fast8 raw scores, graph/clustering reconstructed only on selected fold; NOT official OpenProblems scaled composite"
+}

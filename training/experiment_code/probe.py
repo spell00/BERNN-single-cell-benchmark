@@ -38,8 +38,9 @@ scale=StandardScaler().fit(z[tr]);z=scale.transform(z)
 m=SGDClassifier(loss="log_loss",class_weight="balanced",alpha=1e-4,random_state=seed,max_iter=600,tol=1e-3).fit(z[tr],y[tr])
 pred=m.predict(z).astype(str)
 fit_scope="transductive_unlabeled_target_expression; training_labels_only" if a.method=="scanvi" else "transductive_unsupervised_full_expression"
+known=set(y[tr]);coverage={k:float(np.isin(y[v],list(known)).mean()) for k,v in idx.items()}
 r={"method":a.method,"dataset":s["dataset"],"seed":seed,"fit_scope":fit_scope,"probe_seconds":time.time()-t,
- "common_probe":{k:float(matthews_corrcoef(y[v],pred[v])) for k,v in idx.items()},"n_cells":s["n_cells"],"label_coverage":s["label_coverage"]}
+ "common_probe":{k:float(matthews_corrcoef(y[v],pred[v])) for k,v in idx.items()},"n_cells":s["n_cells"],"label_coverage":coverage}
 if native_pred is not None:
  r["native"]={k:float(matthews_corrcoef(y[v],native_pred[v])) for k,v in idx.items()}
  r["native_predictor"]="scANVI.predict; trained labels from train batches only; unsupervised expressions from all batches"

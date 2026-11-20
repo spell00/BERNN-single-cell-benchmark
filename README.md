@@ -11,7 +11,7 @@
 
 The proposed 2026-11-20 **CV3** study is in [training/cv/PROTOCOL.md](training/cv/PROTOCOL.md). It has three disjoint outer test folds on five atlases (HypoMap excluded because a single batch represents ~92% of its cells), uses **all expression data without validation/test cell-type labels** for unsupervised integration, and trains supervision from **train-batch labels only**. The full transductive BERNN source-based trainer and masked scANVI runner are in `training/experiment_code/` and `training/cv/run_cv.py`.
 
-The previous nine-/eight-metric plots are archived and are NOT claimed as CV3 results. **The CV3 models and test-only scIB metrics have not yet been computed or validated end-to-end.** Before publishing a new figure, compute isolated-label eligibility on each test fold and report missing values as N/A.
+The previous nine-/eight-metric plots are archived and are NOT claimed as CV3 results. **The full 30-fit CV3 is not yet complete.** The first DKD test-only BERNN/scANVI Fast-8 pilot was computed and is saved in [data/cv3/](data/cv3/). Before publishing a new figure, compute isolated-label eligibility on each test fold and report missing values as N/A.
 
 ```bash
 python training/cv/create_folds.py

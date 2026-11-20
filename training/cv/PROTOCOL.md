@@ -67,3 +67,9 @@ The source OpenProblems task is pinned at commit `9cc7960d89d409d76715449e8f8a4f
 ## Live vm2 launch
 
 The original workspace clone at `/home/simonp/bernn_single_cell_cv_workspace` is using the frozen source revision and this CV3 protocol. Its detached queue is controlled by `cv3_master.pid`, and the log is `cv3_master.log`. Per-fit logs are in `experiments/single_cell_paper_20261019/cv_logs/`. The queue runs BERNN then scANVI per fold sequentially on GPU 0; never confuse its first live losses with completed fold scores. The repository includes the historical untracked `bernn_gkf1` adapter source in `training/source_patch/` so a fresh source checkout can reproduce the training code.
+
+## Fast-8 scores computed on TEST only
+
+**Do not reuse the historical seed-42/full-atlas Fast-8 score matrix in CV3.** See [the preliminary CV3 pilot and scoring protocol](../../data/cv3/README.md). All fold-only scIB metrics must be calculated from independent subset-specific neighbor graphs and Leiden clusterings. Batch mixing scores are undefined when a scored subset has fewer than two batches. The pilot DKD/0 test-only results are BERNN raw Fast-8 mean **0.7947** and scANVI **0.7960** (7/8 metrics eligible, isolated F1 N/A). These are *not* the final 3-fold means or normalized OpenProblems composites.
+
+After models finish, run `python training/cv/evaluate_fast8_test.py --repo ~/bernn_single_cell_cv_workspace --data-dir ~/task_batch_integration_bernn/resources_full/task_batch_integration/datasets/cellxgene_census --scope test --poll` to score every available CV3 run; the worker is resumable and records per-component logs and explicit N/A.

@@ -2,7 +2,7 @@
 """Frozen rc3 comparator queue. CPU methods may overlap GPU fits; GPU methods wait for BERNN queue."""
 import argparse,json,os,shutil,subprocess,time,signal
 from pathlib import Path
-ROOT=Path("/home/simonp/task_batch_integration_bernn");EXP=ROOT/"experiments/single_cell_paper_20261019"
+ROOT=Path(os.environ["BERNN_CV_WORKSPACE"]);EXP=ROOT/"experiments/single_cell_paper_20261019"
 REF=Path("/home/simonp/task_batch_integration_hpo_rc3/config/openproblems_public_reference_20261005")
 PREFIX="ghcr.io/openproblems-bio/task_batch_integration/"
 CPU=["combat","harmony","harmonypy","batchelor_fastmnn","liger","pyliger"]
@@ -13,9 +13,9 @@ def write(p,x):p.write_text(json.dumps(x,indent=2))
 def base_docker(image,name,gpu=False):
  cmd=["docker","run","--rm","--name",name,"--cpus=5","--memory=140g","--ipc=host","-e","OMP_NUM_THREADS=5","-e","OPENBLAS_NUM_THREADS=5","-e","NUMBA_NUM_THREADS=5","-e","PYTHONHASHSEED=42"]
  if gpu:
-  cmd+=["--device=/dev/nvidia0","--device=/dev/nvidia1","--device=/dev/nvidiactl","--device=/dev/nvidia-uvm","--device=/dev/nvidia-uvm-tools",
+  cmd+=["--device=/dev/nvidia0","--device=/dev/nvidiactl","--device=/dev/nvidia-uvm","--device=/dev/nvidia-uvm-tools",
   "-v","/lib/x86_64-linux-gnu/libcuda.so.1:/usr/lib/x86_64-linux-gnu/libcuda.so.1:ro","-v","/lib/x86_64-linux-gnu/libnvidia-ml.so.1:/usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1:ro","-e","CUDA_VISIBLE_DEVICES="+os.environ.get("SC_PAPER_GPU_DEVICE","1")]
- cmd+=["-e","PYTHONUNBUFFERED=1","-v",str(ROOT)+":/repo","-w","/repo/experiments/single_cell_paper_20261019","--entrypoint","python",image]
+ cmd+=["-e","PYTHONUNBUFFERED=1","-v",str(ROOT)+":/repo","-v",os.environ["BERNN_CV_DATA_ROOT"]+":/repo/resources_full/task_batch_integration/datasets/cellxgene_census:ro","-w","/repo/experiments/single_cell_paper_20261019","--entrypoint","python",image]
  return cmd
 def command(cmd,log,timeout=None,name=None):
  started=time.time()
@@ -44,20 +44,19 @@ def fit(method,ds,gpu,seed=42):
  # GPU0's existing worker sees reserved runtime and safely skips seed42-43.
  # GPU1's separate worker may process ONLY its own reservation marker.
  rt=out/"runtime.json"
- if rt.exists():
-  reserved=(method=="scanvi" and os.environ.get("SC_PAPER_SCANVI_GPU1_RESERVED")=="1" and
-            json.loads(rt.read_text()).get("status")=="reserved_for_parallel_scanvi_gpu1")
-  if not reserved:return
+ if (out/"scores.json").exists():return
+ # A prior failed/orchestration-only runtime must not block retry.
  b=EXP/"bernn"/str(seed)/ds
  if not (b/"scores.json").exists():return
  bs=json.loads((b/"scores.json").read_text());cap=None  # No arbitrary wall-clock cutoff
+ bvalid=json.loads((b/"validation_score.json").read_text())
  inp=ROOT/"resources_full/task_batch_integration/datasets/cellxgene_census"/ds/"log_cp10k/dataset.h5ad"
  split=b/"split.json";raw=out/"method_output.h5ad";name=f"sc-paper-{method}-{ds}".replace("_","-")
  if method=="scanvi" and os.environ.get("SC_PAPER_SCANVI_GPU1_RESERVED")=="1":
   name+=f"-parallel-gpu1-seed{seed}" # separate Docker names from GPU0's original queue
  write(out/"protocol.json",{"method":method,"dataset":ds,"seed":seed,"fit_scope":"transductive; no evaluation labels used for supervised training","time_cap_policy":"no artificial wall-clock cap; allow integration to complete",
-      "test_labels_available_to_integrator":False,"fit_time_cap_seconds":cap,"reference_bernn_fit_seconds":bs["fit_seconds"],
-      "split":str(split),"comparison_note":"BERNN encoder trained only on training cells; transductive comparator regime reported separately"})
+      "test_labels_available_to_integrator":False,"fit_time_cap_seconds":cap,"reference_bernn_fit_seconds":bvalid["fit_seconds"],
+      "split":str(split),"comparison_note":"Both BERNN and scANVI use unlabeled train+validation+test expression; supervised labels train only"})
  if method=="uce":
   write(out/"runtime.json",{"status":"blocked_missing_model_asset","detail":"UCE pretrained bundle not resolved locally; not downloading a large bundle without checking disk budget","cap_seconds":cap});return
  image=(os.environ.get("SC_PAPER_SCVI_IMAGE",PREFIX+"methods/"+method+":test") if method in ["scvi","scanvi"] else PREFIX+"methods/"+method+":test")

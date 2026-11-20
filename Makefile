@@ -18,3 +18,7 @@ fast8-original:
 cv3-check:
 	python training/cv/create_folds.py
 	python training/cv/verify_manifests.py
+
+.PHONY: cv3-pilot-audit
+cv3-pilot-audit:
+	python scripts/verify_cv3_pilot.py
